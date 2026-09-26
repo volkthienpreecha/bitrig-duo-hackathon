@@ -1,0 +1,39 @@
+{
+  "result": "pass",
+  "exchange": [
+    {
+      "file": "06-stargazer-assembled.glb",
+      "result": "pass",
+      "meshes": 20,
+      "triangles": 68816,
+      "beam_center_game": [
+        0,
+        -0.10999999940395355,
+        0.46000000834465027
+      ],
+      "no_external_resources": true,
+      "gate_follows_chute": true,
+      "beam_independent_root": true
+    },
+    {
+      "file": "06-stargazer-colliders.glb",
+      "result": "pass",
+      "meshes": 23,
+      "triangles": 276,
+      "beam_center_game": [
+        0,
+        -0.10999999940395355,
+        0.46000000834465027
+      ],
+      "no_external_resources": true,
+      "gate_follows_chute": true,
+      "beam_independent_root": true
+    }
+  ],
+  "source_reopen": "pass",
+  "japanese_meshes_present": true,
+  "character_runtime_separate": true,
+  "play_pose_depth_error_m": -1.6653345369377348e-16,
+  "fold_miss_references_straddle_route": true,
+  "physics_tested": false
+}

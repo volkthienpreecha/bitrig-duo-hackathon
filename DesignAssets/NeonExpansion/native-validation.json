@@ -1,0 +1,110 @@
+[
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "01-workshop"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "01-workshop"
+  },
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "02-garden"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "02-garden"
+  },
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "03-terrace"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "03-terrace"
+  },
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "04-night-market"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "04-night-market"
+  },
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "05-lantern-garden"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "05-lantern-garden"
+  },
+  {
+    "anchors_checked" : 15,
+    "beam_independent" : true,
+    "file" : "assembled",
+    "gate_follows_chute" : true,
+    "mesh_count" : 20,
+    "result" : "pass",
+    "stage" : "06-stargazer"
+  },
+  {
+    "anchors_checked" : 0,
+    "beam_independent" : true,
+    "file" : "colliders",
+    "gate_follows_chute" : true,
+    "mesh_count" : 23,
+    "result" : "pass",
+    "stage" : "06-stargazer"
+  }
+]

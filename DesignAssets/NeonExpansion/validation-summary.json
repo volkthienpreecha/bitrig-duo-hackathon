@@ -1,0 +1,242 @@
+[
+  {
+    "stage": "01-workshop",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "01-workshop-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 73008,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "01-workshop-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": 6.352747104407253e-22,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  },
+  {
+    "stage": "02-garden",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "02-garden-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 84488,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.3199999928474426
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "02-garden-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.3199999928474426
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": 0.0,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  },
+  {
+    "stage": "03-terrace",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "03-terrace-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 70250,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          -0.2800000011920929
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "03-terrace-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          -0.2800000011920929
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": 0.0,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  },
+  {
+    "stage": "04-night-market",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "04-night-market-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 70968,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.1599999964237213
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "04-night-market-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.1599999964237213
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": 2.7755575615628914e-17,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  },
+  {
+    "stage": "05-lantern-garden",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "05-lantern-garden-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 84356,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          -0.14000000059604645
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "05-lantern-garden-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          -0.14000000059604645
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": 2.7755575615628914e-17,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  },
+  {
+    "stage": "06-stargazer",
+    "result": "pass",
+    "exchange": [
+      {
+        "file": "06-stargazer-assembled.glb",
+        "result": "pass",
+        "meshes": 20,
+        "triangles": 68816,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.46000000834465027
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      },
+      {
+        "file": "06-stargazer-colliders.glb",
+        "result": "pass",
+        "meshes": 23,
+        "triangles": 276,
+        "beam_center_game": [
+          0,
+          -0.10999999940395355,
+          0.46000000834465027
+        ],
+        "no_external_resources": true,
+        "gate_follows_chute": true,
+        "beam_independent_root": true
+      }
+    ],
+    "source_reopen": "pass",
+    "japanese_meshes_present": true,
+    "character_runtime_separate": true,
+    "play_pose_depth_error_m": -1.6653345369377348e-16,
+    "fold_miss_references_straddle_route": true,
+    "physics_tested": false
+  }
+]

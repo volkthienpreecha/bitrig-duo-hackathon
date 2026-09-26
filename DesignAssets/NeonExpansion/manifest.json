@@ -1,0 +1,61 @@
+{
+  "character": "../KapraoSprite/Runtime/kaprao-sprite.scn",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Rooftop Repair Club",
+      "assembled": "01-workshop/Runtime/01-workshop-assembled.scn",
+      "colliders": "01-workshop/Runtime/01-workshop-colliders.scn",
+      "depth_m": 0.0,
+      "fold_reference_degrees": -2.9118847791719206e-20,
+      "physics_tested": false
+    },
+    {
+      "id": 2,
+      "title": "Moonleaf Garden",
+      "assembled": "02-garden/Runtime/02-garden-assembled.scn",
+      "colliders": "02-garden/Runtime/02-garden-colliders.scn",
+      "depth_m": 0.32,
+      "fold_reference_degrees": -17.476396482459656,
+      "physics_tested": false
+    },
+    {
+      "id": 3,
+      "title": "Starlight Terrace",
+      "assembled": "03-terrace/Runtime/03-terrace-assembled.scn",
+      "colliders": "03-terrace/Runtime/03-terrace-colliders.scn",
+      "depth_m": -0.28,
+      "fold_reference_degrees": 11.76179957802872,
+      "physics_tested": false
+    },
+    {
+      "id": 4,
+      "title": "Midnight Repair Market",
+      "assembled": "04-night-market/Runtime/04-night-market-assembled.scn",
+      "colliders": "04-night-market/Runtime/04-night-market-colliders.scn",
+      "depth_m": 0.16,
+      "fold_reference_degrees": -7.877740788869442,
+      "physics_tested": false
+    },
+    {
+      "id": 5,
+      "title": "Lantern Garden",
+      "assembled": "05-lantern-garden/Runtime/05-lantern-garden-assembled.scn",
+      "colliders": "05-lantern-garden/Runtime/05-lantern-garden-colliders.scn",
+      "depth_m": -0.14,
+      "fold_reference_degrees": 6.1156950148431335,
+      "physics_tested": false
+    },
+    {
+      "id": 6,
+      "title": "Stargazer Tea Deck",
+      "assembled": "06-stargazer/Runtime/06-stargazer-assembled.scn",
+      "colliders": "06-stargazer/Runtime/06-stargazer-colliders.scn",
+      "depth_m": 0.46,
+      "fold_reference_degrees": -29.50503994976412,
+      "physics_tested": false
+    }
+  ],
+  "runtime_axis": "Y up, meters",
+  "gameplay_verified": false
+}

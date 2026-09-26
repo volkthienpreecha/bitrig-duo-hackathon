@@ -1,0 +1,352 @@
+[
+  {
+    "path": "01-workshop/Exports/01-workshop-assembled.glb",
+    "bytes": 2220424,
+    "sha256": "d97d79764a7ac603fcfab5bba16dfdf966886e8efc1c3f0413dcbf4f257c247c"
+  },
+  {
+    "path": "01-workshop/Exports/01-workshop-assembled.usdc",
+    "bytes": 3664783,
+    "sha256": "481bb5aa9077a04285d50ae53a7d56e64ca110ac4b4858b1262376650d83d916"
+  },
+  {
+    "path": "01-workshop/Exports/01-workshop-colliders.glb",
+    "bytes": 32292,
+    "sha256": "f8ea9eb41ed8092b0ca2af78dcdf4bbce06ace984d5a8353cadc8d59992c8cae"
+  },
+  {
+    "path": "01-workshop/Exports/01-workshop-colliders.usdc",
+    "bytes": 14446,
+    "sha256": "81103f94249bbcfaf88df0b321639c5b452858d1575add7c5bb95503e0f6c77e"
+  },
+  {
+    "path": "01-workshop/Previews/hero.png",
+    "bytes": 1068031,
+    "sha256": "fb32468f8e6c699ab78a67a070c5d0c7ea7f32d09769f9fa21438692cbc57259"
+  },
+  {
+    "path": "01-workshop/Runtime/01-workshop-assembled.scn",
+    "bytes": 6546418,
+    "sha256": "ee114abe2e5bcabb6917c95e523eb1f6a0d1788822e56c5de35947b5cf7dd33b"
+  },
+  {
+    "path": "01-workshop/Runtime/01-workshop-colliders.scn",
+    "bytes": 107534,
+    "sha256": "67dd9521f58387c36a68a379e3849422e89899c75a8c975d0cae4ad402351b1c"
+  },
+  {
+    "path": "01-workshop/Runtime/scenekit-conversion.json",
+    "bytes": 1380,
+    "sha256": "53829af306ca69c36ff234998eac1130af6ebd0bba2bd1c67662de1cfccd2ac8"
+  },
+  {
+    "path": "01-workshop/Source/01-workshop.blend",
+    "bytes": 892030,
+    "sha256": "379875fd21a3636bd654071975962aeef5424fc5c0e9db5f51fcdb6eaabf2252"
+  },
+  {
+    "path": "01-workshop/Validation/geometry.json",
+    "bytes": 4224,
+    "sha256": "9aea846fa57f16fc4bad5918a2049f10c2dd20a2bbf5a1bcdad44bbb6d497de2"
+  },
+  {
+    "path": "01-workshop/Validation/import-and-fit.json",
+    "bytes": 909,
+    "sha256": "a6aeecb3e0be6f2a9368c2711eba814b3ddc080849c8c8cb5b6e6f969a160d54"
+  },
+  {
+    "path": "02-garden/Exports/02-garden-assembled.glb",
+    "bytes": 2538684,
+    "sha256": "c6bcbbe0d94690acf1f6ecdb453ea1fd7d8a8a374fa1e8e0ef275b24d4f5f5c8"
+  },
+  {
+    "path": "02-garden/Exports/02-garden-assembled.usdc",
+    "bytes": 4237310,
+    "sha256": "697483e9b939b7f90d0412bf1f9a3f5c7567c5f9a2872cd527308e996a3c2a2a"
+  },
+  {
+    "path": "02-garden/Exports/02-garden-colliders.glb",
+    "bytes": 32392,
+    "sha256": "9637514d962a4204d0b667ceedc5ddc9e9a431ec775ee8f76888fe9ce7242341"
+  },
+  {
+    "path": "02-garden/Exports/02-garden-colliders.usdc",
+    "bytes": 14456,
+    "sha256": "9c4b9355dd635c68f3bfca894c4858dcea6b663387518b3e5d0953575dbfd687"
+  },
+  {
+    "path": "02-garden/Previews/hero.png",
+    "bytes": 1082195,
+    "sha256": "19e432cf6f85c0397665daf00e137b6810c8ec46bd1f65a72a24354d474934c7"
+  },
+  {
+    "path": "02-garden/Runtime/02-garden-assembled.scn",
+    "bytes": 7512597,
+    "sha256": "10223b44ea3a60d9f89bdb1180742a0b8dac748615dbfc9c45d0d5622298556b"
+  },
+  {
+    "path": "02-garden/Runtime/02-garden-colliders.scn",
+    "bytes": 107530,
+    "sha256": "ce65347fddb0f3b40fe2ba7f1175ab66aa6b4821b156e3366866e10898b39475"
+  },
+  {
+    "path": "02-garden/Runtime/scenekit-conversion.json",
+    "bytes": 1373,
+    "sha256": "f4334904dc08342ff22949a3b7e3e569c31e8e1ff73098d53870aeb9576496a9"
+  },
+  {
+    "path": "02-garden/Source/02-garden.blend",
+    "bytes": 966013,
+    "sha256": "1e7201a31823e152994edc2eddb3eb254a757e31427905a16ba289bf7cf402b3"
+  },
+  {
+    "path": "02-garden/Validation/geometry.json",
+    "bytes": 4353,
+    "sha256": "c2c462f27ac517470cc479f4c659f40ffd16f82886e1643784fa915bffaa772a"
+  },
+  {
+    "path": "02-garden/Validation/import-and-fit.json",
+    "bytes": 921,
+    "sha256": "a35008d69f4f68debefc202216a2e0257d4384df48495fc7f0de8ef3cfcbc7cd"
+  },
+  {
+    "path": "03-terrace/Exports/03-terrace-assembled.glb",
+    "bytes": 2130792,
+    "sha256": "f052c47fa7f8dc597b9374696914d1d75049f5ae1b914a5eedcbe6d189a83479"
+  },
+  {
+    "path": "03-terrace/Exports/03-terrace-assembled.usdc",
+    "bytes": 3526595,
+    "sha256": "93967ccade21b058e23caab842685607435f974c81a81d8988b489c2fbff74c6"
+  },
+  {
+    "path": "03-terrace/Exports/03-terrace-colliders.glb",
+    "bytes": 32424,
+    "sha256": "5d48fd8332d9743dc7f65af716468518f452d36ce316e79513aae52c6e8c7c11"
+  },
+  {
+    "path": "03-terrace/Exports/03-terrace-colliders.usdc",
+    "bytes": 14487,
+    "sha256": "9341ab230279a6d0f2f35607538d1b2e09c99e428398945fc83213af43a98cfb"
+  },
+  {
+    "path": "03-terrace/Previews/hero.png",
+    "bytes": 1058986,
+    "sha256": "94be5d33287088a762fe0e5d786b657b992cdd904417a5f2fff8e46c03e19b75"
+  },
+  {
+    "path": "03-terrace/Runtime/03-terrace-assembled.scn",
+    "bytes": 6295274,
+    "sha256": "7f36593b65c892594a8087a1e6c12af9fa75786aa14def5f1d50a8de0df03f71"
+  },
+  {
+    "path": "03-terrace/Runtime/03-terrace-colliders.scn",
+    "bytes": 107532,
+    "sha256": "5cc8efa97403a1bbe2f9b3a93bcaf7dfa9023a784d57d7a0408ab162a51412c7"
+  },
+  {
+    "path": "03-terrace/Runtime/scenekit-conversion.json",
+    "bytes": 1376,
+    "sha256": "c5db56a40d65add2b7f6c127feb0406701505223fa1136f8a954cb89423e8dee"
+  },
+  {
+    "path": "03-terrace/Source/03-terrace.blend",
+    "bytes": 848871,
+    "sha256": "6791a40be8a368e6b0951fc873431a376bc1319b37e28323c8494155efa74e04"
+  },
+  {
+    "path": "03-terrace/Validation/geometry.json",
+    "bytes": 4352,
+    "sha256": "b42a398fd9fb1a84b79d674333c349d0c7f95f17e9ab7703c73a505ca4a1f36d"
+  },
+  {
+    "path": "03-terrace/Validation/import-and-fit.json",
+    "bytes": 925,
+    "sha256": "441d2f325c26ca2b9e20645818142344385324622fe9f6aa841e20d77ae85a3e"
+  },
+  {
+    "path": "04-night-market/Exports/04-night-market-assembled.glb",
+    "bytes": 2128260,
+    "sha256": "496ccd4e30b59f5553917445c2ff790aec58a060206e84513ac825882844611e"
+  },
+  {
+    "path": "04-night-market/Exports/04-night-market-assembled.usdc",
+    "bytes": 3548579,
+    "sha256": "4f665e161c84408f15478aacd8a9a56927d431bf81237c42f106afc56de526cf"
+  },
+  {
+    "path": "04-night-market/Exports/04-night-market-colliders.glb",
+    "bytes": 32396,
+    "sha256": "2bfd12bd11dca67f3a34d7e835f5fde8d0241922e3f9b0fc217077d35748d29e"
+  },
+  {
+    "path": "04-night-market/Exports/04-night-market-colliders.usdc",
+    "bytes": 14456,
+    "sha256": "8c4ce707eea77fcb8013f74b62be5826017b6a943c649ce9fa63841f532462e1"
+  },
+  {
+    "path": "04-night-market/Previews/hero.png",
+    "bytes": 1068388,
+    "sha256": "eab0d07e8c161b60da3845417d575e2a335fc5208fe3e5f5b62a74c523f3a044"
+  },
+  {
+    "path": "04-night-market/Runtime/04-night-market-assembled.scn",
+    "bytes": 6359041,
+    "sha256": "2fb885516697c143a4e7648d98ff97634cc6188f74cb6f053acf54e65a3f3784"
+  },
+  {
+    "path": "04-night-market/Runtime/04-night-market-colliders.scn",
+    "bytes": 107542,
+    "sha256": "562bf6c242a2fbd50cecdbe988b99a90eb65c1d31a910c2a45d23d79b51e100c"
+  },
+  {
+    "path": "04-night-market/Runtime/scenekit-conversion.json",
+    "bytes": 1396,
+    "sha256": "ffa5135dff99288e2ccf88054d271b9671ebfd1eaa4420b9e342de01561ebdf4"
+  },
+  {
+    "path": "04-night-market/Source/04-night-market.blend",
+    "bytes": 841464,
+    "sha256": "d97d33c848fe40ab15cca411adbd7329672307413578e20f9f332b1b6e8f3809"
+  },
+  {
+    "path": "04-night-market/Validation/geometry.json",
+    "bytes": 4391,
+    "sha256": "a8b94244414e2f52418d4ac7af6ecffbba3fcfc67570bc6cc2d85b257d168930"
+  },
+  {
+    "path": "04-night-market/Validation/import-and-fit.json",
+    "bytes": 952,
+    "sha256": "90e9120557fb8296bc90f91ded494752b071424207723341fc2b31bd3b431999"
+  },
+  {
+    "path": "05-lantern-garden/Exports/05-lantern-garden-assembled.glb",
+    "bytes": 2533624,
+    "sha256": "bd6558f2c58dcb88d535ef13c28674f6caeefee1db86ab2257293f2c85050dc3"
+  },
+  {
+    "path": "05-lantern-garden/Exports/05-lantern-garden-assembled.usdc",
+    "bytes": 4228666,
+    "sha256": "1b17373aa9dedbbe8500d4a9ca58609cfc7ff9c93488bdf176f65e19fe852bee"
+  },
+  {
+    "path": "05-lantern-garden/Exports/05-lantern-garden-colliders.glb",
+    "bytes": 32404,
+    "sha256": "7a6283502269b7c8753c167db99948ba6625cc2699225ea2984728b3285b5ab0"
+  },
+  {
+    "path": "05-lantern-garden/Exports/05-lantern-garden-colliders.usdc",
+    "bytes": 14442,
+    "sha256": "8755aba0969d2582721f6f2aa61f9889a2ddf5a6e39195c8d6870cfcfaec395c"
+  },
+  {
+    "path": "05-lantern-garden/Previews/hero.png",
+    "bytes": 1077670,
+    "sha256": "1f43ebbc40b28eb7020d34d07549405edf7db40bab8de563952dfff3e0051ef4"
+  },
+  {
+    "path": "05-lantern-garden/Runtime/05-lantern-garden-assembled.scn",
+    "bytes": 7500415,
+    "sha256": "e33b2c57d5e405004a7b66d0528ca0d63f4d09621e8a8cefc3c284a1c3ba23ce"
+  },
+  {
+    "path": "05-lantern-garden/Runtime/05-lantern-garden-colliders.scn",
+    "bytes": 107546,
+    "sha256": "8013b9dfa8356b60ee54003f198a98e1c3ae3f88d150813c54cf3fa3a786fe2d"
+  },
+  {
+    "path": "05-lantern-garden/Runtime/scenekit-conversion.json",
+    "bytes": 1404,
+    "sha256": "a613715b4934409be830815c9c1a7b4ebf87aaea6bcf49740dc84a23a50eb778"
+  },
+  {
+    "path": "05-lantern-garden/Source/05-lantern-garden.blend",
+    "bytes": 962564,
+    "sha256": "3e3eb2a87d9e245692f0f5773887b258a210fa90c0a3aa4cd86abd41459e67b8"
+  },
+  {
+    "path": "05-lantern-garden/Validation/geometry.json",
+    "bytes": 4418,
+    "sha256": "b8622ce7e8a25982d2cbfe2907c82884610be8dea2584bbf07e49c02b343a18a"
+  },
+  {
+    "path": "05-lantern-garden/Validation/import-and-fit.json",
+    "bytes": 960,
+    "sha256": "33ea7a746d202ae4d62f96488e42d2ac0beb1ee37c41d5da8cf79d4a9121f39f"
+  },
+  {
+    "path": "06-stargazer/Exports/06-stargazer-assembled.glb",
+    "bytes": 2058104,
+    "sha256": "998378ebd0a910e04944a6e647b77c5a20096b6b0b99575bc0d51f006f22b53e"
+  },
+  {
+    "path": "06-stargazer/Exports/06-stargazer-assembled.usdc",
+    "bytes": 3443446,
+    "sha256": "7ab123206b2108b7ce107ddc25cb27ac2bd6c99e859e4ddf102d2a51b3a63909"
+  },
+  {
+    "path": "06-stargazer/Exports/06-stargazer-colliders.glb",
+    "bytes": 32424,
+    "sha256": "24223edddc4dd6e295c769496f487fec8be1fd9e2db540473df7d0a3aab5bf68"
+  },
+  {
+    "path": "06-stargazer/Exports/06-stargazer-colliders.usdc",
+    "bytes": 14492,
+    "sha256": "1c032ffe9121fc349a3d7195bfcfbaeda7b644578070f724df97483973ffa5d7"
+  },
+  {
+    "path": "06-stargazer/Previews/hero.png",
+    "bytes": 1070369,
+    "sha256": "089d3dfdcdf13d57a8fba22295faf097ed027ac2ae9eedd91a103ab48c507292"
+  },
+  {
+    "path": "06-stargazer/Runtime/06-stargazer-assembled.scn",
+    "bytes": 6162643,
+    "sha256": "33306e5493b3632b5bb9582732b6447ad1c7d282b872fcbb99a20ef6e781997e"
+  },
+  {
+    "path": "06-stargazer/Runtime/06-stargazer-colliders.scn",
+    "bytes": 107536,
+    "sha256": "200be6ad3259a902b18e9d9b977932891f2eef0bae2ea18a9acd004b13f072fd"
+  },
+  {
+    "path": "06-stargazer/Runtime/scenekit-conversion.json",
+    "bytes": 1385,
+    "sha256": "32045dbfe6ef57d39bf82c2fc1d5d1b33cc8eb137f634ae4b23abff68b3a81a5"
+  },
+  {
+    "path": "06-stargazer/Source/06-stargazer.blend",
+    "bytes": 812426,
+    "sha256": "5a697ee82a0dba674a57fb1dfc991ccc932391f2fed6be90c28af4cc821bbac4"
+  },
+  {
+    "path": "06-stargazer/Validation/geometry.json",
+    "bytes": 4393,
+    "sha256": "37903f596958efe8374a7e050ceb5f78c43e2a449167eac23f4e672cda68feaf"
+  },
+  {
+    "path": "06-stargazer/Validation/import-and-fit.json",
+    "bytes": 949,
+    "sha256": "a12b92cdec83ec69fb4b509a0c01b32d7cce38b7e76430666aa8d825b1c55d1d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4331,
+    "sha256": "fca78c6d94de64ea0036ea981db7c566b5ec039c5cb8fffca6aac6daf6c9a641"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 2016,
+    "sha256": "b331cdf4f5c5bf28b4b78d7e9731dbeb31576b497e8c0e3f640f3981d8059e5e"
+  },
+  {
+    "path": "native-validation.json",
+    "bytes": 2424,
+    "sha256": "5c5ab2ab4c0d2f73a818e72e9a2256f90ea010a8f732aa472fd52ff480565523"
+  },
+  {
+    "path": "validation-summary.json",
+    "bytes": 6269,
+    "sha256": "8aa106d74c6bb8abc7fd2ad25be5ec196287a38ed84284549ec3a6500c157847"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -5.5399999618530273,
+        -1.8299999237060547,
+        -8.3999977111816406
+      ],
+      [
+        5.7699995040893555,
+        3.7700009346008301,
+        2.007500171661377
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Enamel_Ivory",
+      "Enamel_Pale",
+      "Ink",
+      "Lamp_Peach",
+      "Neon_Amber",
+      "Neon_Cyan",
+      "Neon_Pink",
+      "Paper",
+      "Plant_Jade",
+      "Plant_Mint",
+      "Rubber",
+      "Sea_Glass",
+      "Signal_Cyan",
+      "Sky_Ink",
+      "Teal_Shadow",
+      "Window_Dark"
+    ],
+    "meshes" : 20,
+    "nodes" : 77,
+    "roundtrip" : "pass",
+    "runtime" : "03-terrace-assembled.scn",
+    "skins" : 0,
+    "source" : "03-terrace-assembled.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4,
+        -1.1200000047683716,
+        -1.404999852180481
+      ],
+      [
+        4,
+        2.1500000953674316,
+        0.84500014781951904
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "material"
+    ],
+    "meshes" : 23,
+    "nodes" : 67,
+    "roundtrip" : "pass",
+    "runtime" : "03-terrace-colliders.scn",
+    "skins" : 0,
+    "source" : "03-terrace-colliders.usdc"
+  }
+]

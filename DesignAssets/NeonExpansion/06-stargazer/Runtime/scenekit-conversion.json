@@ -1,0 +1,72 @@
+[
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -5.5399999618530273,
+        -1.8299999237060547,
+        -8.3999977111816406
+      ],
+      [
+        5.7699995040893555,
+        3.7700009346008301,
+        2.007500171661377
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Enamel_Ivory",
+      "Enamel_Pale",
+      "Ink",
+      "Lamp_Peach",
+      "Neon_Amber",
+      "Neon_Cyan",
+      "Neon_Pink",
+      "Paper",
+      "Plant_Jade",
+      "Plant_Mint",
+      "Rubber",
+      "Sea_Glass",
+      "Signal_Cyan",
+      "Sky_Ink",
+      "Teal_Shadow",
+      "Window_Dark"
+    ],
+    "meshes" : 20,
+    "nodes" : 77,
+    "roundtrip" : "pass",
+    "runtime" : "06-stargazer-assembled.scn",
+    "skins" : 0,
+    "source" : "06-stargazer-assembled.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4,
+        -1.1200001239776611,
+        -0.66499996185302734
+      ],
+      [
+        4,
+        2.1499998569488525,
+        1.5850000381469727
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "material"
+    ],
+    "meshes" : 23,
+    "nodes" : 67,
+    "roundtrip" : "pass",
+    "runtime" : "06-stargazer-colliders.scn",
+    "skins" : 0,
+    "source" : "06-stargazer-colliders.usdc"
+  }
+]
