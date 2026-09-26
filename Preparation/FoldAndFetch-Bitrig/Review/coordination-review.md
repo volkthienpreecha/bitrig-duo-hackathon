@@ -1,5 +1,7 @@
 # Fold & Fetch — coordination red-team review
 
+> Historical review / September 25 observations. Current master v1.2, stage/v3 handoffs and the September 26 preparation-readiness report supersede old asset-availability, scope, path and draft-composer statements. This report is not fresh build or gameplay evidence.
+
 Prepared September 25, 2026. Preparation only; no app code was created or changed. Scope: execution feasibility, parallel work, integration, and evidence. The product/physics review is separate.
 
 ## Decision

@@ -1,5 +1,7 @@
 # Fold & Fetch: rendering, physics, and API red-team review
 
+> Historical review / September 25 observations. Current master v1.2, stage/v3 handoffs and the September 26 preparation-readiness report supersede old asset-availability, scope, path and draft-composer statements. This report is not fresh build or gameplay evidence.
+
 September 25, 2026. Scope: the PRD and prototype prompt, inspected Apple documentation, and installed Xcode 27.1 SDK. No app code was written, compiled, or run. No UI was operated by this reviewer. Therefore API presence is verified; runtime feasibility is not.
 
 ## Decision

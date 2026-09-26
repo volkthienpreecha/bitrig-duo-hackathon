@@ -419,6 +419,41 @@
         },
         {
           "type": "group",
+          "name": "Retry action",
+          "x": 744,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "restart",
+              "x": 35.2,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>restart</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 67.2,
+              "y": 16.0,
+              "text": "Retry",
+              "size": 16,
+              "color": "ink",
+              "weight": 600
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
           "name": "Release action",
           "x": 900,
           "y": 620,
@@ -772,7 +807,7 @@
             },
             {
               "type": "group",
-              "name": "Restart action",
+              "name": "Replay rooftop action",
               "x": 32,
               "y": 190.5,
               "w": 316,
@@ -780,20 +815,20 @@
               "children": [
                 {
                   "type": "icon",
-                  "name": "restart",
-                  "x": 112.88,
+                  "name": "replay",
+                  "x": 83.75999999999999,
                   "y": 15.0,
                   "w": 22,
                   "h": 22,
                   "color": "ink",
-                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>restart</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>replay</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
                 },
                 {
                   "type": "text",
                   "name": "Label",
-                  "x": 144.88,
+                  "x": 115.75999999999999,
                   "y": 16.0,
-                  "text": "Restart",
+                  "text": "Replay rooftop",
                   "size": 16,
                   "color": "ink",
                   "weight": 600
@@ -1125,7 +1160,7 @@
               "name": "Complete title",
               "x": 32,
               "y": 90,
-              "text": "Bell reached!",
+              "text": "Toy reached!",
               "size": 28,
               "color": "ink",
               "weight": 700
@@ -1142,7 +1177,7 @@
             },
             {
               "type": "group",
-              "name": "Replay action",
+              "name": "Replay rooftop action",
               "x": 32,
               "y": 178.5,
               "w": 316,
@@ -1151,7 +1186,7 @@
                 {
                   "type": "icon",
                   "name": "replay",
-                  "x": 117.03999999999999,
+                  "x": 83.75999999999999,
                   "y": 15.0,
                   "w": 22,
                   "h": 22,
@@ -1161,9 +1196,9 @@
                 {
                   "type": "text",
                   "name": "Label",
-                  "x": 149.04,
+                  "x": 115.75999999999999,
                   "y": 16.0,
-                  "text": "Replay",
+                  "text": "Replay rooftop",
                   "size": 16,
                   "color": "cream",
                   "weight": 600
@@ -1252,5 +1287,13 @@
       "Tap Release."
     ]
   ],
-  "referenceOnly": true
+  "referenceOnly": true,
+  "gameplayPreviewState": "aiming; first launch uses movement hint",
+  "behavior": {
+    "retry": "Checkpoint recovery, always accessible during active play.",
+    "replayRooftop": "Restart current stage from beginning.",
+    "release": "Lower-right safe region beside Retry; enabled when settled even if misaligned.",
+    "goal": "Player reaches toy after genuine bridge readiness.",
+    "hintAuthority": "Master-Prompt.md state table; jump/dash practice is optional."
+  }
 }

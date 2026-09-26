@@ -1,0 +1,207 @@
+[
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.67204570770263672,
+        -5.9604644775390625e-08,
+        -0.36133068799972534
+      ],
+      [
+        0.82387685775756836,
+        1.118941068649292,
+        0.36133885383605957
+      ]
+    ],
+    "embeddedTextureConversions" : 2,
+    "materials" : [
+      "Coat_Honey",
+      "Coat_Sunlit",
+      "Cream",
+      "Cream_Shadow",
+      "Ear_Rose",
+      "Eye_Espresso",
+      "Ink",
+      "KapraoCoat",
+      "KapraoFace",
+      "Lens_Dark_Smoke",
+      "Nose",
+      "RGB_Amber",
+      "RGB_Cyan",
+      "RGB_Pink",
+      "Scarf_Light",
+      "Scarf_Teal",
+      "Tongue"
+    ],
+    "meshes" : 2,
+    "nodes" : 18,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Celebrate.scn",
+    "skins" : 2,
+    "source" : "kaprao-Celebrate.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.67204570770263672,
+        -5.9604644775390625e-08,
+        -0.36133068799972534
+      ],
+      [
+        0.82387685775756836,
+        1.118941068649292,
+        0.36133885383605957
+      ]
+    ],
+    "embeddedTextureConversions" : 2,
+    "materials" : [
+      "Coat_Honey",
+      "Coat_Sunlit",
+      "Cream",
+      "Cream_Shadow",
+      "Ear_Rose",
+      "Eye_Espresso",
+      "Ink",
+      "KapraoCoat",
+      "KapraoFace",
+      "Lens_Dark_Smoke",
+      "Nose",
+      "RGB_Amber",
+      "RGB_Cyan",
+      "RGB_Pink",
+      "Scarf_Light",
+      "Scarf_Teal",
+      "Tongue"
+    ],
+    "meshes" : 2,
+    "nodes" : 18,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Idle_Look.scn",
+    "skins" : 2,
+    "source" : "kaprao-Idle_Look.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.67204570770263672,
+        -5.9604644775390625e-08,
+        -0.36133068799972534
+      ],
+      [
+        0.82387685775756836,
+        1.118941068649292,
+        0.36133885383605957
+      ]
+    ],
+    "embeddedTextureConversions" : 2,
+    "materials" : [
+      "Coat_Honey",
+      "Coat_Sunlit",
+      "Cream",
+      "Cream_Shadow",
+      "Ear_Rose",
+      "Eye_Espresso",
+      "Ink",
+      "KapraoCoat",
+      "KapraoFace",
+      "Lens_Dark_Smoke",
+      "Nose",
+      "RGB_Amber",
+      "RGB_Cyan",
+      "RGB_Pink",
+      "Scarf_Light",
+      "Scarf_Teal",
+      "Tongue"
+    ],
+    "meshes" : 2,
+    "nodes" : 18,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Jump_Fall.scn",
+    "skins" : 2,
+    "source" : "kaprao-Jump_Fall.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.67204570770263672,
+        -5.9604644775390625e-08,
+        -0.36133068799972534
+      ],
+      [
+        0.82387685775756836,
+        1.118941068649292,
+        0.36133885383605957
+      ]
+    ],
+    "embeddedTextureConversions" : 2,
+    "materials" : [
+      "Coat_Honey",
+      "Coat_Sunlit",
+      "Cream",
+      "Cream_Shadow",
+      "Ear_Rose",
+      "Eye_Espresso",
+      "Ink",
+      "KapraoCoat",
+      "KapraoFace",
+      "Lens_Dark_Smoke",
+      "Nose",
+      "RGB_Amber",
+      "RGB_Cyan",
+      "RGB_Pink",
+      "Scarf_Light",
+      "Scarf_Teal",
+      "Tongue"
+    ],
+    "meshes" : 2,
+    "nodes" : 18,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Walk_InPlace.scn",
+    "skins" : 2,
+    "source" : "kaprao-Walk_InPlace.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.67204570770263672,
+        -5.9604644775390625e-08,
+        -0.36133068799972534
+      ],
+      [
+        0.82387685775756836,
+        1.118941068649292,
+        0.36133885383605957
+      ]
+    ],
+    "embeddedTextureConversions" : 2,
+    "materials" : [
+      "Coat_Honey",
+      "Coat_Sunlit",
+      "Cream",
+      "Cream_Shadow",
+      "Ear_Rose",
+      "Eye_Espresso",
+      "Ink",
+      "KapraoCoat",
+      "KapraoFace",
+      "Lens_Dark_Smoke",
+      "Nose",
+      "RGB_Amber",
+      "RGB_Cyan",
+      "RGB_Pink",
+      "Scarf_Light",
+      "Scarf_Teal",
+      "Tongue"
+    ],
+    "meshes" : 2,
+    "nodes" : 18,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-static.scn",
+    "skins" : 2,
+    "source" : "kaprao-static.usdc"
+  }
+]

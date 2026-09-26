@@ -1,0 +1,11 @@
+{
+  "archive": "FoldAndFetch-OneShot.zip",
+  "files": 207,
+  "bytes": 94370500,
+  "sha256": "17e71dda07f8faa67dde6f48eba3853307c261658fe335700935b00e6995a8f8",
+  "master_sha256": "559afb4536e01e9f0dce724fc669b559fd427db6c85af05e9b5096b1b5bb134e",
+  "crc_and_all_entry_hashes": "pass",
+  "native_scenes": 11,
+  "current_runtime_wavs": 8,
+  "gameplay_verified": false
+}

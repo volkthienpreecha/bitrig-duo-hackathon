@@ -1,0 +1,55 @@
+{
+  "scope": "Preparation files only; no build, physics or simulator tests run",
+  "master_version": "1.4",
+  "runtime_files": 19,
+  "master_local_links": "pass",
+  "ui_svg_xml_files": 33,
+  "states": [
+    {
+      "state": "gameplay",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "pause",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "completion",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "01-workshop-gameplay",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "01-workshop-complete",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "02-garden-gameplay",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "02-garden-complete",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "03-terrace-gameplay",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    },
+    {
+      "state": "03-terrace-complete",
+      "reference_bounds_and_targets": "pass",
+      "actual_device_safe_regions_tested": false
+    }
+  ],
+  "gameplay_verified": false
+}

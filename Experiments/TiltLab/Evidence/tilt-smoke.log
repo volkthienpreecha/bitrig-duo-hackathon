@@ -1,0 +1,9 @@
+TILT_CAPABILITY motion=false accelerometer=false
+objc[26992]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_24A94401/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.1.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x104d68398) and /Library/Developer/CoreSimulator/Volumes/iOS_24A94401/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.1.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x105ef4310). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+TILT_BARRIER_PASS true x=60.0 y=268.7943115234375
+TILT_WAYPOINT 1
+TILT_WAYPOINT 2
+TILT_WAYPOINT 3
+TILT_WAYPOINT 4
+TILT_PARKED true position=(410.6827087402344, 55.1840934753418) speed=5.569927366540835
+TILT_SMOKE_PASS /Users/volkthienpreecha/Library/Developer/CoreSimulator/Devices/14D82C7C-A4A4-45E6-B3A1-DB7F304F8738/data/Containers/Data/Application/029A08FF-89FB-4DBD-971E-BC4C373223C9/Documents/tilt-smoke.json

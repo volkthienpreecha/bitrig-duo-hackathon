@@ -14,6 +14,14 @@ Use [the three-stage handoff](Stages/README.md). Select `Stages/01-workshop/Runt
 4. Keep `.blend`, `.glb`, `.usdc`, source photos, concepts, SVG screen mockups, validation logs and modeling tools outside bundled resources. Ship only the runtime assets actually used. Reference screenshots are not a functioning HUD.
 5. Preview through Xcode/Device Hub first. The tested environment is Xcode 27.1 build 27A9269, iOS 27.1 Duo simulator. Set `DEVELOPER_DIR` to the actual Xcode `Contents/Developer` when command-line tools point elsewhere. Bitrig's embedded preview install remained unsuccessful in this session.
 
+## First playable frame and visual readability
+
+Assemblies are exported with the beam seated for art inspection. Extract the existing `bridge_beam` and its matching core proxy; place that same object at the current hinge-driven held anchor before gameplay begins. Remove any seated duplicate, and never attach a static compound body to the entire collider file. One dynamic beam must eventually become the crossing surface. Configure separate floor/support/tray and moving chute/gate bodies with intentional masks. Preserve each module’s coordinate transform once.
+
+The nominal 0.63 m support channel is only 0.09 m wider than the 0.54 m beam. This is an import clearance result, not demonstrated aim forgiveness. The event build must measure successful fold tolerance and tune visible receivers with matching physics if needed. Test rolled releases for Garden/Terrace; depth alignment alone does not establish stable landing.
+
+Frame the dog, toy and receiver channel clearly in the real simulator window. Distinguish the fixed walking lane from the rear service deck with restrained route edges and a visible boundary outside the corridor. A non-colliding gravity footprint may clarify depth while the beam is held; actual contact still decides readiness. The toy is the objective, the bell is celebration dressing. Native Release and labeled Retry share a free lower-right safe region, relocated away from scene objects and reserved areas.
+
 ## Coordinates and assembly
 
 Meters, Y up, +X route/character forward, +Z toward the front. Source Blender Z-up maps to game `(X,Z,-Y)`; exchange files already apply that conversion. Do not rotate them a second time. See [Workshop README](Source/Workshop/README.md) and [geometry manifest](Validation/workshop-geometry.json) for precise root pivots/anchors.

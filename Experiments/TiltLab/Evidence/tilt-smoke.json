@@ -1,0 +1,13 @@
+{
+  "dwell" : 0.61666666666678793,
+  "position" : [
+    410.68270874023438,
+    55.184093475341797
+  ],
+  "sensorAvailable" : false,
+  "barrierBlocked" : true,
+  "waypoints" : 5,
+  "parked" : true,
+  "speed" : 5.5699273665408349,
+  "source" : "scripted gravity only, not sensor data"
+}

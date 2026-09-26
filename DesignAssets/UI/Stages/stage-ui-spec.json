@@ -1,5 +1,6 @@
 {
   "referenceOnly": true,
+  "runtimeDefault": "Workshop only; hide stage progress and Next until master progression gate passes.",
   "canvas": [
     1080,
     720
@@ -182,6 +183,41 @@
         },
         {
           "type": "group",
+          "name": "Retry action",
+          "x": 744,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "restart",
+              "x": 35.2,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>restart</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 67.2,
+              "y": 16.0,
+              "text": "Retry",
+              "size": 16,
+              "color": "ink",
+              "weight": 600
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
           "name": "Release action",
           "x": 900,
           "y": 620,
@@ -254,7 +290,7 @@
               "name": "Completion title",
               "x": 32,
               "y": 86,
-              "text": "Route repaired!",
+              "text": "Toy reached!",
               "size": 28,
               "color": "ink",
               "weight": 700
@@ -508,6 +544,41 @@
         },
         {
           "type": "group",
+          "name": "Retry action",
+          "x": 744,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "restart",
+              "x": 35.2,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>restart</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 67.2,
+              "y": 16.0,
+              "text": "Retry",
+              "size": 16,
+              "color": "ink",
+              "weight": 600
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
           "name": "Release action",
           "x": 900,
           "y": 620,
@@ -580,7 +651,7 @@
               "name": "Completion title",
               "x": 32,
               "y": 86,
-              "text": "Route repaired!",
+              "text": "Toy reached!",
               "size": 28,
               "color": "ink",
               "weight": 700
@@ -834,6 +905,41 @@
         },
         {
           "type": "group",
+          "name": "Retry action",
+          "x": 744,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "restart",
+              "x": 35.2,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>restart</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 67.2,
+              "y": 16.0,
+              "text": "Retry",
+              "size": 16,
+              "color": "ink",
+              "weight": 600
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
           "name": "Release action",
           "x": 900,
           "y": 620,
@@ -906,7 +1012,7 @@
               "name": "Completion title",
               "x": 32,
               "y": 86,
-              "text": "Home at last!",
+              "text": "All toys reached!",
               "size": 28,
               "color": "ink",
               "weight": 700
@@ -1003,7 +1109,9 @@
   },
   "minimumTouchTargetPt": 44,
   "behavior": {
-    "next": "Available after the player reaches the goal on a genuinely seated beam; reset all stage state before entry.",
+    "retry": "Always accessible during active play; restore current-stage pre-gap checkpoint at live hinge pose.",
+    "release": "Native lower-right safe region, beside Retry; relocate outside projected objects and reserved regions.",
+    "next": "Only for enabled and verified progression. Available after the player reaches the goal on a genuinely seated beam; reset all stage state before entry.",
     "replayRooftop": "Replay current stage from start.",
     "replayDemo": "After stage 3, restart stage 1.",
     "progress": "Read-only identity, not a level-selection control.",

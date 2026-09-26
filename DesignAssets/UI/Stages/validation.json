@@ -1,43 +1,38 @@
 {
+  "scope": "Preparation files only; no build, physics or simulator tests run",
   "states": [
     {
       "state": "01-workshop-gameplay",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     },
     {
       "state": "01-workshop-complete",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     },
     {
       "state": "02-garden-gameplay",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     },
     {
       "state": "02-garden-complete",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     },
     {
       "state": "03-terrace-gameplay",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     },
     {
       "state": "03-terrace-complete",
-      "groups_within_parent": true,
-      "action_touch_targets_at_least_44_reference_units": true,
+      "reference_bounds_and_targets": "pass",
       "actual_device_safe_regions_tested": false
     }
   ],
-  "visual_review": "Six-state contact sheet reviewed; compact panels, readable labels and no clipped text.",
-  "xml": "All generated SVGs parsed successfully.",
-  "figma": "Live sync blocked by Starter quota."
+  "xml": "pass",
+  "visual_review": "See preparation-readiness.md for separate visual inspection.",
+  "figma": "No live sync attempted; previous quota limitation remains historical evidence."
 }

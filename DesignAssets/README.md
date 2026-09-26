@@ -6,6 +6,10 @@
 
 Start with [INTEGRATION.md](INTEGRATION.md), then [the remaining-assets checklist](DEMO-ASSET-CHECKLIST.md). Character files live under `Revisions/Kaprao-v3/`; workshop and audio remain under the root asset folders. Read the [v3 character tests](Revisions/Kaprao-v3/Validation/README.md) and [workshop test record](Validation/README.md). Use native SCN for the tested Apple SceneKit path, Blender for editing, and GLB/USD for exchange. Do not bundle this entire design folder into the app.
 
+## Portable execution handoff
+
+`outputs/FoldAndFetch-OneShot.zip` at the repository root contains master v1.2, the required preparation docs, current runtime resources, UI and stage references, and exact file hashes. Rebuild with `python3 DesignAssets/Tools/package_execution_kit.py`. This is a selected build-context snapshot; editable Blender/exchange sources remain in the repository or ThreeStages-Full archive. Refresh the attachment after edits. The old DesignAssets ZIP must not be used for the build.
+
 ## Current three-stage handoff
 
 Use [Stages/README.md](Stages/README.md) for the workshop, garden and terrace source/runtime files, layouts, fold storyboards and combined Kaprao renders. These stage assemblies supersede the original workshop assembly for the new demo handoff: their beam and matching collider are 0.54 m deep to fit Kaprao. Shared v3 character clips and audio remain separate. [Current UI variants](UI/Stages/README.md).

@@ -29,7 +29,14 @@ import Metal
     }
     func updateDevice(_ frame: DeviceFrame) {
         if device.layoutVersion != frame.layoutVersion { pending.removeAll() }
-        if device.isActive && !frame.isActive { requiresResume = true; pending.removeAll() }
+        let interrupted = (device.isActive && !frame.isActive)
+            || (device.hasValidLayout && !frame.hasValidLayout)
+        if interrupted {
+            requiresResume = true
+            pending.removeAll()
+            lastTimestamp = nil
+            accumulator = 0
+        }
         device = frame
     }
     func send(_ action: GameAction) {

@@ -1,5 +1,7 @@
 # Direct preflight observations — September 25, 2026
 
+> Historical review / September 25 observations. Current master v1.2, stage/v3 handoffs and the September 26 preparation-readiness report supersede old asset-availability, scope, path and draft-composer statements. This report is not fresh build or gameplay evidence.
+
 These observations were made through the actual Mac applications during the red-team review. They are not results from a game prototype; no game exists yet.
 
 ## Bitrig

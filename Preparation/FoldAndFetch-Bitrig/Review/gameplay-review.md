@@ -1,5 +1,7 @@
 # Fold & Fetch — gameplay red-team review
 
+> Historical review / September 25 observations. Current master v1.2, stage/v3 handoffs and the September 26 preparation-readiness report supersede old asset-availability, scope, path and draft-composer statements. This report is not fresh build or gameplay evidence.
+
 Prepared September 25, 2026. This is a design review only; no submitted app code was created or changed. Reviewed `PRD.md`, `Workshop-Kit-Checklist.md`, `Bitrig-Prototype-Prompt.md`, `Bitrig-Demo-Prompt.md`, and the asset inventory.
 
 ## Verdict

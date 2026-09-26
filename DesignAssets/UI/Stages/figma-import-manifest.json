@@ -6,32 +6,32 @@
   "files": [
     {
       "file": "01-workshop-complete-overlay.svg",
-      "sha256": "71f064fe0c78b6c3e6a62c4b6a59ab0f026d3d2ddb66734b50b175b0b0389d43",
+      "sha256": "78bbd5ee1faf995785512d14b8d6d6538c87868488e5117ad69509bb3049aa90",
       "editable_text": true
     },
     {
       "file": "01-workshop-gameplay-overlay.svg",
-      "sha256": "49999ae7191a8b94dc3c775aef13c57087c603e89b4495b483a9e33114c86ab7",
+      "sha256": "061c27b17008bf4333b3623addb455a6f1c091bf410ea4316e5145aa3a5c6a39",
       "editable_text": true
     },
     {
       "file": "02-garden-complete-overlay.svg",
-      "sha256": "ec0bc1d5c0388dfc4272a4c72a5fa7e831a8983111ecd4d27a10a02c721a44af",
+      "sha256": "05330f7f76df0509fb8cc5718e900ddba266464bb21de724ce20522084630e07",
       "editable_text": true
     },
     {
       "file": "02-garden-gameplay-overlay.svg",
-      "sha256": "b046147e531d761345b7b164aa74106ef4c4b8d25263e917f2a72b102ecc34b1",
+      "sha256": "008f39d9ff7d84a5c0a6d135f2e8c40bd681a55224a7613f72f08ee16ccf583c",
       "editable_text": true
     },
     {
       "file": "03-terrace-complete-overlay.svg",
-      "sha256": "1e9cf16920c24055acc3facbdedc0daeb9594b9dd47847232aeee0fc2746f38e",
+      "sha256": "a58cc1deffe05cc74d483759db08a898bbaa929103ff5a90f3f7c96da821b69a",
       "editable_text": true
     },
     {
       "file": "03-terrace-gameplay-overlay.svg",
-      "sha256": "b5c2a477d8e34c94069a7b83158eb4d4318b4cae27d2c8d000c8ca4bfc94e3f8",
+      "sha256": "e6971d728e753cc26299de6a84df24d6c74d872d7351a7567f4b57fe98ebf752",
       "editable_text": true
     }
   ],

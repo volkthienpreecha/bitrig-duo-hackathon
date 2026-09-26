@@ -3,8 +3,8 @@
 The package contains three shared editable UI concepts refreshed over the actual workshop/Kaprao v3 render, transparent overlays, fourteen original rounded vector icons, and contextual hint copy. These are design assets, not a running game or a device-size guarantee.
 
 - `States/gameplay-concept.svg` and `.png`: active play, contextual fold hint, Release, pause, and sound.
-- `States/pause-concept.svg` and `.png`: Resume, Restart, and sound.
-- `States/completion-concept.svg` and `.png`: bell celebration, Replay, and sound.
+- `States/pause-concept.svg` and `.png`: Resume, Replay rooftop, and sound.
+- `States/completion-concept.svg` and `.png`: toy-reached celebration, Replay rooftop, and sound.
 - `States/*-overlay.svg` and `.png`: the corresponding transparent UI only.
 - `Icons/*.svg`: 24-unit icons with a 1.8-unit rounded stroke. Four swipe directions, pause, resume, restart, replay, audio on/off, release, fold, bell, and check.
 - `hint-library.svg` and `.png`: six contextual hints, shown one at a time.
@@ -22,11 +22,11 @@ Use native labels and controls at runtime. Reference SVG text remains editable; 
 
 The 1080×720 canvas describes composition only. Place controls in native safe areas using current fold geometry and projected scene bounds. Keep active UI outside Kaprao, the chute, falling beam, bridge, bell, and hinge regions. Keep at least 16pt inset within the usable safe region and at least 8pt between adjacent hit areas. Use at least 44×44pt touch areas; Release is 144×52 reference units. Increase hit areas independently from icon size.
 
-Top-left: game and level identity. Top-right: mute and pause. Lower-left: one short contextual hint. Lower-right: Release. When either bottom corner conflicts with a scene object or fold, relocate that control to another free safe region. Do not overlay the center as a fixed fallback. Pause and completion panels should center within one uninterrupted usable region, not across a physical hinge.
+Top-left: game and level identity. Top-right: mute and pause. Lower-left: one short contextual hint. Lower-right: Retry and Release. When either bottom corner conflicts with a scene object or fold, relocate that control to another free safe region. Do not overlay the center as a fixed fallback. Pause and completion panels should center within one uninterrupted usable region, not across a physical hinge.
 
-Hints are progressive: left/right movement, jump, airborne dash, fold to aim, and Release. Dismiss each after a successful action. Down is only described as dash while airborne. Release drops the beam; it does not jump or move Kaprao. Repeated failure may bring the same hint back. Do not stack hint strips.
+Hints are contextual: movement, fold to aim, release, miss recovery and crossing. Jump/airborne dash hints are optional practice, never prerequisites. Dismiss each after a successful action. Down is only described as dash while airborne. Release drops the beam; it does not jump or move Kaprao. Repeated failure may bring the same hint back. Do not stack hint strips.
 
-Sound is a toggle: `audio-on.svg` means sound is currently on; its accessible action name is “Mute sound”. `audio-off.svg` means sound is currently off; its action name is “Unmute sound”. Pause, Resume, Restart, Replay, and Release all need spoken labels. The sound row in paused/completed concepts has a 44pt reference hit height.
+Sound is a toggle: `audio-on.svg` means sound is currently on; its accessible action name is “Mute sound”. `audio-off.svg` means sound is currently off; its action name is “Unmute sound”. Pause, Resume, Retry, Replay rooftop, and Release all need spoken labels. The sound row in paused/completed concepts has a 44pt reference hit height.
 
 Use deep teal with cream labels for the primary action. Focus uses a visible ink outline. Press feedback may darken or lower opacity briefly. Disable Release only when the game cannot accept a release, with a contextual reason. Avoid an artificial loading state for these synchronous local actions.
 
@@ -43,3 +43,9 @@ All three local SVG/PNG states are complete. `../Tools/ui_figma_resume.js` can c
 ## Rebuild
 
 Run `../Tools/ui_assets.py`, then `../Tools/ui_render.cjs` with the bundled Python and Node paths declared in the tool headers/environment. The first builds editable assets and schematic previews; the second replaces concept previews with the approved world image and creates PNGs. Neither script touches game source.
+
+## September 26 runtime contract
+
+The master v1.2 is authoritative. Release and a labeled Retry share a free lower-right safe region with at least 8pt separation; relocate both outside scene objects and hinge regions. Retry remains accessible during flight, settling, crossing and failure. Pause offers Resume and Replay rooftop. The toy is the goal, with “Toy reached!” completion; the bell is dressing. Gameplay reference backgrounds show a held beam and an empty gap. They still do not establish runtime physics or projected safe regions.
+
+Workshop-only is the default: use the shared single-stage UI, hide “1 of 3” and Next. Three-stage variants apply only after the master’s optional progression gate. Native runtime hints come from the master’s state table, including front/behind miss feedback when measured. The existing Figma file/resume script is historical; no live sync is claimed.

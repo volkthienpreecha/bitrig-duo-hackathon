@@ -1,0 +1,445 @@
+{
+  "file": "Exports/Kaprao/kaprao.glb",
+  "bytes": 2603172,
+  "result": "PASS",
+  "scope": "File-level GLB validation only. Native SceneKit/Duo testing is performed separately by the coordinator.",
+  "mesh_count": 2,
+  "skin_count": 1,
+  "joint_count": 11,
+  "material_count": 17,
+  "triangles": 53500,
+  "world_coordinate_contract": "Y-up; +X route/character forward; meters; origin on floor.",
+  "bounds_in_exported_geometry_m": [
+    [
+      -0.6720457077026367,
+      0.0,
+      -0.3613307476043701
+    ],
+    [
+      0.8238768577575684,
+      1.118941307067871,
+      0.36133870482444763
+    ]
+  ],
+  "meshes": [
+    {
+      "name": "Sphere.003",
+      "triangles": 50000,
+      "exported_vertices_including_material_splits": 28591,
+      "primitives": 13
+    },
+    {
+      "name": "substantial sunglass rim -1",
+      "triangles": 3500,
+      "exported_vertices_including_material_splits": 2164,
+      "primitives": 5
+    }
+  ],
+  "clips": [
+    {
+      "name": "Celebrate",
+      "duration_seconds": 2.0,
+      "loop": false,
+      "channel_count": 30,
+      "endpoint_max_error": 1.0305048331229508e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Idle_Look",
+      "duration_seconds": 4.0,
+      "loop": true,
+      "channel_count": 30,
+      "endpoint_max_error": 1.2246468525851679e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Jump_Fall",
+      "duration_seconds": 1.2,
+      "loop": false,
+      "channel_count": 30,
+      "endpoint_max_error": 3.1840818828958854e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Walk_InPlace",
+      "duration_seconds": 0.8,
+      "loop": true,
+      "channel_count": 30,
+      "endpoint_max_error": 3.551476137194783e-17,
+      "root_translation_max_error": 0
+    }
+  ],
+  "checks": [
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 17952
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 31404
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 18084
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 46140
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 5598
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 2352
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 1266
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 1266
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 384
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 5868
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 1620
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 17478
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere.003 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere.003 indices in range",
+      "passed": true,
+      "detail": 588
+    },
+    {
+      "check": "Sphere.003 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "substantial sunglass rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "substantial sunglass rim -1 indices in range",
+      "passed": true,
+      "detail": 7296
+    },
+    {
+      "check": "substantial sunglass rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "substantial sunglass rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "substantial sunglass rim -1 indices in range",
+      "passed": true,
+      "detail": 288
+    },
+    {
+      "check": "substantial sunglass rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "substantial sunglass rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "substantial sunglass rim -1 indices in range",
+      "passed": true,
+      "detail": 1008
+    },
+    {
+      "check": "substantial sunglass rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "substantial sunglass rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "substantial sunglass rim -1 indices in range",
+      "passed": true,
+      "detail": 1008
+    },
+    {
+      "check": "substantial sunglass rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "substantial sunglass rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "substantial sunglass rim -1 indices in range",
+      "passed": true,
+      "detail": 900
+    },
+    {
+      "check": "substantial sunglass rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "all normals approximately unit length",
+      "passed": true,
+      "detail": 1.0893321800153899e-07
+    },
+    {
+      "check": "all skin weights normalized",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "no zero-area rendered triangles",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "revision geometry ceiling (not a device benchmark)",
+      "passed": true,
+      "detail": 53500
+    },
+    {
+      "check": "no exported collision or studio geometry",
+      "passed": true,
+      "detail": [
+        "ear_1",
+        "ear_-1",
+        "head",
+        "leg_back_1",
+        "leg_back_-1",
+        "leg_front_1",
+        "leg_front_-1",
+        "tail",
+        "body",
+        "root",
+        "neutral_bone",
+        "Kaprao_Body_Skinned",
+        "Kaprao_RGB_Sunglasses_REMOVABLE",
+        "Kaprao_Rig"
+      ]
+    },
+    {
+      "check": "removable sunglasses node exists",
+      "passed": true,
+      "detail": "hide that one skinned node"
+    },
+    {
+      "check": "Celebrate no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Idle_Look no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Idle_Look seamless endpoint values",
+      "passed": true,
+      "detail": 1.2246468525851679e-17
+    },
+    {
+      "check": "Jump_Fall no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace seamless endpoint values",
+      "passed": true,
+      "detail": 3.551476137194783e-17
+    },
+    {
+      "check": "all required clips exported",
+      "passed": true,
+      "detail": [
+        "Celebrate",
+        "Idle_Look",
+        "Jump_Fall",
+        "Walk_InPlace"
+      ]
+    },
+    {
+      "check": "floor at Y zero",
+      "passed": true,
+      "detail": [
+        [
+          -0.6720457077026367,
+          0.0,
+          -0.3613307476043701
+        ],
+        [
+          0.8238768577575684,
+          1.118941307067871,
+          0.36133870482444763
+        ]
+      ]
+    }
+  ]
+}

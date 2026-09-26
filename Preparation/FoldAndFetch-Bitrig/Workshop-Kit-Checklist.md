@@ -4,7 +4,7 @@
 
 > **Three-stage assets approved and prepared:** [Rooftop Repair Club, Moonleaf Garden and Starlight Terrace](../../DesignAssets/Stages/README.md) now have source files, matched visual/collider SCN pairs, layouts and storyboards. Use these assemblies with Kaprao v3 at visual scale 0.72; their bridge depth is 0.54 m. One working level remains the minimum event build; add the two prepared variations only after the core acceptance gates pass. Asset completion does not establish gameplay completion.
 
-The immediate target is one workshop level. Please send one ZIP containing references, original editable models, textures, animations, and license/source information. Use the folders below as a guide; incomplete items can be identified explicitly rather than disguised as finished.
+The current handoff is already supplied. Use the stage/v3 paths above; the requests below are historical format guidance, not missing-asset blockers. The required target is one workshop level, with two prepared variations conditional on the master’s acceptance/time gate.
 
 ## Minimum useful handoff
 
@@ -50,7 +50,7 @@ Apple documents the SceneKit .dae/.scn workflow here: https://developer.apple.co
 - Clearly visible toy/ball goal.
 - Minimal background wall/frame that makes the upper region feel recessed.
 
-Do not prepare a second puzzle or environment for the default four-hour demo.
+Do not add a new puzzle mechanic. The existing Garden/Terrace assets are optional variations under the master’s gate.
 
 ## Geometry and animation handoff rules
 

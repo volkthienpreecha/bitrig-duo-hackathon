@@ -8,7 +8,7 @@ const svg=(w,h,b)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="$
 async function main(){
  const spec=JSON.parse(fs.readFileSync(path.join(U,'stage-ui-spec.json')));const thumbs=[];
  for(const [name,state] of Object.entries(spec.states)){
-  const bg=await sharp(path.join(R,state.stage,'Previews/hero.png')).resize(1080,720).png().toBuffer();
+  const bg=await sharp(path.join(R,state.stage,'Previews',name.endsWith('-gameplay')?'fold-02.png':'hero.png')).resize(1080,720).png().toBuffer();
   const overlay=fs.readFileSync(path.join(U,name+'-overlay.svg'),'utf8');
   const body=overlay.slice(overlay.indexOf('</title>')+8,overlay.lastIndexOf('</svg>'));
   fs.writeFileSync(path.join(U,name+'-concept.svg'),`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720"><title>${name} design concept</title><image width="1080" height="720" href="data:image/png;base64,${bg.toString('base64')}"/>${body}</svg>`);

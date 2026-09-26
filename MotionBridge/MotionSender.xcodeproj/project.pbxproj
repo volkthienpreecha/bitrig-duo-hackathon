@@ -1,25 +1,242 @@
 // !$*UTF8*$!
-{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
-DB624BE4661521C2BD4C203B = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Sender/MotionSenderApp.swift"; sourceTree = "<group>"; };
-0BEAE7724F6CEF2622E4506A = { isa = PBXBuildFile; fileRef = DB624BE4661521C2BD4C203B; };
-6EA6C5A9218EF2108B3E0E10 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Client/MotionInputClient.swift"; sourceTree = "<group>"; };
-C7740720DBE04DE0DE08C338 = { isa = PBXBuildFile; fileRef = 6EA6C5A9218EF2108B3E0E10; };
-2F9FFC1B8AD56A8D12545F63 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Client/MotionTypes.swift"; sourceTree = "<group>"; };
-34EEB16679EB88783AB9865A = { isa = PBXBuildFile; fileRef = 2F9FFC1B8AD56A8D12545F63; };
-38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
-958B6263A0B70C847CDA462B = { isa = PBXGroup; children = (DB624BE4661521C2BD4C203B, 6EA6C5A9218EF2108B3E0E10, 2F9FFC1B8AD56A8D12545F63,); name = Sources; sourceTree = "<group>"; };
-F82C405233B0537C3EF35AFC = { isa = PBXGroup; children = (); name = AssetContent; sourceTree = "<group>"; };
-FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9,); name = Products; sourceTree = "<group>"; };
-E50290A24C49A459B43487C5 = { isa = PBXGroup; children = (958B6263A0B70C847CDA462B,F82C405233B0537C3EF35AFC,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
-4E57AE888889001C06A4F7E8 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (0BEAE7724F6CEF2622E4506A, C7740720DBE04DE0DE08C338, 34EEB16679EB88783AB9865A,); runOnlyForDeploymentPostprocessing = 0; };
-D6C9E8A172005E68A1DD674F = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
-69BE8A4D8E4D9DA4E7DB3928 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
-7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "MotionSender"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.MotionSender"; SWIFT_VERSION = "5.0"; IPHONEOS_DEPLOYMENT_TARGET = "16.0"; TARGETED_DEVICE_FAMILY = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "Sender/Info.plist"; INFOPLIST_KEY_CFBundleDisplayName = "Motion Sender"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = "YES"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = "NO"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "1.0"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; }; name = Debug; };
-89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
-639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "MotionSender"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.MotionSender"; SWIFT_VERSION = "5.0"; IPHONEOS_DEPLOYMENT_TARGET = "16.0"; TARGETED_DEVICE_FAMILY = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "Sender/Info.plist"; INFOPLIST_KEY_CFBundleDisplayName = "Motion Sender"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = "YES"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = "NO"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "1.0"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = ""; }; name = Release; };
-E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Release; };
-F497FD0CF9CA1625C4A860DE = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A, 639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-49EA05A46B1A86EA7E413B43 = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178, E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = F497FD0CF9CA1625C4A860DE; buildPhases = (4E57AE888889001C06A4F7E8,69BE8A4D8E4D9DA4E7DB3928,D6C9E8A172005E68A1DD674F,); buildRules = (); dependencies = (); name = MotionSender; productName = MotionSender; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
-98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2710; }; buildConfigurationList = 49EA05A46B1A86EA7E413B43; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,); mainGroup = E50290A24C49A459B43487C5; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
-}; rootObject = 98F54143AB4E86B28C3AFEE0; }
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEAE7724F6CEF2622E4506A /* Sender/MotionSenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB624BE4661521C2BD4C203B /* Sender/MotionSenderApp.swift */; };
+		34EEB16679EB88783AB9865A /* Client/MotionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FFC1B8AD56A8D12545F63 /* Client/MotionTypes.swift */; };
+		C7740720DBE04DE0DE08C338 /* Client/MotionInputClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6C5A9218EF2108B3E0E10 /* Client/MotionInputClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F9FFC1B8AD56A8D12545F63 /* Client/MotionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client/MotionTypes.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* MotionSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA6C5A9218EF2108B3E0E10 /* Client/MotionInputClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client/MotionInputClient.swift; sourceTree = "<group>"; };
+		DB624BE4661521C2BD4C203B /* Sender/MotionSenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender/MotionSenderApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958B6263A0B70C847CDA462B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DB624BE4661521C2BD4C203B /* Sender/MotionSenderApp.swift */,
+				6EA6C5A9218EF2108B3E0E10 /* Client/MotionInputClient.swift */,
+				2F9FFC1B8AD56A8D12545F63 /* Client/MotionTypes.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				958B6263A0B70C847CDA462B /* Sources */,
+				F82C405233B0537C3EF35AFC /* AssetContent */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82C405233B0537C3EF35AFC /* AssetContent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AssetContent;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* MotionSender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* MotionSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F497FD0CF9CA1625C4A860DE /* Build configuration list for PBXNativeTarget "MotionSender" */;
+			buildPhases = (
+				4E57AE888889001C06A4F7E8 /* Sources */,
+				69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */,
+				D6C9E8A172005E68A1DD674F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionSender;
+			productName = MotionSender;
+			productReference = 38A007151ABE87CC01A5B6E9 /* MotionSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "MotionSender" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* MotionSender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C9E8A172005E68A1DD674F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E57AE888889001C06A4F7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEAE7724F6CEF2622E4506A /* Sender/MotionSenderApp.swift in Sources */,
+				C7740720DBE04DE0DE08C338 /* Client/MotionInputClient.swift in Sources */,
+				34EEB16679EB88783AB9865A /* Client/MotionTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GJ2ZFLRGP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Motion Sender";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MotionSender;
+				PRODUCT_NAME = MotionSender;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GJ2ZFLRGP;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Motion Sender";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MotionSender;
+				PRODUCT_NAME = MotionSender;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EA05A46B1A86EA7E413B43 /* Build configuration list for PBXProject "MotionSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F497FD0CF9CA1625C4A860DE /* Build configuration list for PBXNativeTarget "MotionSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

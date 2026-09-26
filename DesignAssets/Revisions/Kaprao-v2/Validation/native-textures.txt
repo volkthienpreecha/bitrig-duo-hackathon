@@ -1,0 +1,2 @@
+TEXTURE_PASS KapraoCoat embeddedPNG (2048.0, 2048.0)
+TEXTURE_PASS KapraoFace embeddedPNG (2048.0, 2048.0)

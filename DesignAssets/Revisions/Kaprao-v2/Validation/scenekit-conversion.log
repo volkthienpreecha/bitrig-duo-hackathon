@@ -1,0 +1,5 @@
+PASS kaprao-Celebrate.usdc -> kaprao-Celebrate.scn meshes=2 skins=2 tracks=1
+PASS kaprao-Idle_Look.usdc -> kaprao-Idle_Look.scn meshes=2 skins=2 tracks=1
+PASS kaprao-Jump_Fall.usdc -> kaprao-Jump_Fall.scn meshes=2 skins=2 tracks=1
+PASS kaprao-Walk_InPlace.usdc -> kaprao-Walk_InPlace.scn meshes=2 skins=2 tracks=1
+PASS kaprao-static.usdc -> kaprao-static.scn meshes=2 skins=2 tracks=0

@@ -138,7 +138,7 @@ def main():
     server = create_server(args.host,args.port,token)
     print('Motion Bridge listening on %s:%d' % server.server_address,flush=True)
     print('Pairing token: ' + token,flush=True)
-    print('Enter this Mac’s Wi-Fi IPv4 and token in the iPhone sender. Simulator host: 127.0.0.1',flush=True)
+    print('Enter this Mac’s Wi-Fi IPv4 and token in the iPad sender. Simulator host: 127.0.0.1',flush=True)
     try: server.serve_forever()
     except KeyboardInterrupt: pass
     finally: server.server_close()

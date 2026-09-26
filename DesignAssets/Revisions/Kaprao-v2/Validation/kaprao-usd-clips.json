@@ -1,0 +1,46 @@
+[
+  {
+    "clip": "Idle_Look",
+    "file": "Exports/Kaprao/kaprao-Idle_Look.usdc",
+    "frames": [
+      1,
+      121
+    ],
+    "fps": 30,
+    "loop": true,
+    "root_motion": false
+  },
+  {
+    "clip": "Walk_InPlace",
+    "file": "Exports/Kaprao/kaprao-Walk_InPlace.usdc",
+    "frames": [
+      1,
+      25
+    ],
+    "fps": 30,
+    "loop": true,
+    "root_motion": false
+  },
+  {
+    "clip": "Jump_Fall",
+    "file": "Exports/Kaprao/kaprao-Jump_Fall.usdc",
+    "frames": [
+      1,
+      37
+    ],
+    "fps": 30,
+    "loop": false,
+    "root_motion": false
+  },
+  {
+    "clip": "Celebrate",
+    "file": "Exports/Kaprao/kaprao-Celebrate.usdc",
+    "frames": [
+      1,
+      61
+    ],
+    "fps": 30,
+    "loop": false,
+    "root_motion": false
+  }
+]

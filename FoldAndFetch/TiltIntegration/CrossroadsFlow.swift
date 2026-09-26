@@ -18,10 +18,11 @@ struct CrossroadsFlow {
     private(set) var placement: CGPoint?
     private(set) var released = false
 
-    mutating func park(offset: CGPoint) {
+    @discardableResult mutating func park(offset: CGPoint) -> Bool {
         guard display == .inside, active, placement == nil, !released,
-              offset.x.isFinite, offset.y.isFinite else { return }
+              offset.x.isFinite, offset.y.isFinite else { return false }
         placement = offset
+        return true
     }
     @discardableResult mutating func updateDisplay(_ display: Display, active: Bool, renderReady: Bool = false) -> Bool {
         self.display = display; self.active = active

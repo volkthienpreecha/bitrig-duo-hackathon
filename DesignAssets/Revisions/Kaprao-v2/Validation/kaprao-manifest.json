@@ -1,0 +1,224 @@
+{
+  "asset": "Kaprao",
+  "authoring": "Original procedural geometry authored for the user; photo reference supplied by user. No external asset dependencies.",
+  "units": "meters",
+  "coordinate_conversion": "Blender Z-up, +X forward. GLB Y-up, +X forward: (X,Y,Z)_Blender -> (X,Z,-Y)_GLB. USD explicitly exported Y-up.",
+  "source_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "Kaprao_Body_Skinned",
+      "vertices": 25112,
+      "triangles": 50000,
+      "materials": [
+        "Cream",
+        "KapraoCoat",
+        "Coat_Sunlit",
+        "KapraoFace",
+        "Ear_Rose",
+        "Ink",
+        "Tongue",
+        "Nose",
+        "Cream_Shadow",
+        "Eye_Espresso",
+        "Coat_Honey",
+        "Scarf_Teal",
+        "Scarf_Light"
+      ],
+      "bounds_blender_m": [
+        [
+          -0.67205,
+          -0.36134,
+          0.0
+        ],
+        [
+          0.82388,
+          0.36133,
+          1.11894
+        ]
+      ],
+      "weighted_vertices": 25035,
+      "smooth_faces": 50000,
+      "faces": 50000
+    },
+    {
+      "name": "Kaprao_RGB_Sunglasses_REMOVABLE",
+      "vertices": 1866,
+      "triangles": 3500,
+      "materials": [
+        "Ink",
+        "Lens_Dark_Smoke",
+        "RGB_Cyan",
+        "RGB_Pink",
+        "RGB_Amber"
+      ],
+      "bounds_blender_m": [
+        [
+          0.40692,
+          -0.29699,
+          0.75567
+        ],
+        [
+          0.778,
+          0.29699,
+          0.87833
+        ]
+      ],
+      "weighted_vertices": 1866,
+      "smooth_faces": 3500,
+      "faces": 3500
+    }
+  ],
+  "bones": [
+    "root",
+    "body",
+    "head",
+    "ear_-1",
+    "ear_1",
+    "tail",
+    "leg_front_-1",
+    "leg_back_-1",
+    "leg_front_1",
+    "leg_back_1"
+  ],
+  "skin": "True glTF skin; disconnected smooth geometric islands with 1.0 rigid bone weights. No fur/cloth simulation; no organic bend deformation.",
+  "animations": [
+    {
+      "name": "Idle_Look",
+      "frames": [
+        1,
+        121
+      ],
+      "fps": 30,
+      "duration_seconds": 4.0,
+      "loop": true,
+      "root_motion": false
+    },
+    {
+      "name": "Walk_InPlace",
+      "frames": [
+        1,
+        25
+      ],
+      "fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion": false
+    },
+    {
+      "name": "Jump_Fall",
+      "frames": [
+        1,
+        37
+      ],
+      "fps": 30,
+      "duration_seconds": 1.2,
+      "loop": false,
+      "root_motion": false
+    },
+    {
+      "name": "Celebrate",
+      "frames": [
+        1,
+        61
+      ],
+      "fps": 30,
+      "duration_seconds": 2.0,
+      "loop": false,
+      "root_motion": false
+    }
+  ],
+  "optional_accessory": "Kaprao_RGB_Sunglasses_REMOVABLE",
+  "collider": {
+    "name": "COL_corgi",
+    "exported": false,
+    "dimensions_m": [
+      1.0399999618530273,
+      0.49000000953674316,
+      0.699999988079071
+    ],
+    "purpose": "guide only"
+  },
+  "materials": [
+    {
+      "name": "Coat_Honey",
+      "base_color_srgb": "#D89649",
+      "roughness": 0.73
+    },
+    {
+      "name": "Coat_Sunlit",
+      "base_color_srgb": "#EDA852",
+      "roughness": 0.72
+    },
+    {
+      "name": "Cream",
+      "base_color_srgb": "#FFF0D4",
+      "roughness": 0.8
+    },
+    {
+      "name": "Cream_Shadow",
+      "base_color_srgb": "#EAD4AC",
+      "roughness": 0.8
+    },
+    {
+      "name": "Ear_Rose",
+      "base_color_srgb": "#D69C92",
+      "roughness": 0.75
+    },
+    {
+      "name": "Ink",
+      "base_color_srgb": "#2C2526",
+      "roughness": 0.31
+    },
+    {
+      "name": "Eye_Espresso",
+      "base_color_srgb": "#271F1A",
+      "roughness": 0.12
+    },
+    {
+      "name": "Tongue",
+      "base_color_srgb": "#E78F99",
+      "roughness": 0.56
+    },
+    {
+      "name": "Scarf_Teal",
+      "base_color_srgb": "#237E87",
+      "roughness": 0.62
+    },
+    {
+      "name": "Scarf_Light",
+      "base_color_srgb": "#61BAB3",
+      "roughness": 0.59
+    },
+    {
+      "name": "Nose",
+      "base_color_srgb": "#332B2C",
+      "roughness": 0.3
+    },
+    {
+      "name": "RGB_Cyan",
+      "base_color_srgb": "#65DAE0",
+      "roughness": 0.28
+    },
+    {
+      "name": "RGB_Pink",
+      "base_color_srgb": "#EE98CA",
+      "roughness": 0.28
+    },
+    {
+      "name": "RGB_Amber",
+      "base_color_srgb": "#F7D071",
+      "roughness": 0.28
+    },
+    {
+      "name": "Lens_Dark_Smoke",
+      "base_color_srgb": "#223942",
+      "alpha": 1.0,
+      "roughness": 0.39
+    }
+  ],
+  "textures": "Two packed 2048px base-color textures, KapraoFace and KapraoCoat. Embedded in GLB and native SCN; adjacent textures folder required for USD.",
+  "tested": "Blender source construction/export, exported GLB validation handled separately; no Duo runtime import claim.",
+  "rendered_triangles_total": 53500,
+  "usd": "Static Y-up USDC with materials and rest rig; no named animation clips. See GLB for four clips.",
+  "revision_status": "REJECTED by user: does not match the authoritative furred character reference."
+}

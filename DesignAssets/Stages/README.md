@@ -25,6 +25,12 @@ The original workshop beam was too narrow for Kaprao's paws at scene scale. All 
 
 Do not mix the original 0.35 m beam collider with these stage visuals. The supplied stage collider scenes match their visuals. A new source/import check measures nominal paw width, beam/floor clearance and hierarchy; it is not a physics proof.
 
+## Playable initialization and scope
+
+All three visual assemblies show a **seated display pose**. Before play, reposition the existing beam and matching core collider at the current live held pose; leave an empty gap and no static beam duplicate. A collider scene is not a ready-to-use whole-world physics body. Use named proxies and the active stage’s route Z, including on reset.
+
+The build starts with Workshop only, with Replay rooftop and no “1 of 3” promise. Enable Garden/Terrace together only through the master’s acceptance/time gate and verify actual landing/crossing/reset in each. The three designs vary aiming depth and scenery; they are not three different mechanics or a measured difficulty progression. Their held-pose design angles do not prove a tilted beam will settle.
+
 ## Three arrangements, one mechanic
 
 | Stage | Route depth Z | Art variation |

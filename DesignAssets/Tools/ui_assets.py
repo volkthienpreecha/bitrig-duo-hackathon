@@ -60,13 +60,13 @@ def schematic():
 def game_overlay():
     header=group('Level header',36,32,232,74,[text('Game name',0,0,'FOLD & FETCH',12,'cream',600),text('Level name',0,0,'Rooftop repair',18,'cream',600)],'night',16,4,'VERTICAL',16)
     hint=group('Context hint',36,612,446,60,[ico('fold',0,0,24),group('Hint copy',0,0,368,40,[text('Hint title',0,0,'Fold to aim the chute.',16,'ink',600),text('Hint detail',0,0,'Tap Release when the beam lines up.',14,'muted',400)],None,0,2,'VERTICAL')],'cream',16,12,'HORIZONTAL',16)
-    return [header,iconbutton('audio-on',948,32),iconbutton('pause',1000,32),hint,button('Release',900,620,144,'release')]
+    return [header,iconbutton('audio-on',948,32),iconbutton('pause',1000,32),hint,button('Retry',744,620,144,'restart',True),button('Release',900,620,144,'release')]
 
 def paused_overlay():
-    return [rect('Pause dim',0,0,1080,720,'night',opacity=.52),group('Pause panel',350,188,380,344,[text('Pause title',0,0,'Taking a breather',28,'ink',700),text('Pause detail',0,0,'Kaprao can wait.',14,'muted',400),button('Resume',0,0,316,'resume'),button('Restart',0,0,316,'restart',True),group('Audio row',0,0,316,44,[ico('audio-on',0,0),text('Audio label',0,0,'Sound on',14,'ink',600)],None,0,10,'HORIZONTAL',0)],'cream',28,18,'VERTICAL',32)]
+    return [rect('Pause dim',0,0,1080,720,'night',opacity=.52),group('Pause panel',350,188,380,344,[text('Pause title',0,0,'Taking a breather',28,'ink',700),text('Pause detail',0,0,'Kaprao can wait.',14,'muted',400),button('Resume',0,0,316,'resume'),button('Replay rooftop',0,0,316,'replay',True),group('Audio row',0,0,316,44,[ico('audio-on',0,0),text('Audio label',0,0,'Sound on',14,'ink',600)],None,0,10,'HORIZONTAL',0)],'cream',28,18,'VERTICAL',32)]
 
 def complete_overlay():
-    return [rect('Complete dim',0,0,1080,720,'night',opacity=.42),group('Complete panel',350,188,380,344,[ico('bell',0,0,40,'deepTeal'),text('Complete title',0,0,'Bell reached!',28,'ink',700),text('Complete detail',0,0,'Nice work, Kaprao.',14,'muted',400),button('Replay',0,0,316,'replay'),group('Audio row',0,0,316,44,[ico('audio-on',0,0),text('Audio label',0,0,'Sound on',14,'ink',600)],None,0,10,'HORIZONTAL',0)],'cream',28,18,'VERTICAL',32)]
+    return [rect('Complete dim',0,0,1080,720,'night',opacity=.42),group('Complete panel',350,188,380,344,[ico('bell',0,0,40,'deepTeal'),text('Complete title',0,0,'Toy reached!',28,'ink',700),text('Complete detail',0,0,'Nice work, Kaprao.',14,'muted',400),button('Replay rooftop',0,0,316,'replay'),group('Audio row',0,0,316,44,[ico('audio-on',0,0),text('Audio label',0,0,'Sound on',14,'ink',600)],None,0,10,'HORIZONTAL',0)],'cream',28,18,'VERTICAL',32)]
 
 def layout(e):
     if e['type']=='group':
@@ -127,7 +127,7 @@ def main():
         sheet += [rect(name+' swatch',x,y,312,116,name,20),text(name+' name',x,y+132,name,18),text(name+' hex',x,y+160,hex,14,'muted',400),text(name+' material',x,y+186,f'Roughness {material[name][0]:.2f}  ·  Metal {material[name][1]:.2f}',13,'muted',400)]
     sheet += [text('Palette footnote',48,902,'Use smooth curved geometry. Cyan and peach emission stay localized; UI never glows.',16,'ink',400)]
     (PALETTE/'material-sheet.svg').write_text(svg(sheet,1440,950,'Fold & Fetch color and material sheet'))
-    (UI/'ui-spec.json').write_text(json.dumps({'colors':COLORS,'iconPaths':PATHS,'states':states,'hints':hints,'referenceOnly':True},indent=2)+'\n')
+    (UI/'ui-spec.json').write_text(json.dumps({'colors':COLORS,'iconPaths':PATHS,'states':states,'hints':hints,'referenceOnly':True,'gameplayPreviewState':'aiming; first launch uses movement hint','behavior':{'retry':'Checkpoint recovery, always accessible during active play.','replayRooftop':'Restart current stage from beginning.','release':'Lower-right safe region beside Retry; enabled when settled even if misaligned.','goal':'Player reaches toy after genuine bridge readiness.','hintAuthority':'Master-Prompt.md state table; jump/dash practice is optional.'}},indent=2)+'\n')
     ratios={a+'/'+b:contrast(a,b) for a,b in [('ink','cream'),('deepTeal','cream'),('muted','cream'),('cream','night')]}
     (ROOT/'Validation'/'ui-contrast.json').write_text(json.dumps({'method':'WCAG sRGB relative luminance','ratios':ratios,'normalTextThreshold':4.5,'allPairsPass':all(x>=4.5 for x in ratios.values())},indent=2)+'\n')
     print(json.dumps({'icons':len(PATHS),'states':len(states),'paletteColors':len(COLORS),'contrast':ratios},indent=2))

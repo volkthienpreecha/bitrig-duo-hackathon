@@ -22,3 +22,6 @@ xcuserdata/
 /outputs/FoldAndFetch-ThreeStages*.zip
 /DesignAssets/Tools/__pycache__/
 /DesignAssets/Stages/**/*.blend1
+
+# Rebuildable current execution-context attachment
+/outputs/FoldAndFetch-OneShot.zip

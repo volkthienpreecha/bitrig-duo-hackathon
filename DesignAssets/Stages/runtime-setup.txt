@@ -11,3 +11,6 @@ FOLD & FETCH / RUNTIME-ONLY SETUP
 9. Native scene resources have embedded colors/textures, require no network connection, and were loaded in the Duo simulator. Runtime gameplay, folded projection, HUD, reset and performance remain event implementation work.
 
 Avoid naming a top-level app bundle folder Resources; use AssetContent or selected bundle files. Do not bundle source models/previews/ZIPs. Original source, plans, UI and detailed evidence are in the Full archive and repository.
+
+STARTUP: assemblies ship with a seated display beam. Move the existing beam and matching core proxy to the live held pose before play. Leave no seated duplicate/static beam across the gap. Configure proxies individually, not as one compound static world body.
+SCOPE: Workshop only by default. Enable Garden/Terrace and their progress UI only through current Master-Prompt.md acceptance/time gate. The toy is the goal. Release and labeled Retry share an available lower-right native safe region.

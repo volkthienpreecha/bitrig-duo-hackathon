@@ -12,6 +12,7 @@ import Combine
     @Published private(set) var sample: MotionSample?
     @Published private(set) var running = false
     @Published private(set) var sent: UInt64 = 0
+    @Published private(set) var startAttempts: UInt64 = 0
     private let input = MotionInputClient()
     private var subscription: AnyCancellable?
     private var statusSubscription: AnyCancellable?
@@ -34,9 +35,10 @@ import Combine
         }
     }
     func start() {
+        startAttempts &+= 1
         stop()
         #if targetEnvironment(simulator)
-        status = "Install this sender on a physical iPhone to capture motion."
+        status = "Install this sender on a physical iPad to capture motion."
         #else
         guard let endpoint = MotionInputClient.endpoint(host: host, path: "/sample"), !token.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
             status = "Enter a valid Mac IPv4 and the pairing token."; return
@@ -46,7 +48,7 @@ import Combine
         configuration.timeoutIntervalForRequest = 0.4; configuration.timeoutIntervalForResource = 0.6
         network = URLSession(configuration: configuration)
         sent = 0; nextAttempt = 0; running = true
-        status = "Capturing 30 Hz; connecting to Mac…"
+        status = "Start received. Capturing 30 Hz; connecting to Mac…"
         input.start()
         #endif
     }
@@ -96,11 +98,17 @@ private struct SenderView: View {
                 Section("Mac receiver") {
                     TextField("Mac Wi-Fi IPv4, e.g. 192.168.1.12", text: $model.host).keyboardType(.decimalPad).textInputAutocapitalization(.never).autocorrectionDisabled()
                     SecureField("Pairing token", text: $model.token).textInputAutocapitalization(.never).autocorrectionDisabled()
-                    Button(model.running ? "Stop sending" : "Start sending") { model.running ? model.stop() : model.start() }
-                        .frame(minHeight: 44)
+                    Button {
+                        model.running ? model.stop() : model.start()
+                    } label: {
+                        Text(model.running ? "Stop sending" : "Start sending")
+                            .frame(maxWidth: .infinity, minHeight: 44)
+                    }
+                    .buttonStyle(.borderedProminent)
                 }.disabled(false)
                 Section("Connection") {
                     Text(model.status)
+                    Text("Start taps received: \(model.startAttempts)").monospacedDigit()
                     Text("Samples accepted: \(model.sent)").monospacedDigit()
                 }
                 Section("Live readings · g") {
@@ -112,11 +120,11 @@ private struct SenderView: View {
                     } else { Text("No active motion input") }
                 }
                 Section {
-                    Text("Keep this app open. Both devices must use the same Wi-Fi. Start receiver.py on the Mac first; enter the token printed there. Backgrounding stops capture and transmission.")
+                    Text("Keep this iPad app open. The iPad and Mac must use the same Wi-Fi. Start receiver.py on the Mac first; enter the token printed there. Backgrounding stops capture and transmission.")
                 }
             }.navigationTitle("Motion Sender")
         }
-        .onChange(of: scenePhase) { phase in if phase == .background { model.stop() } }
+        .onChange(of: scenePhase) { phase in if phase != .active { model.stop() } }
     }
     private func vector(_ title: String, _ value: MotionVector) -> some View {
         VStack(alignment: .leading, spacing: 4) {
