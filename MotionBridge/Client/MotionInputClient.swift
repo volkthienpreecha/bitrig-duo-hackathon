@@ -4,7 +4,7 @@ import Combine
 import CoreMotion
 #endif
 
-/// Main-actor motion input. Units are g, axes are the iPhone's fixed hardware axes.
+/// Main-actor motion input. Units are g, axes are the source device's fixed hardware axes.
 /// Simulator/macOS polls the relay; physical iOS uses native Core Motion directly.
 @MainActor final class MotionInputClient: ObservableObject {
     @Published private(set) var sample: MotionSample?
@@ -65,8 +65,8 @@ import CoreMotion
                         self.sample = sample
                         self.usableUntil = now + remaining
                         self.freshState = true
-                        self.status = sample.gravity == nil ? "Receiving acceleration; waiting for gravity" : "Live iPhone motion via Wi-Fi"
-                    } else { self.invalidate(envelope.available ? "Motion stale — paused" : "Waiting for iPhone motion") }
+                        self.status = sample.gravity == nil ? "Receiving acceleration; waiting for gravity" : "Live iPad motion via Wi-Fi"
+                    } else { self.invalidate(envelope.available ? "Motion stale — paused" : "Waiting for iPad motion") }
                 } catch {
                     guard !Task.isCancelled, self.generation == run else { return }
                     self.invalidate("Relay unavailable — paused")

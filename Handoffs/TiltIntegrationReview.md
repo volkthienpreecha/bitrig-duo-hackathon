@@ -1,0 +1,25 @@
+# Tilt integration and motion bridge review — September 26, 12:22 PDT
+
+Read-only review of the current canonical `CrossroadsFlow.swift` and `CrossroadsGameView.swift`, plus the platform worker's `MotionBridge/Receiver/receiver.py`, `Client/MotionInputClient.swift`, `Client/MotionTypes.swift`, `Sender/MotionSenderApp.swift` and sender project. No simulator, ports, or Bitrig use. Only this handoff changed.
+
+## Root flow re-review
+
+1. **P0 residual: 300 ms is not proof that the outside cover is visible.** `CrossroadsGameView.swift:183-205` now requires portrait geometry, no divider, an explicitly closed hinge, 300 ms without a layout-key change, and `street.rendererReady` before the one-time drop. This removes the old inner-resize false positive and is a clear improvement. During a close transition that lasts more than 300 ms after the division region disappears, however, a renderer can be ready while the physical outside cover is still blurred or hidden. `CrossroadsFlow.swift:17-21` consumes the only release before `street.drop`. Use an actual outside visibility/scene continuation signal if the Duo API provides one, or prove with Bitrig that the chosen gate always occurs after outside visibility; do not treat the timer alone as that proof. Test close with a parked disk while watching both the transition and first outside frame, then repeat close/reopen.
+
+2. **P2 residual: reopened inner header still says “PLACEMENT HELD.”** The hint at `CrossroadsGameView.swift:45` now correctly says “Cover delivered · guide Kaprao across” after release. The badge at line 42 still derives from `board.held`, which remains true after transfer, so the same screen displays conflicting messages on reopen. Derive both from `flow.released`.
+
+3. **Resolved structurally, needs runtime check:** settings and `.unknown` display now pause the street scene (`CrossroadsGameView.swift:198-200`); manual tilt clears on settings and layout changes (`59, 180`). The input closure still reads current motion freshness on every sample (`169-177`). Verify settings opened mid-drop and a manual drag interrupted by close/reopen without a time jump or latched tilt.
+
+## Motion bridge findings and integration gates
+
+4. **P1 install blocker until documented/configured:** the sender project uses `PRODUCT_BUNDLE_IDENTIFIER = com.example.MotionSender` and automatic signing with no development team (`MotionBridge/MotionSender.xcodeproj/project.pbxproj:17-19`). Its `MotionBridge` folder currently has no run/sign/install instructions. A generic device build or Xcode Run cannot install on the intended iPhone until the operator selects a team and unique bundle ID. Add exact physical sender sign/install/run steps, Mac receiver command, pairing-token handoff, simulator host value `127.0.0.1`, and Local Network/Motion permission acceptance. This is an installation dependency, not a protocol defect.
+
+5. **P1 canonical app permission gate:** `FoldAndFetch/App/Info.plist` contains `NSMotionUsageDescription`, `NSLocalNetworkUsageDescription`, and local-network ATS, but the current canonical `CorgiCrossroads.xcodeproj/project.pbxproj:49-51` still uses a generated plist without referencing that file or equivalent `INFOPLIST_KEY_` values. The coordinator must attach/merge it and inspect the built app's final Info.plist before physical native motion or simulator relay testing. The sender's own Info.plist has the corresponding descriptions (`MotionBridge/Sender/Info.plist:17-19`).
+
+6. **P2 stale-state window:** `MotionInputClient.swift:61-67` computes a precise `usableUntil` from receiver age and request latency, but `isFresh` only flips false on the 100 ms timer (`30-32, 117-121`). `CrossroadsGameView.swift:175` reads that cached Boolean, so a sample can drive the board for up to roughly 100 ms after its 0.5 s freshness deadline. Make the board-facing freshness check compare current uptime to `usableUntil` directly, or expose a computed `usableNow`; retain the timer for UI updates. Reproduce with a single accepted sample followed by sender silence and inspect when board motion stops.
+
+## Positive checks
+
+- The receiver enforces the pairing token, bounded JSON, finite values, session/sequence/timestamp ordering, and 0.5 s receiver-monotonic freshness; it returns age rather than comparing clocks across devices (`receiver.py:13-69, 95-124`).
+- The sender uses native Core Motion on a physical iPhone, transmits both raw acceleration and device-motion gravity, keeps at most one HTTP request in flight, and stops on inactive lifecycle (`MotionInputClient.swift:75-104`, `MotionSenderApp.swift:59-87, 119`). The main board uses gravity only (`CrossroadsGameView.swift:175-176`), with x right/y up from the fixed portrait device axes. Confirm those signs in the physical phone motion check; no sign defect is established by this code review.
+- The client clears its sample on disconnect, 401, malformed/stale response and stop; sender and client can resume with a new sender session after reconnect. No reproducible reconnect-order defect was found in these files.

@@ -10,12 +10,14 @@ import Metal
         let renderer = SCNRenderer(device: MTLCreateSystemDefaultDevice(),options: nil)
         renderer.scene = world.scene; renderer.pointOfView = world.camera; renderer.isPlaying = true
         var time = 0.0
+        let postFrame = CommandLine.arguments.contains("--post-frame")
         func step(_ count: Int) {
             for _ in 0..<count {
                 time += 1.0/120
-                world.beforePhysics(at: time)
+                if !postFrame { world.beforePhysics(at: time) }
                 // A real render initializes and advances native SceneKit/Bullet. update(atTime:) alone is insufficient here.
                 _ = renderer.snapshot(atTime: time,with: CGSize(width: 64,height: 64),antialiasingMode: .none)
+                if postFrame { world.beforePhysics(at: time) }
                 world.afterPhysics()
             }
         }

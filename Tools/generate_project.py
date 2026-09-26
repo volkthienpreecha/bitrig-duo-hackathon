@@ -3,7 +3,7 @@ import hashlib
 ROOT=Path(__file__).resolve().parents[1]
 def ident(value): return hashlib.sha1(value.encode()).hexdigest()[:24].upper()
 def quote(s): return '"'+str(s).replace('"','\\"')+'"'
-files=sorted((ROOT/'FoldAndFetch').rglob('*.swift'))
+files=sorted(p for p in (ROOT/'FoldAndFetch').rglob('*.swift') if 'Verification' not in p.parts) + sorted((ROOT/'MotionBridge/Client').glob('*.swift'))
 resources=sorted(p for p in (ROOT/'FoldAndFetch/Resources/AssetContent').iterdir() if p.is_file())
 objects=[]
 def obj(key,body): objects.append(f'{ident(key)} = {{ {body} }};'); return ident(key)
@@ -24,7 +24,7 @@ rp=obj('resourcesPhase',f'isa = PBXResourcesBuildPhase; buildActionMask = 214748
 fp=obj('frameworksPhase','isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;')
 configs=[];pconfigs=[]
 for name in ['Debug','Release']:
- settings={'PRODUCT_NAME':'CorgiCrossroads','PRODUCT_BUNDLE_IDENTIFIER':'com.corgicrossroads.demo','SWIFT_VERSION':'5.0','IPHONEOS_DEPLOYMENT_TARGET':'27.1','TARGETED_DEVICE_FAMILY':'1,2','GENERATE_INFOPLIST_FILE':'YES','INFOPLIST_KEY_CFBundleDisplayName':'Corgi Crossroads','INFOPLIST_KEY_UIApplicationSceneManifest_Generation':'YES','INFOPLIST_KEY_UILaunchScreen_Generation':'YES','INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone':'UIInterfaceOrientationPortrait','INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad':'UIInterfaceOrientationPortrait','INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents':'YES','ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS':'NO','CODE_SIGN_STYLE':'Automatic','CODE_SIGNING_ALLOWED':'NO','CURRENT_PROJECT_VERSION':'1','MARKETING_VERSION':'1.0','LD_RUNPATH_SEARCH_PATHS':'$(inherited) @executable_path/Frameworks','SWIFT_OPTIMIZATION_LEVEL':'-Onone' if name=='Debug' else '-O','SWIFT_ACTIVE_COMPILATION_CONDITIONS':'DEBUG' if name=='Debug' else ''}
+ settings={'PRODUCT_NAME':'CorgiCrossroads','PRODUCT_BUNDLE_IDENTIFIER':'com.corgicrossroads.demo','SWIFT_VERSION':'5.0','IPHONEOS_DEPLOYMENT_TARGET':'27.1','TARGETED_DEVICE_FAMILY':'1','GENERATE_INFOPLIST_FILE':'YES','INFOPLIST_FILE':'FoldAndFetch/App/Info.plist','INFOPLIST_KEY_CFBundleDisplayName':'Corgi Crossroads','INFOPLIST_KEY_UIApplicationSceneManifest_Generation':'NO','INFOPLIST_KEY_UILaunchScreen_Generation':'YES','INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone':'UIInterfaceOrientationPortrait','INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad':'UIInterfaceOrientationPortrait','INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents':'YES','ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS':'NO','CODE_SIGN_STYLE':'Automatic','CODE_SIGNING_ALLOWED':'NO','CURRENT_PROJECT_VERSION':'1','MARKETING_VERSION':'1.0','LD_RUNPATH_SEARCH_PATHS':'$(inherited) @executable_path/Frameworks','SWIFT_OPTIMIZATION_LEVEL':'-Onone' if name=='Debug' else '-O','SWIFT_ACTIVE_COMPILATION_CONDITIONS':'DEBUG' if name=='Debug' else ''}
  body=' '.join(f'{k} = {quote(v)};' for k,v in settings.items())
  configs.append(obj('target'+name,f'isa = XCBuildConfiguration; buildSettings = {{ {body} }}; name = {name};'))
  pconfigs.append(obj('project'+name,f'isa = XCBuildConfiguration; buildSettings = {{ SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; }}; name = {name};'))

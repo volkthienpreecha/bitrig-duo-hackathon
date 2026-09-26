@@ -233,13 +233,19 @@ private typealias StreetScalar = CGFloat
         camera.camera?.orthographicScale = 4.1
     }
     fileprivate func windowChanged(_ view: SCNView) {
-        guard activeView === view else { return }; rendererReady = view.window != nil; view.isPlaying = rendererReady; previousRenderTime = nil; resize(view)
+        guard activeView === view else { return }
+        if view.window == nil { rendererReady = false }
+        view.isPlaying = view.window != nil; previousRenderTime = nil; resize(view)
     }
     fileprivate func detach(_ view: SCNView) {
         guard activeView === view else { return }; rendererReady = false; view.isPlaying = false; view.delegate = nil; view.scene = nil; activeView = nil; clock = nil; previousRenderTime = nil
     }
     fileprivate func tickBefore(_ token: UInt64,time: TimeInterval) { guard token == clockToken,activeView != nil else { return }; beforePhysics(at: time) }
     fileprivate func tickAfter(_ token: UInt64) { guard token == clockToken,activeView != nil else { return }; afterPhysics() }
+    fileprivate func frameRendered(_ token: UInt64) {
+        guard token == clockToken,let view = activeView,view.window != nil else { return }
+        if !rendererReady { rendererReady = true }
+    }
     #endif
 }
 
@@ -247,14 +253,24 @@ private typealias StreetScalar = CGFloat
 private final class StreetClock: NSObject, SCNSceneRendererDelegate {
     weak var world: TiltStreetWorld?
     let token: UInt64
+    private let pendingLock = NSLock()
+    private var pending = false
     init(world: TiltStreetWorld,token: UInt64) { self.world = world; self.token = token }
-    nonisolated func renderer(_ renderer: any SCNSceneRenderer,updateAtTime time: TimeInterval) {
-        if Thread.isMainThread { MainActor.assumeIsolated { world?.tickBefore(token,time: time) } }
-        else { DispatchQueue.main.sync { self.world?.tickBefore(self.token,time: time) } }
-    }
-    nonisolated func renderer(_ renderer: any SCNSceneRenderer,didSimulatePhysicsAtTime time: TimeInterval) {
-        if Thread.isMainThread { MainActor.assumeIsolated { world?.tickAfter(token) } }
-        else { DispatchQueue.main.sync { self.world?.tickAfter(self.token) } }
+    nonisolated func renderer(_ renderer: any SCNSceneRenderer,didRenderScene scene: SCNScene,atTime time: TimeInterval) {
+        // SceneKit holds its scene lock during callbacks. Never wait for main here:
+        // SwiftUI may already be waiting for that same lock to commit a camera change.
+        pendingLock.lock()
+        guard !pending else { pendingLock.unlock(); return }
+        pending = true; pendingLock.unlock()
+        DispatchQueue.main.async { [weak self] in
+            guard let self else { return }
+            // Observe the completed simulation and prepare forces for its next frame.
+            // SCNView remains the sole physics clock; coalesce while main is busy.
+            self.world?.tickBefore(self.token,time: time)
+            self.world?.tickAfter(self.token)
+            self.world?.frameRendered(self.token)
+            self.pendingLock.lock(); self.pending = false; self.pendingLock.unlock()
+        }
     }
 }
 private final class StreetSCNView: SCNView {
