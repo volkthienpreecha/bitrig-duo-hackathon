@@ -57,7 +57,7 @@ private typealias StreetScalar = CGFloat
         scene.physicsWorld.gravity = SCNVector3(0,-9.81,0)
         scene.physicsWorld.timeStep = 1.0/120
         scene.rootNode.addChildNode(objects)
-        camera.name = "street-camera"; camera.camera = SCNCamera(); camera.camera?.usesOrthographicProjection = true; camera.camera?.orthographicScale = 5.2; camera.camera?.zNear = 0.05; camera.camera?.zFar = 100
+        camera.name = "street-camera"; camera.camera = SCNCamera(); camera.camera?.usesOrthographicProjection = true; camera.camera?.projectionDirection = .horizontal; camera.camera?.orthographicScale = 4.1; camera.camera?.zNear = 0.05; camera.camera?.zFar = 100
         camera.position = SCNVector3(0,6.8,10.5); camera.look(at: SCNVector3(0,0.7,0)); scene.rootNode.addChildNode(camera)
         let ambient = SCNNode(); ambient.light = SCNLight(); ambient.light?.type = .ambient; ambient.light?.intensity = 800; scene.rootNode.addChildNode(ambient)
         let sunlight = SCNNode(); sunlight.light = SCNLight(); sunlight.light?.type = .directional; sunlight.light?.intensity = 1200; sunlight.eulerAngles = SCNVector3(-0.8,-0.5,0); scene.rootNode.addChildNode(sunlight)
@@ -101,7 +101,7 @@ private typealias StreetScalar = CGFloat
         let a = Double(index)*2 * .pi/16,b = Double(index+1)*2 * .pi/16
         var vertices: [SCNVector3] = []
         for y in [bottom,top] { for (r,t) in [(inner,a),(outer,a),(outer,b),(inner,b)] { vertices.append(SCNVector3(r*cos(t),y,r*sin(t))) } }
-        let indices: [Int32] = [0,2,1,0,3,2,4,5,6,4,6,7,0,1,5,0,5,4,1,2,6,1,6,5,2,3,7,2,7,6,3,0,4,3,4,7]
+        let indices: [Int32] = [0,1,2,0,2,3,4,6,5,4,7,6,0,5,1,0,4,5,1,6,2,1,5,6,2,7,3,2,6,7,3,4,0,3,7,4]
         let g = SCNGeometry(sources: [SCNGeometrySource(vertices: vertices)],elements: [SCNGeometryElement(indices: indices,primitiveType: .triangles)]); g.materials = [material(color)]
         let n = SCNNode(geometry: g); n.name = name
         n.physicsBody = SCNPhysicsBody(type: .static,shape: SCNPhysicsShape(geometry: g,options: [.type: SCNPhysicsShape.ShapeType.concavePolyhedron,.collisionMargin: 0.0])); n.physicsBody?.friction = 0.95; n.physicsBody?.restitution = 0; n.physicsBody?.contactTestBitMask = -1
@@ -228,8 +228,9 @@ private typealias StreetScalar = CGFloat
     }
     fileprivate func resize(_ view: SCNView) {
         guard activeView === view,view.bounds.width > 1,view.bounds.height > 1 else { return }
-        let aspect = Double(view.bounds.width/view.bounds.height)
-        camera.camera?.orthographicScale = max(3.6,4.55/aspect)
+        // Fit the route horizontally; SceneKit derives vertical extent from the actual viewport.
+        // This also avoids retaining a huge scale from a transient narrow layout pass.
+        camera.camera?.orthographicScale = 4.1
     }
     fileprivate func windowChanged(_ view: SCNView) {
         guard activeView === view else { return }; rendererReady = view.window != nil; view.isPlaying = rendererReady; previousRenderTime = nil; resize(view)
