@@ -8,3 +8,6 @@ xcuserdata/
 !.env.example
 *.p12
 *.mobileprovision
+
+# Personal source references stay local; finished artwork is shared.
+/DesignAssets/References/

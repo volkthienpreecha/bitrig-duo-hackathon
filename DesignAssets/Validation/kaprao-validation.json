@@ -1,0 +1,414 @@
+{
+  "file": "Exports/Kaprao/kaprao.glb",
+  "bytes": 772668,
+  "result": "PASS",
+  "scope": "File-level GLB validation only. Native SceneKit/Duo testing is performed separately by the coordinator.",
+  "mesh_count": 2,
+  "skin_count": 1,
+  "joint_count": 10,
+  "material_count": 15,
+  "triangles": 19900,
+  "world_coordinate_contract": "Y-up; +X route/character forward; meters; origin on floor.",
+  "bounds_in_exported_geometry_m": [
+    [
+      -0.6720457077026367,
+      0.0,
+      -0.363065242767334
+    ],
+    [
+      0.8368629813194275,
+      1.1589442491531372,
+      0.3634800314903259
+    ]
+  ],
+  "meshes": [
+    {
+      "name": "Sphere",
+      "triangles": 18000,
+      "exported_vertices_including_material_splits": 10116,
+      "primitives": 11
+    },
+    {
+      "name": "dark sunglasses rim -1",
+      "triangles": 1900,
+      "exported_vertices_including_material_splits": 1227,
+      "primitives": 5
+    }
+  ],
+  "clips": [
+    {
+      "name": "Celebrate",
+      "duration_seconds": 2.0,
+      "loop": false,
+      "channel_count": 30,
+      "endpoint_max_error": 1.0305048331229508e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Idle_Look",
+      "duration_seconds": 4.0,
+      "loop": true,
+      "channel_count": 30,
+      "endpoint_max_error": 1.2246468525851679e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Jump_Fall",
+      "duration_seconds": 1.2,
+      "loop": false,
+      "channel_count": 30,
+      "endpoint_max_error": 3.1840818828958854e-17,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Walk_InPlace",
+      "duration_seconds": 0.8,
+      "loop": true,
+      "channel_count": 30,
+      "endpoint_max_error": 3.551476137194783e-17,
+      "root_translation_max_error": 0
+    }
+  ],
+  "checks": [
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 11781
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 25029
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 7152
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 642
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 2868
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 756
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 1014
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 132
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 1476
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 2676
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "Sphere finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Sphere indices in range",
+      "passed": true,
+      "detail": 474
+    },
+    {
+      "check": "Sphere valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "dark sunglasses rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "dark sunglasses rim -1 indices in range",
+      "passed": true,
+      "detail": 2904
+    },
+    {
+      "check": "dark sunglasses rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "dark sunglasses rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "dark sunglasses rim -1 indices in range",
+      "passed": true,
+      "detail": 144
+    },
+    {
+      "check": "dark sunglasses rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "dark sunglasses rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "dark sunglasses rim -1 indices in range",
+      "passed": true,
+      "detail": 852
+    },
+    {
+      "check": "dark sunglasses rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "dark sunglasses rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "dark sunglasses rim -1 indices in range",
+      "passed": true,
+      "detail": 996
+    },
+    {
+      "check": "dark sunglasses rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "dark sunglasses rim -1 finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "dark sunglasses rim -1 indices in range",
+      "passed": true,
+      "detail": 804
+    },
+    {
+      "check": "dark sunglasses rim -1 valid skin joints",
+      "passed": true,
+      "detail": "single shared 10-bone skin"
+    },
+    {
+      "check": "all normals approximately unit length",
+      "passed": true,
+      "detail": 1.01434578736459e-07
+    },
+    {
+      "check": "all skin weights normalized",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "no zero-area rendered triangles",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "mobile triangle budget",
+      "passed": true,
+      "detail": 19900
+    },
+    {
+      "check": "no exported collision or studio geometry",
+      "passed": true,
+      "detail": [
+        "ear_1",
+        "ear_-1",
+        "head",
+        "leg_back_1",
+        "leg_back_-1",
+        "leg_front_1",
+        "leg_front_-1",
+        "tail",
+        "body",
+        "root",
+        "Kaprao_Body_Skinned",
+        "Kaprao_RGB_Sunglasses_REMOVABLE",
+        "Kaprao_Rig"
+      ]
+    },
+    {
+      "check": "removable sunglasses node exists",
+      "passed": true,
+      "detail": "hide that one skinned node"
+    },
+    {
+      "check": "Celebrate no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Idle_Look no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Idle_Look seamless endpoint values",
+      "passed": true,
+      "detail": 1.2246468525851679e-17
+    },
+    {
+      "check": "Jump_Fall no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace seamless endpoint values",
+      "passed": true,
+      "detail": 3.551476137194783e-17
+    },
+    {
+      "check": "all required clips exported",
+      "passed": true,
+      "detail": [
+        "Celebrate",
+        "Idle_Look",
+        "Jump_Fall",
+        "Walk_InPlace"
+      ]
+    },
+    {
+      "check": "floor at Y zero",
+      "passed": true,
+      "detail": [
+        [
+          -0.6720457077026367,
+          0.0,
+          -0.363065242767334
+        ],
+        [
+          0.8368629813194275,
+          1.1589442491531372,
+          0.3634800314903259
+        ]
+      ]
+    }
+  ]
+}

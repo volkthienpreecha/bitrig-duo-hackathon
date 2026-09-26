@@ -1,0 +1,29 @@
+# Fold & Fetch: locked art direction
+
+Approved September 25, 2026 in the design conversation. This file supersedes the older generic workshop art descriptions in the preparation kit. It does not change the one-level puzzle, swipe controls, physics requirements, or event coding boundary.
+
+## World and character
+
+A cozy cyberpunk rooftop repair workshop in a gentle night city, presented as a compact 3D diorama. Smooth rounded silhouettes, matte cream enamel, muted teal machinery, copper, dark ink recesses, warm window light, and restrained cyan/peach illuminated details. Plants and everyday repair objects make it welcoming. Avoid visible low-poly faceting, gritty dystopia, harsh neon, photoreal fur, and busy screens.
+
+Kaprao is the mascot, based on the user's supplied latest photo: round golden-orange body, cream chest and cheeks, short legs, white forehead blaze, upright ears, broad smile. Teal scarf and small separate RGB sunglasses. Preserve recognizable dog anatomy. Source photo is a private reference and is not a runtime app asset.
+
+## Lighting and rendering
+
+Use a warm main light, gentle cooler fill, clear contact shadows, and restrained highlights. The atmosphere comes from materials and composition rather than effects. No depth-of-field blur, motion blur, full-screen blur, or required bloom. Blender preview lighting is an art reference, not automatically the game renderer's lighting. Actual SceneKit material appearance and illumination must be checked in the app.
+
+## Geometry contract
+
+One level, X left/right route, Y up, Z depth, meters, hinge axis X. Fold changes upper machinery elevation and depth, not left/right aim. Beam runs along X and remains a distinct object. Gate and chute are independently addressable. After release game code must detach the beam preserving its world pose. Collision proxies are separate from art; never create collision from the entire decorative diorama. The rear service deck and backdrop are not alternate walking routes. The character's depth lane is constrained by the game controller.
+
+All exported dimensions are starting art dimensions. The gap must exceed measured controller jump reach; stable bridge support and walking clearances need gameplay tests. One eye and two calibrated projections are still needed for the connected folded-world illusion; these assets do not implement that renderer.
+
+## Authoritative references
+
+- Concepts/kaprao-character-sheet.png: character visual target, generated from the user's photo.
+- Concepts/workshop-world-concept.png: world art target. Mechanism geometry is illustrative.
+- Source/Workshop/README.md and validation manifests: actual model geometry and transforms.
+- Palette/palette.json and Palette/README.md: UI color roles and material guidance.
+- UI/README.md: editable interface assets, state designs, and safe-region guidance.
+
+The original preparation mockup is historical and does not override this direction.

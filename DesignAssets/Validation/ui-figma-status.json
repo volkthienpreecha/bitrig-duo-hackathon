@@ -1,0 +1,21 @@
+{
+  "fileKey":"5RQpJ3a4FGxOEzKya5mAeI",
+  "url":"https://www.figma.com/design/5RQpJ3a4FGxOEzKya5mAeI",
+  "status":"partial-blocked-by-starter-mcp-quota",
+  "pages":{"Foundations":"0:1","Controls":"3:4","Screens":"3:5"},
+  "foundationFrame":"4:2",
+  "placementNotes":"4:54",
+  "worldConcept":"3:6",
+  "characterConcept":"3:7",
+  "variableCount":30,
+  "textStyleCount":4,
+  "foundationScreenshotPassed":true,
+  "screenCompositionCompleted":false,
+  "controlsCompositionCompleted":false,
+  "localSvgStatesCompleted":true,
+  "localPngStatesCompleted":true,
+  "browserFallback":"Guest Figma session; only Codex In-app Browser enabled; no edit access",
+  "resumeScript":"DesignAssets/Tools/ui_figma_resume.js",
+  "font":"Nunito (Regular, SemiBold, Bold)",
+  "fontCorrection":"SF Pro Rounded appeared in available fonts but produced zero-width text; changed to verified Nunito"
+}

@@ -1,0 +1,23 @@
+{
+  "purpose": "Composition reference, not a native device layout or Duo pixel guarantee",
+  "referenceCanvas": {"width":1080,"height":720},
+  "minimumNativeTouchTargetPt":44,
+  "nativeSafeInsetPt":16,
+  "minimumHitAreaGapPt":8,
+  "placement": {
+    "identity":"top-left free safe region",
+    "secondaryControls":"top-right free safe region",
+    "contextHint":"lower-left free safe region",
+    "release":"lower-right free safe region",
+    "pauseAndCompletion":"center inside one uninterrupted usable safe region"
+  },
+  "referenceExclusions": [
+    {"name":"Kaprao","x":150,"y":215,"width":230,"height":170},
+    {"name":"Chute and beam","x":375,"y":90,"width":385,"height":360},
+    {"name":"Bridge gap and beam trajectory","x":415,"y":300,"width":320,"height":285},
+    {"name":"Bell","x":880,"y":255,"width":155,"height":170},
+    {"name":"Illustrative center fold band, replace with measured native fold bounds","x":520,"y":0,"width":40,"height":720}
+  ],
+  "runtimeRule":"Use projected world-object bounds and actual safe/hinge geometry. Relocate a control when its hit region intersects an exclusion. Never infer a supported device from this reference canvas.",
+  "hintRule":"Show one hint at a time, dismiss on successful action, reintroduce only when useful."
+}

@@ -1,5 +1,28 @@
 # Bitrig Duo Hackathon
 
+## Shared project workspace
+
+This private repository is the shared home for Fold & Fetch: the master build prompt, product requirements, Kaprao character and rooftop workshop assets, UI designs, sounds, and validation records. Edit these files here and use Git commits to keep their history.
+
+**Start with the [single master prompt](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md).** It is the only app-build entry point; update it in place instead of creating competing prompt versions. The prototype/demo prompt filenames are redirects.
+
+| Resource | Location |
+| --- | --- |
+| Master execution prompt | [Master-Prompt.md](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) |
+| Full product requirements | [PRD.md](Preparation/FoldAndFetch-Bitrig/PRD.md) |
+| Current art direction | [DesignAssets/ART-DIRECTION.md](DesignAssets/ART-DIRECTION.md) |
+| Editable character and workshop models | [DesignAssets/Source](DesignAssets/Source) |
+| Native SceneKit assets | [DesignAssets/Runtime](DesignAssets/Runtime) |
+| Exchange models and animation exports | [DesignAssets/Exports](DesignAssets/Exports) |
+| UI layouts, icons and Figma status | [DesignAssets/UI](DesignAssets/UI) |
+| Concepts and rendered previews | [DesignAssets/Concepts](DesignAssets/Concepts), [DesignAssets/Previews](DesignAssets/Previews) |
+| Eight sound effects and licenses | [Assets/Audio](Preparation/FoldAndFetch-Bitrig/Assets/Audio) |
+| Red-team findings and technical gates | [Review](Preparation/FoldAndFetch-Bitrig/Review) |
+| Asset validation and limitations | [DesignAssets/Validation](DesignAssets/Validation) |
+| Collaboration workflow | [CONTRIBUTING.md](CONTRIBUTING.md) |
+
+The newer DesignAssets art direction takes precedence over historical visual mockups. Asset/tool validation does not establish a running game or passing Duo physics/perspective tests. Preparation scripts reproduce art and conversion; they are not submitted game implementation.
+
 Preparation repository for Bitrig Hacks: iPhone Duo Edition, September 26, 2026.
 
 **Preparation only: app code must be written during the hackathon.** The organizer's full reminder email specifies this rule. Ideas and assets can be prepared ahead of time.
@@ -11,7 +34,7 @@ Preparation repository for Bitrig Hacks: iPhone Duo Edition, September 26, 2026.
 | macOS 26.6 or newer | Installed: 26.6.2 |
 | Xcode 27.1 | Installed: build 27A9269, currently in `~/Downloads/Xcode.app` |
 | iOS 27.1 SDK | Installed, including simulator SDK |
-| iOS 27.1 simulator runtime | Download in progress in Xcode Settings > Components; not yet installed at inspection |
+| iOS 27.1 simulator runtime | Installed; iPhone Duo booted in Device Hub and Settings tested September 25 |
 | Git | Installed; this folder is a Git repository |
 | GitHub | Connector and CLI authenticated as `volkthienpreecha` |
 | Active command-line developer directory | Still standalone Command Line Tools; see below |
@@ -20,11 +43,10 @@ An SDK compiles the app; a simulator runtime is separately required to run it.
 
 ## Finish machine setup
 
-1. Let the iOS 27.1 beta components download finish in Xcode Settings > Components.
-2. Prefer moving Xcode from Downloads to Applications before selecting its final developer path.
-3. In Xcode Settings > Locations, select Xcode 27.1 for Command Line Tools. Alternatively use `sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer` after moving it.
-4. Open Device Hub and confirm an iPhone Duo simulator is available.
-5. During hacking, create an iOS App using Swift and SwiftUI inside this repository, using the existing Git repository. Open that `.xcodeproj` in Xcode and this same folder in Codex.
+1. Duo simulator startup is verified. Recheck the runtime/destination at event start.
+2. Use the current Xcode installation with an explicit developer directory for builds; moving Xcode or changing global settings is not a demo prerequisite.
+3. During the coding window, follow the unified master to create one native app in this repository and verify it in Xcode/Device Hub.
+4. Bitrig has opened this exact folder and displayed its files; app build and two-way external-edit refresh remain unverified.
 
 Until Xcode is moved/selected, a terminal session can explicitly use its current installation:
 
@@ -82,3 +104,13 @@ Test folded, unfolded, partially folded, rotated, and narrow multitasking config
 - Aim for one polished interaction that depends on the Duo's capabilities.
 - One submission per team; maximum five people (full organizer email).
 - Bring laptop and charger. Transport/parking and dietary instructions remain in the invitation.
+
+## Fold & Fetch execution kit
+
+[Master-Prompt.md](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) is the single event execution prompt. It includes the four swipe controls, one bridge level, three-worker ownership, frequent integration gates, and evidence-based simulator tests. [Read the adversarial review](Preparation/FoldAndFetch-Bitrig/Review/Red-Team-Summary.md).
+
+Use one coordinator: Codex supports the requested real subagents; Bitrig-only execution without those tools runs the same roles sequentially. Do not launch the master in both hosts. The existing Bitrig folder conversation is ready for preparation, with no app project yet. All submitted code starts in the September 26, 11:30–15:30 Pacific window.
+
+## Generated design assets
+
+The [complete asset checklist and files](DesignAssets/README.md) cover the cozy cyberpunk rooftop workshop and Kaprao, including editable Blender sources, animations, native SceneKit exports, UI and palette. Start with [integration notes](DesignAssets/INTEGRATION.md) and [actual validation results](DesignAssets/Validation/README.md). A temporary asset-only viewer outside this repository verified native imports and live Duo hinge callbacks; it is not submission/game code or proof of puzzle physics.

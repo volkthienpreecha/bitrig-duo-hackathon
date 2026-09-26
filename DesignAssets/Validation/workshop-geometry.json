@@ -1,0 +1,309 @@
+{
+  "asset": "Original Fold & Fetch rooftop workshop",
+  "blender_version": "5.2.2 LTS",
+  "visible_triangles": 59956,
+  "collision_triangles": 276,
+  "material_count": 19,
+  "modules": {
+    "rooftop_base": {
+      "triangles": 2256,
+      "mesh_count": 12,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "floor_left": {
+      "triangles": 2368,
+      "mesh_count": 12,
+      "assembly_origin_blender": [
+        -2.549999952316284,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        -2.549999952316284,
+        0.0,
+        -0.0
+      ]
+    },
+    "floor_right": {
+      "triangles": 2484,
+      "mesh_count": 12,
+      "assembly_origin_blender": [
+        2.549999952316284,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        2.549999952316284,
+        0.0,
+        -0.0
+      ]
+    },
+    "support_left": {
+      "triangles": 1504,
+      "mesh_count": 8,
+      "assembly_origin_blender": [
+        -1.1799999475479126,
+        0.0,
+        -0.2199999988079071
+      ],
+      "assembly_origin_game": [
+        -1.1799999475479126,
+        -0.2199999988079071,
+        -0.0
+      ]
+    },
+    "support_right": {
+      "triangles": 1504,
+      "mesh_count": 8,
+      "assembly_origin_blender": [
+        1.1799999475479126,
+        0.0,
+        -0.2199999988079071
+      ],
+      "assembly_origin_game": [
+        1.1799999475479126,
+        -0.2199999988079071,
+        -0.0
+      ]
+    },
+    "bridge_beam": {
+      "triangles": 2348,
+      "mesh_count": 25,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        -0.10999999940395355
+      ],
+      "assembly_origin_game": [
+        0.0,
+        -0.10999999940395355,
+        -0.0
+      ]
+    },
+    "recovery_tray": {
+      "triangles": 3184,
+      "mesh_count": 14,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        -0.9900000095367432
+      ],
+      "assembly_origin_game": [
+        0.0,
+        -0.9900000095367432,
+        -0.0
+      ]
+    },
+    "practice_curb": {
+      "triangles": 376,
+      "mesh_count": 2,
+      "assembly_origin_blender": [
+        -3.0,
+        0.6299999952316284,
+        0.054999999701976776
+      ],
+      "assembly_origin_game": [
+        -3.0,
+        0.054999999701976776,
+        -0.6299999952316284
+      ]
+    },
+    "workshop_frame": {
+      "triangles": 8584,
+      "mesh_count": 31,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "roof_rails": {
+      "triangles": 4528,
+      "mesh_count": 20,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "upper_chute": {
+      "triangles": 4992,
+      "mesh_count": 19,
+      "assembly_origin_blender": [
+        0.0,
+        1.2000000476837158,
+        3.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        3.0,
+        -1.2000000476837158
+      ]
+    },
+    "release_gate": {
+      "triangles": 1400,
+      "mesh_count": 7,
+      "assembly_origin_blender": [
+        0.0,
+        0.26999998092651367,
+        1.600000023841858
+      ],
+      "assembly_origin_game": [
+        0.0,
+        1.600000023841858,
+        -0.26999998092651367
+      ]
+    },
+    "exit_bell": {
+      "triangles": 2792,
+      "mesh_count": 10,
+      "assembly_origin_blender": [
+        3.299999952316284,
+        0.05000000074505806,
+        0.0
+      ],
+      "assembly_origin_game": [
+        3.299999952316284,
+        0.0,
+        -0.05000000074505806
+      ]
+    },
+    "goal_toy": {
+      "triangles": 1032,
+      "mesh_count": 3,
+      "assembly_origin_blender": [
+        3.200000047683716,
+        -0.2199999988079071,
+        0.1899999976158142
+      ],
+      "assembly_origin_game": [
+        3.200000047683716,
+        0.1899999976158142,
+        0.2199999988079071
+      ]
+    },
+    "repair_bench": {
+      "triangles": 2584,
+      "mesh_count": 14,
+      "assembly_origin_blender": [
+        -2.8499999046325684,
+        1.75,
+        0.0
+      ],
+      "assembly_origin_game": [
+        -2.8499999046325684,
+        0.0,
+        -1.75
+      ]
+    },
+    "planters": {
+      "triangles": 7668,
+      "mesh_count": 57,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "workshop_lamps": {
+      "triangles": 2208,
+      "mesh_count": 8,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "service_cables": {
+      "triangles": 3280,
+      "mesh_count": 12,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "distant_city": {
+      "triangles": 4864,
+      "mesh_count": 80,
+      "assembly_origin_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "assembly_origin_game": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    }
+  },
+  "source_axis": "Z up, X route, -Y front; meters",
+  "export_axis": "Y up, X route, +Z front; meters",
+  "beam_dimensions_m": [
+    2.9,
+    0.22,
+    0.35
+  ],
+  "gap_m": 2.2,
+  "platform_extent_gap_m": 2.2,
+  "route_centerline_opening_with_pockets_m": 2.96,
+  "pocket_end_clearance_m": 0.03,
+  "pocket_bottom_clearance_m": 0.03,
+  "hinge_game": [
+    0,
+    3,
+    -1.2
+  ],
+  "hinge_axis": "X",
+  "verified": [
+    "All mesh scales applied at construction",
+    "Blender geometry generated reproducibly",
+    "No camera DOF or scene motion blur"
+  ],
+  "unverified": [
+    "SceneKit/RealityKit import",
+    "Mobile frame time",
+    "Physics stability",
+    "Live fold/device angle mapping",
+    "Collision response"
+  ],
+  "pose_reference_only": true,
+  "visible_without_city_triangles": 55092,
+  "runtime_meshes": 19,
+  "runtime_optimization": "One joined multi-material mesh per module; editable component meshes remain in source."
+}

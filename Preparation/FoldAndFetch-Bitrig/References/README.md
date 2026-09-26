@@ -1,0 +1,1 @@
+The included image is the earlier visual concept. Use it for the workshop palette, corgi identity, and depth direction. The current PRD supersedes any earlier controls or automatic movement. This image is not a 3D model or a tested rendering.

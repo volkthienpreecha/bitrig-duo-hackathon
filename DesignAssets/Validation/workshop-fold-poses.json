@@ -1,0 +1,39 @@
+{
+  "purpose": "Design storyboard poses only; not device angle calibration, physics, or live input.",
+  "hinge_axis": "X",
+  "hinge_game_m": [
+    0,
+    3,
+    -1.2
+  ],
+  "poses": [
+    {
+      "pose": "open_reference",
+      "authored_x_rotation_degrees": -28,
+      "held_beam_center_game_m": [
+        0,
+        2.45968138426941,
+        0.446376564913076
+      ]
+    },
+    {
+      "pose": "intended_play_alignment",
+      "authored_x_rotation_degrees": 0,
+      "held_beam_center_game_m": [
+        0,
+        1.75,
+        -0.0
+      ]
+    },
+    {
+      "pose": "more_folded_reference",
+      "authored_x_rotation_degrees": 28,
+      "held_beam_center_game_m": [
+        0,
+        1.3329496335832725,
+        -0.7273023420516511
+      ]
+    }
+  ],
+  "simulation_performed": false
+}

@@ -1,0 +1,4 @@
+kaprao-Idle_Look.scn tracks=1 sampledBoneComponents=240 maxChange=0.0882481262087822 MOTION_PASS
+kaprao-Walk_InPlace.scn tracks=1 sampledBoneComponents=240 maxChange=0.2773676812648774 MOTION_PASS
+kaprao-Jump_Fall.scn tracks=1 sampledBoneComponents=240 maxChange=0.260777086019516 MOTION_PASS
+kaprao-Celebrate.scn tracks=1 sampledBoneComponents=240 maxChange=0.11068931221961975 MOTION_PASS

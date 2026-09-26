@@ -1,0 +1,619 @@
+[
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.4500000476837158,
+        -0.11000000685453415,
+        -0.18199998140335083
+      ],
+      [
+        1.4500000476837158,
+        0.12950000166893005,
+        0.18199998140335083
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "bridge_beam.scn",
+    "skins" : 0,
+    "source" : "bridge_beam.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -5.5399999618530273,
+        -1.0999988317489624,
+        -6.899998664855957
+      ],
+      [
+        5.7699995040893555,
+        3.7700004577636719,
+        -5.0799989700317383
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Dusk_Lavender",
+      "Lamp_Peach",
+      "Sea_Glass",
+      "Sky_Ink",
+      "Window_Dark"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "distant_city.scn",
+    "skins" : 0,
+    "source" : "distant_city.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.44499999284744263,
+        0,
+        -0.66999989748001099
+      ],
+      [
+        0.44499999284744263,
+        1.5081590414047241,
+        0.050000309944152832
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Enamel_Pale",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "exit_bell.scn",
+    "skins" : 0,
+    "source" : "exit_bell.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.4500000476837158,
+        -1.119999885559082,
+        -0.96000009775161743
+      ],
+      [
+        1.4500000476837158,
+        0.0025001168251037598,
+        0.99349981546401978
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Paper",
+      "Sea_Glass",
+      "Teal_Shadow"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "floor_left.scn",
+    "skins" : 0,
+    "source" : "floor_left.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.4500000476837158,
+        -1.119999885559082,
+        -0.96000009775161743
+      ],
+      [
+        1.4500000476837158,
+        0.0025001168251037598,
+        0.99349981546401978
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Paper",
+      "Sea_Glass",
+      "Teal_Shadow"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "floor_right.scn",
+    "skins" : 0,
+    "source" : "floor_right.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.18999990820884705,
+        -0.19900000095367432,
+        -0.19900000095367432
+      ],
+      [
+        0.18999996781349182,
+        0.19900000095367432,
+        0.19900000095367432
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Copper_Orange",
+      "Enamel_Pale",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "goal_toy.scn",
+    "skins" : 0,
+    "source" : "goal_toy.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -3.9495201110839844,
+        0.060000121593475342,
+        -2.5802597999572754
+      ],
+      [
+        3.9720001220703125,
+        1.5850121974945068,
+        -1.020479679107666
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Copper_Orange",
+      "Enamel_Ivory",
+      "Ink",
+      "Plant_Jade",
+      "Plant_Mint"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "planters.scn",
+    "skins" : 0,
+    "source" : "planters.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.2800000011920929,
+        -0.055000022053718567,
+        -0.17999999225139618
+      ],
+      [
+        0.2800000011920929,
+        0.068500019609928131,
+        0.17999999225139618
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Enamel_Pale",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "practice_curb.scn",
+    "skins" : 0,
+    "source" : "practice_curb.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.7599999904632568,
+        -0.13000017404556274,
+        -1.1249997615814209
+      ],
+      [
+        1.7599999904632568,
+        0.49500012397766113,
+        1.1249997615814209
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Rubber",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "recovery_tray.scn",
+    "skins" : 0,
+    "source" : "recovery_tray.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.625,
+        -0.12000004947185516,
+        -0.12000002712011337
+      ],
+      [
+        2.1099998950958252,
+        0.12000000476837158,
+        0.36999991536140442
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Enamel_Ivory"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "release_gate.scn",
+    "skins" : 0,
+    "source" : "release_gate.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.92499995231628418,
+        -5.9604644775390625e-08,
+        -0.40999993681907654
+      ],
+      [
+        0.92499995231628418,
+        1.0619997978210449,
+        0.47000005841255188
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "repair_bench.scn",
+    "skins" : 0,
+    "source" : "repair_bench.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4.1750001907348633,
+        -0.015000045299530029,
+        -2.2799997329711914
+      ],
+      [
+        4.1750001907348633,
+        1.2037220001220703,
+        0.69621360301971436
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Copper_Orange",
+      "Deep_Teal",
+      "Enamel_Ivory"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "roof_rails.scn",
+    "skins" : 0,
+    "source" : "roof_rails.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4.4499998092651367,
+        -1.8299999237060547,
+        -3.5999996662139893
+      ],
+      [
+        4.4499998092651367,
+        0.059000492095947266,
+        2.0074999332427979
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Ink",
+      "Sea_Glass",
+      "Teal_Shadow"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "rooftop_base.scn",
+    "skins" : 0,
+    "source" : "rooftop_base.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4.2219991683959961,
+        -0.76364576816558838,
+        -2.662158727645874
+      ],
+      [
+        4.0045614242553711,
+        2.9493122100830078,
+        -1.5224006175994873
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Deep_Teal",
+      "Ink",
+      "Lamp_Peach",
+      "Sea_Glass"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "service_cables.scn",
+    "skins" : 0,
+    "source" : "service_cables.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.28999999165534973,
+        -0.28000006079673767,
+        -0.5199999213218689
+      ],
+      [
+        0.28999999165534973,
+        0.22400006651878357,
+        0.5199999213218689
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Enamel_Ivory",
+      "Rubber"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "support_left.scn",
+    "skins" : 0,
+    "source" : "support_left.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.28999999165534973,
+        -0.28000006079673767,
+        -0.5199999213218689
+      ],
+      [
+        0.28999999165534973,
+        0.22400006651878357,
+        0.5199999213218689
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Enamel_Ivory",
+      "Rubber"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "support_right.scn",
+    "skins" : 0,
+    "source" : "support_right.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -1.8675000667572021,
+        -1.2699999809265137,
+        -0.20500022172927856
+      ],
+      [
+        1.8675000667572021,
+        0.20499998331069946,
+        1.5149998664855957
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Sea_Glass",
+      "Signal_Cyan"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "upper_chute.scn",
+    "skins" : 0,
+    "source" : "upper_chute.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -5.5399999618530273,
+        -1.8299999237060547,
+        -6.899998664855957
+      ],
+      [
+        5.7699995040893555,
+        3.7700004577636719,
+        2.0075004100799561
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Enamel_Ivory",
+      "Enamel_Pale",
+      "Ink",
+      "Lamp_Peach",
+      "Paper",
+      "Plant_Jade",
+      "Plant_Mint",
+      "Rubber",
+      "Sea_Glass",
+      "Signal_Cyan",
+      "Sky_Ink",
+      "Teal_Shadow",
+      "Window_Dark"
+    ],
+    "meshes" : 19,
+    "nodes" : 59,
+    "roundtrip" : "pass",
+    "runtime" : "workshop-assembled.scn",
+    "skins" : 0,
+    "source" : "workshop-assembled.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4,
+        -1.1200001239776611,
+        -1.1249998807907104
+      ],
+      [
+        4,
+        2.1499998569488525,
+        1.1250001192092896
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "material"
+    ],
+    "meshes" : 23,
+    "nodes" : 66,
+    "roundtrip" : "pass",
+    "runtime" : "workshop-collision-proxies.scn",
+    "skins" : 0,
+    "source" : "workshop-collision-proxies.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4.195000171661377,
+        -0.049999713897705078,
+        -2.794999361038208
+      ],
+      [
+        4.195000171661377,
+        3.1448771953582764,
+        -1.1982650756835938
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Enamel_Ivory",
+      "Lamp_Peach",
+      "Teal_Shadow",
+      "Window_Dark"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "workshop_frame.scn",
+    "skins" : 0,
+    "source" : "workshop_frame.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -3.6999998092651367,
+        2.0240001678466797,
+        -2.4999990463256836
+      ],
+      [
+        3.6999998092651367,
+        2.5399398803710938,
+        -1.6899991035461426
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Copper_Edge",
+      "Deep_Teal",
+      "Enamel_Ivory",
+      "Lamp_Peach"
+    ],
+    "meshes" : 1,
+    "nodes" : 5,
+    "roundtrip" : "pass",
+    "runtime" : "workshop_lamps.scn",
+    "skins" : 0,
+    "source" : "workshop_lamps.usdc"
+  }
+]

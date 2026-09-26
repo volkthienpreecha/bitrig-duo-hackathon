@@ -1,0 +1,90 @@
+[
+  {
+    "file": "step_soft.wav",
+    "source": "Audio/footstep_carpet_000.ogg",
+    "pack": "impact",
+    "duration": 0.145,
+    "sample_rate": 44100,
+    "bytes": 12814,
+    "applied_gain": 0.80173,
+    "peak_dbfs": -3.01,
+    "sha256": "34c2726f2d0ea0e558e09a5a8d004575f898f4fa837daf9a6760af6a6608f1bd"
+  },
+  {
+    "file": "jump.wav",
+    "source": "Audio/maximize_007.ogg",
+    "pack": "interface",
+    "duration": 0.186,
+    "sample_rate": 44100,
+    "bytes": 16428,
+    "applied_gain": 0.79155,
+    "peak_dbfs": -3.01,
+    "sha256": "1cd8aa8995b14d2c1a8ac9cd023e8fa87f337b0d4ea0671302c55d8b2695399f"
+  },
+  {
+    "file": "land_soft.wav",
+    "source": "Audio/impactSoft_medium_000.ogg",
+    "pack": "impact",
+    "duration": 0.118,
+    "sample_rate": 44100,
+    "bytes": 10452,
+    "applied_gain": 0.78984,
+    "peak_dbfs": -3.01,
+    "sha256": "4799a1ca85748a58cbcc63b88e60b22f2f1c5a1a56ce60b49ebb71e8c500a304"
+  },
+  {
+    "file": "dash_down.wav",
+    "source": "Audio/minimize_007.ogg",
+    "pack": "interface",
+    "duration": 0.186,
+    "sample_rate": 44100,
+    "bytes": 16428,
+    "applied_gain": 0.78893,
+    "peak_dbfs": -3.01,
+    "sha256": "e3f816d3b8cff526be12c86b527d1adc4da35e1400e1746af2e1ed205b9b614b"
+  },
+  {
+    "file": "mechanism_release.wav",
+    "source": "Audio/switch_001.ogg",
+    "pack": "interface",
+    "duration": 0.618,
+    "sample_rate": 44100,
+    "bytes": 54522,
+    "applied_gain": 0.78897,
+    "peak_dbfs": -3.01,
+    "sha256": "8683da642b9e7da129c970ecc73a1e076c110141a22875af9a91ad434f865831"
+  },
+  {
+    "file": "bridge_land.wav",
+    "source": "Audio/impactPlank_medium_000.ogg",
+    "pack": "impact",
+    "duration": 0.779,
+    "sample_rate": 44100,
+    "bytes": 68752,
+    "applied_gain": 0.81349,
+    "peak_dbfs": -3.01,
+    "sha256": "faf89f7d7deb6aa517fc2cba84b5fe22c884dad748a84d196df992597d66cb7d"
+  },
+  {
+    "file": "success.wav",
+    "source": "Audio/confirmation_001.ogg",
+    "pack": "interface",
+    "duration": 0.29,
+    "sample_rate": 44100,
+    "bytes": 25608,
+    "applied_gain": 0.78699,
+    "peak_dbfs": -3.01,
+    "sha256": "a1224e092ce5e6b34ec9d068e7aea83d703fd423c52f7a40986e923fa0fb2fbe"
+  },
+  {
+    "file": "retry.wav",
+    "source": "Audio/back_001.ogg",
+    "pack": "interface",
+    "duration": 0.064,
+    "sample_rate": 44100,
+    "bytes": 5678,
+    "applied_gain": 0.78934,
+    "peak_dbfs": -3.01,
+    "sha256": "16dadef826f3f05095fcec3588fd92ed53622ee6a13772b6f0cebb511babe82b"
+  }
+]

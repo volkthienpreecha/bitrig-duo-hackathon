@@ -1,0 +1,91 @@
+{
+  "source_reopened": "passed",
+  "visible_triangles": 59956,
+  "nonunit_mesh_scales": [],
+  "beam_independent_root": true,
+  "gate_parent": "upper_chute",
+  "neutral_pose": "landed beam; hinge rotation zero",
+  "packed_palette": true,
+  "depth_of_field": false,
+  "motion_blur": false,
+  "nominal_landed_beam_floor_clearance": {
+    "COL_floor_left_main": {
+      "signed_overlap_xyz_source_m": [
+        -0.029999971389770508,
+        0.3499999940395355,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_left_shoulder_-0.635": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        -0.14499999582767487,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_left_shoulder_0.635": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        -0.14499999582767487,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_left_pocket_bottom": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        0.3499999940395355,
+        -0.030000001192092896
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_right_main": {
+      "signed_overlap_xyz_source_m": [
+        -0.029999971389770508,
+        0.3499999940395355,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_right_shoulder_-0.635": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        -0.14499999582767487,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_right_shoulder_0.635": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        -0.14499999582767487,
+        0.2199999988079071
+      ],
+      "positive_volume_overlap": false
+    },
+    "COL_floor_right_pocket_bottom": {
+      "signed_overlap_xyz_source_m": [
+        0.35000014305114746,
+        0.3499999940395355,
+        -0.030000001192092896
+      ],
+      "positive_volume_overlap": false
+    }
+  },
+  "visual_pocket_floor_ray_hits_source": {
+    "left": [
+      -1.3200000524520874,
+      0.0,
+      -0.25
+    ],
+    "right": [
+      1.3200000524520874,
+      0.0,
+      -0.25
+    ]
+  },
+  "colliders_hidden_for_render": true,
+  "game_implementation_included": false
+}

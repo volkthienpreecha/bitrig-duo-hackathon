@@ -1,0 +1,134 @@
+[
+  {
+    "file": "DesignAssets/UI/hint-library.svg",
+    "validXml": true,
+    "textNodes": 14,
+    "viewBox": "0 0 1000 672"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/resume.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/restart.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/fold.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/swipe-down.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/bell.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/check.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/swipe-up.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/replay.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/swipe-left.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/release.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/audio-on.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/swipe-right.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/audio-off.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/Icons/pause.svg",
+    "validXml": true,
+    "textNodes": 0,
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "file": "DesignAssets/UI/States/pause-concept.svg",
+    "validXml": true,
+    "textNodes": 5,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/UI/States/completion-overlay.svg",
+    "validXml": true,
+    "textNodes": 4,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/UI/States/completion-concept.svg",
+    "validXml": true,
+    "textNodes": 4,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/UI/States/pause-overlay.svg",
+    "validXml": true,
+    "textNodes": 5,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/UI/States/gameplay-concept.svg",
+    "validXml": true,
+    "textNodes": 5,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/UI/States/gameplay-overlay.svg",
+    "validXml": true,
+    "textNodes": 5,
+    "viewBox": "0 0 1080 720"
+  },
+  {
+    "file": "DesignAssets/Palette/material-sheet.svg",
+    "validXml": true,
+    "textNodes": 39,
+    "viewBox": "0 0 1440 950"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "cream": {
+    "hex": "#F3E7CF",
+    "oklch": "oklch(93.12% 0.0343 84.59)",
+    "usage": "Opaque controls, painted roof edges, corgi muzzle",
+    "roughness": 0.72,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "ink": {
+    "hex": "#243A40",
+    "oklch": "oklch(33.27% 0.0296 216.77)",
+    "usage": "UI text, tool details, silhouette separation",
+    "roughness": 0.7,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "night": {
+    "hex": "#17292F",
+    "oklch": "oklch(26.81% 0.0262 221.05)",
+    "usage": "Sky, deep recesses, pause dim",
+    "roughness": 0.95,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "deepTeal": {
+    "hex": "#245E5A",
+    "oklch": "oklch(44.28% 0.0603 188.99)",
+    "usage": "Primary UI action, doors and deep painted surfaces",
+    "roughness": 0.55,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "teal": {
+    "hex": "#4D9B91",
+    "oklch": "oklch(63.70% 0.0788 184.51)",
+    "usage": "Kaprao scarf, shop enamel, secondary world accents",
+    "roughness": 0.48,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "copper": {
+    "hex": "#B77950",
+    "oklch": "oklch(63.16% 0.0959 53.61)",
+    "usage": "Warm metal rails, lamps, repair details",
+    "roughness": 0.32,
+    "metallic": 0.65,
+    "emission": "none"
+  },
+  "cyan": {
+    "hex": "#82D9CE",
+    "oklch": "oklch(82.72% 0.0860 185.38)",
+    "usage": "Small emissive signs, RGB glasses accent",
+    "roughness": 0.3,
+    "metallic": 0,
+    "emission": "small localized accents only"
+  },
+  "peach": {
+    "hex": "#F0B49A",
+    "oklch": "oklch(81.88% 0.0789 44.48)",
+    "usage": "Warm lamp glow and tiny sign accents",
+    "roughness": 0.35,
+    "metallic": 0,
+    "emission": "small localized accents only"
+  },
+  "gold": {
+    "hex": "#D7A35C",
+    "oklch": "oklch(74.96% 0.1079 73.46)",
+    "usage": "Kaprao coat and bell",
+    "roughness": 0.78,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "leaf": {
+    "hex": "#738A64",
+    "oklch": "oklch(60.48% 0.0617 133.37)",
+    "usage": "Desaturated rooftop plants",
+    "roughness": 0.82,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "muted": {
+    "hex": "#526368",
+    "oklch": "oklch(48.73% 0.0222 217.47)",
+    "usage": "Secondary text on cream",
+    "roughness": 0.75,
+    "metallic": 0,
+    "emission": "none"
+  },
+  "line": {
+    "hex": "#CDBF9E",
+    "oklch": "oklch(80.77% 0.0473 87.75)",
+    "usage": "Quiet control borders and warm neutral trim",
+    "roughness": 0.78,
+    "metallic": 0,
+    "emission": "none"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method": "WCAG sRGB relative luminance",
+  "ratios": {
+    "ink/cream": 9.77,
+    "deepTeal/cream": 6.07,
+    "muted/cream": 5.13,
+    "cream/night": 12.29
+  },
+  "normalTextThreshold": 4.5,
+  "allPairsPass": true
+}

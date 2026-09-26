@@ -1,0 +1,53 @@
+{
+  "scope": "Preparation artifact checks only; no native app built or tested",
+  "master_sha256": "6c0ed72dcc9683c9895c317c8e9b40530f89157e5a78cb457f1f588a0bf69fd4",
+  "master_characters": 26457,
+  "audio": [
+    {
+      "name": "step_soft.wav",
+      "seconds": 0.145,
+      "sha256": "34c2726f2d0ea0e558e09a5a8d004575f898f4fa837daf9a6760af6a6608f1bd"
+    },
+    {
+      "name": "jump.wav",
+      "seconds": 0.186,
+      "sha256": "1cd8aa8995b14d2c1a8ac9cd023e8fa87f337b0d4ea0671302c55d8b2695399f"
+    },
+    {
+      "name": "land_soft.wav",
+      "seconds": 0.118,
+      "sha256": "4799a1ca85748a58cbcc63b88e60b22f2f1c5a1a56ce60b49ebb71e8c500a304"
+    },
+    {
+      "name": "dash_down.wav",
+      "seconds": 0.186,
+      "sha256": "e3f816d3b8cff526be12c86b527d1adc4da35e1400e1746af2e1ed205b9b614b"
+    },
+    {
+      "name": "mechanism_release.wav",
+      "seconds": 0.618,
+      "sha256": "8683da642b9e7da129c970ecc73a1e076c110141a22875af9a91ad434f865831"
+    },
+    {
+      "name": "bridge_land.wav",
+      "seconds": 0.779,
+      "sha256": "faf89f7d7deb6aa517fc2cba84b5fe22c884dad748a84d196df992597d66cb7d"
+    },
+    {
+      "name": "success.wav",
+      "seconds": 0.29,
+      "sha256": "a1224e092ce5e6b34ec9d068e7aea83d703fd423c52f7a40986e923fa0fb2fbe"
+    },
+    {
+      "name": "retry.wav",
+      "seconds": 0.064,
+      "sha256": "16dadef826f3f05095fcec3588fd92ed53622ee6a13772b6f0cebb511babe82b"
+    }
+  ],
+  "internal_markdown_file_links": "all resolve",
+  "legacy_build_prompts": "superseded pointers only",
+  "app_source_or_project_in_kit": false,
+  "Bitrig_master_draft": "full text verified, unsent, existing local folder",
+  "Bitrig_obsolete_New_Project_draft": "cleared, stale attachment removed",
+  "app_runtime_acceptance": "not run; event code not created"
+}
