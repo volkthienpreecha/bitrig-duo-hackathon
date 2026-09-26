@@ -1,0 +1,74 @@
+[
+  {
+    "source": "DesignAssets/KapraoSprite/Runtime/kaprao-idle.png",
+    "bundle": "kaprao-idle.png",
+    "sha256": "2d122c0ba9ee1bfb4260b84f2984095f82f38a5b3b940e62e0ca2ea06b858582",
+    "bytes": 1246829
+  },
+  {
+    "source": "DesignAssets/KapraoSprite/Runtime/kaprao-poses.png",
+    "bundle": "kaprao-poses.png",
+    "sha256": "7c564e11667227fb31288d015debb76ce6d9b5fb8df048281745403fceb91074",
+    "bytes": 2057039
+  },
+  {
+    "source": "DesignAssets/KapraoSprite/Runtime/kaprao-sprite.scn",
+    "bundle": "kaprao-sprite.scn",
+    "sha256": "ec8d6d1ea5f02f10f852ab2a16cdf9d685b0ca164efb37deb9fb5d2ae1b3fa07",
+    "bytes": 1455985
+  },
+  {
+    "source": "DesignAssets/KapraoSprite/Runtime/kaprao-sprite.json",
+    "bundle": "kaprao-sprite.json",
+    "sha256": "e8583f61b6314bd1df3424fafe283263995ee980f3ca264928911a5e92a4c02c",
+    "bytes": 3423
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/step_soft.wav",
+    "bundle": "step_soft.wav",
+    "sha256": "34c2726f2d0ea0e558e09a5a8d004575f898f4fa837daf9a6760af6a6608f1bd",
+    "bytes": 12814
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/jump.wav",
+    "bundle": "jump.wav",
+    "sha256": "1cd8aa8995b14d2c1a8ac9cd023e8fa87f337b0d4ea0671302c55d8b2695399f",
+    "bytes": 16428
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/land_soft.wav",
+    "bundle": "land_soft.wav",
+    "sha256": "4799a1ca85748a58cbcc63b88e60b22f2f1c5a1a56ce60b49ebb71e8c500a304",
+    "bytes": 10452
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/dash_down.wav",
+    "bundle": "dash_down.wav",
+    "sha256": "e3f816d3b8cff526be12c86b527d1adc4da35e1400e1746af2e1ed205b9b614b",
+    "bytes": 16428
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/mechanism_release.wav",
+    "bundle": "mechanism_release.wav",
+    "sha256": "8683da642b9e7da129c970ecc73a1e076c110141a22875af9a91ad434f865831",
+    "bytes": 54522
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/bridge_land.wav",
+    "bundle": "bridge_land.wav",
+    "sha256": "faf89f7d7deb6aa517fc2cba84b5fe22c884dad748a84d196df992597d66cb7d",
+    "bytes": 68752
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/success.wav",
+    "bundle": "success.wav",
+    "sha256": "a1224e092ce5e6b34ec9d068e7aea83d703fd423c52f7a40986e923fa0fb2fbe",
+    "bytes": 25608
+  },
+  {
+    "source": "DesignAssets/Runtime/Audio/retry.wav",
+    "bundle": "retry.wav",
+    "sha256": "16dadef826f3f05095fcec3588fd92ed53622ee6a13772b6f0cebb511babe82b",
+    "bytes": 5678
+  }
+]

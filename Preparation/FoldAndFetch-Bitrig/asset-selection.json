@@ -1,0 +1,25 @@
+{
+  "master_version": "2.0",
+  "character": {
+    "handoff": "DesignAssets/KapraoSprite/README.md",
+    "status": "selected by current handoff; Duo integration unverified",
+    "files": [
+      "DesignAssets/KapraoSprite/Runtime/kaprao-idle.png",
+      "DesignAssets/KapraoSprite/Runtime/kaprao-poses.png",
+      "DesignAssets/KapraoSprite/Runtime/kaprao-sprite.scn",
+      "DesignAssets/KapraoSprite/Runtime/kaprao-sprite.json"
+    ]
+  },
+  "audio_files": [
+    "DesignAssets/Runtime/Audio/step_soft.wav",
+    "DesignAssets/Runtime/Audio/jump.wav",
+    "DesignAssets/Runtime/Audio/land_soft.wav",
+    "DesignAssets/Runtime/Audio/dash_down.wav",
+    "DesignAssets/Runtime/Audio/mechanism_release.wav",
+    "DesignAssets/Runtime/Audio/bridge_land.wav",
+    "DesignAssets/Runtime/Audio/success.wav",
+    "DesignAssets/Runtime/Audio/retry.wav"
+  ],
+  "street_geometry": "author native geometry during implementation; no existing street runtime pack",
+  "historical": "Rooftop stages, v3/v4 meshes and beam UI are not selected runtime"
+}

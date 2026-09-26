@@ -1,8 +1,18 @@
+# Corgi Crossroads — active portrait street demo
+
+Current authority: [master v2.0](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md). Aim/lock a manhole cover inside, close Duo, release on the actual outside display and guide Kaprao across. Three builders; Bitrig native build and recorded demo. User authorized implementation. Model filenames remain unchanged.
+
+**The previous preparation overview below is historical; its beam/rooftop scope, asset selection and fixed intermediate deadlines are superseded. Existing ZIPs are not current until refreshed.**
+
 # Bitrig Duo Hackathon
+
+**Corgi Crossroads is awaiting the user's explicit build signal.** The preparation plan is finalized; the previous scheduled start is paused. No submitted game source or Xcode project has been created.
 
 ## Shared project workspace
 
-This private repository is the shared home for Fold & Fetch: the master build prompt, product requirements, Kaprao character and rooftop workshop assets, UI designs, sounds, and validation records. Edit these files here and use Git commits to keep their history.
+This private repository is the shared home for Corgi Crossroads: the master build prompt, product requirements, Kaprao character and rooftop workshop assets, UI designs, sounds, and validation records. Edit these files here and use Git commits to keep their history.
+
+**Current handoff: master v1.2 (September 26).** For a portable build context use `outputs/FoldAndFetch-OneShot.zip`, rebuilt with `python3 DesignAssets/Tools/package_execution_kit.py`. It includes the exact master, current native assets, design references and a SHA-256 manifest. Use the unpacked repository directly in Codex. Old attached ZIPs and unsent composer text do not update automatically.
 
 **Start with the [single master prompt](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md).** It is the only app-build entry point; update it in place instead of creating competing prompt versions. The prototype/demo prompt filenames are redirects.
 
@@ -48,8 +58,8 @@ An SDK compiles the app; a simulator runtime is separately required to run it.
 
 1. Duo simulator startup is verified. Recheck the runtime/destination at event start.
 2. Use the current Xcode installation with an explicit developer directory for builds; moving Xcode or changing global settings is not a demo prerequisite.
-3. During the coding window, follow the unified master to create one native app in this repository and verify it in Xcode/Device Hub.
-4. Bitrig has opened this exact folder and displayed its files; app build and two-way external-edit refresh remain unverified.
+3. During the coding window, follow the unified master to create one native app in this repository, build/run it in Bitrig’s embedded Duo simulator, and use Xcode for tests and diagnostics.
+4. Bitrig has opened this exact folder and displayed its files; app build and source refresh remain unverified. Prove build/install/launch, bundled sample resources and external-edit refresh by 11:55, then live hinge/controls by 12:20. The final demo recording must show real gameplay in Bitrig.
 
 Until Xcode is moved/selected, a terminal session can explicitly use its current installation:
 
@@ -67,7 +77,7 @@ Start with Apple frameworks included in Xcode: Swift, SwiftUI, and the iOS 27.1 
 - Supabase: optional for authentication, shared data, or storage.
 - Sentry: optional for error reporting.
 - OpenAI: optional for an AI feature; keep service credentials on a backend.
-- Bitrig: optional alternate development tool and Duo preview workflow.
+- Bitrig: required build/preview and final demo-recording surface for this project; Codex coordinates the parallel builders.
 - Metal toolchain: add if the project needs Metal compilation.
 - XcodeBuildMCP: optional build/simulator automation. The installed iOS debugger skill expects it, but its MCP tools are not exposed in this session. Xcode UI and `xcodebuild` remain available.
 
@@ -110,9 +120,9 @@ Test folded, unfolded, partially folded, rotated, and narrow multitasking config
 
 ## Fold & Fetch execution kit
 
-[Master-Prompt.md](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) is the single event execution prompt. It includes the four swipe controls, one bridge level, three-worker ownership, frequent integration gates, and evidence-based simulator tests. [Read the adversarial review](Preparation/FoldAndFetch-Bitrig/Review/Red-Team-Summary.md).
+[Master-Prompt.md](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) is the single event execution prompt. It includes the four swipe controls, one required bridge level, conditional prepared stage variations, three-worker ownership, frequent integration gates, and evidence-based simulator tests. [Read the adversarial review](Preparation/FoldAndFetch-Bitrig/Review/Red-Team-Summary.md).
 
-Use one coordinator: Codex supports the requested real subagents; Bitrig-only execution without those tools runs the same roles sequentially. Do not launch the master in both hosts. The existing Bitrig folder conversation is ready for preparation, with no app project yet. All submitted code starts in the September 26, 11:30–15:30 Pacific window.
+Use one coordinator: Codex supports the requested real subagents; Bitrig-only execution without those tools runs the same roles sequentially. Do not launch the master in both hosts. The existing Bitrig folder opens correctly, with no app project yet. Its composer holds a stale unsent v1.0 master; do not send that draft. All submitted code starts in the September 26, 11:30–15:30 Pacific window.
 
 ## Generated design assets
 
