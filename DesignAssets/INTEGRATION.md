@@ -5,7 +5,7 @@ The easiest tested path is **SwiftUI + SceneKit using the supplied `.scn` files*
 ## Add the resources
 
 1. Read the existing event `Master-Prompt.md`; create the submission app during the permitted coding window. The asset-only validation app was isolated under `/private/tmp/FoldFetchAssetCheck` and is not included here as submission code.
-2. Add selected files from `Runtime/Workshop`, `Runtime/Kaprao`, and the eight WAVs from `Runtime/Audio` to the app target's Copy Bundle Resources. Use an `AssetContent` folder if preserving subfolders. Avoid a top-level folder literally named `Resources` inside the iOS app bundle: that caused bundle recognition/install failure in the isolated test project.
+2. Add selected files from `Runtime/Workshop`, `Revisions/Kaprao-v3/Runtime/Kaprao`, and the eight WAVs from `Runtime/Audio` to the app target's Copy Bundle Resources. Use an `AssetContent` folder if preserving subfolders. Avoid a top-level folder literally named `Resources` inside the iOS app bundle: that caused bundle recognition/install failure in the isolated test project.
 3. For a quick visual check, load `workshop-assembled.scn` and one `kaprao-Idle_Look.scn`. The workshop scene already has placements; do not add standalone copies of the same objects on top of it. For modular assembly instead, use individual pieces and their recorded origins.
 4. Keep `.blend`, `.glb`, `.usdc`, source photos, concepts, SVG screen mockups, validation logs and modeling tools outside bundled resources. Ship only the runtime assets actually used. Reference screenshots are not a functioning HUD.
 5. Preview through Xcode/Device Hub first. The tested environment is Xcode 27.1 build 27A9269, iOS 27.1 Duo simulator. Set `DEVELOPER_DIR` to the actual Xcode `Contents/Developer` when command-line tools point elsewhere. Bitrig's embedded preview install remained unsuccessful in this session.
@@ -26,27 +26,27 @@ The three storyboard poses are authored hinge offsets (-28°, 0°, +28°) around
 
 ## Kaprao and animation
 
-Use a parent gameplay node for movement/collision, with the imported character beneath it. Body length is about 0.91m; full silhouette about 1.51m long and 1.17m high. Tune a simple controller collider separately; no detailed fur/ear/sunglasses collision is needed.
+Use a parent gameplay node for movement/collision, with the imported character beneath it. Use [Kaprao v3](Revisions/Kaprao-v3/README.md), not the rejected root-level character. Its full silhouette is approximately 1.45m long, 1.17m high and 0.78m wide. Tune a simple controller collider separately; no detailed fur/ear/sunglasses collision is needed.
 
 | Native file | Intended use |
 | --- | --- |
 | `kaprao-static.scn` | Static pose/import fallback |
 | `kaprao-Idle_Look.scn` | Four-second loop |
 | `kaprao-Walk_InPlace.scn` | 0.8-second loop; movement comes from controller |
-| `kaprao-Jump_Fall.scn` | 1.2-second source range; native imported motion duration ≈1.067s; non-looping; dash may reuse airborne pose |
+| `kaprao-Jump_Fall.scn` | 1.2-second source and tested native clip; non-looping; dash may reuse airborne pose |
 | `kaprao-Celebrate.scn` | Two-second non-looping celebration |
 
 USD export uses one clip per file to preserve native animation import. GLB holds all four named actions for interchange, but **direct SceneKit GLB loading failed in testing**. Use SCN files, or USD through the tested conversion tool. Do not rename container animation keys and assume that creates a new clip. Enumerate the animation player on the imported hierarchy. Transitioning between clips is runtime work; keep one visible character and one active movement owner.
 
-The 10-joint rig uses rigid-weighted mesh islands: adequate for supplied demonstration motions, not a final soft-deformation quadruped rig. Glasses are separately removable geometry sharing the rig. The RGB trim uses restrained static color accents; no animated neon shader is required.
+The v3 rig has 11 joints with normalized smooth skin weights. Fine silhouette fur shares body weights. First-pass foot locking and game animation transitions need review; source sampling found up to 8.4mm of foot-floor penetration. Glasses are separately removable geometry sharing the head joint. The RGB trim uses restrained static color accents; no animated neon shader is required.
 
 ## Materials and lighting
 
-Runtime meshes use self-contained PBR constant colors, roughness, metalness and restrained emission. Palette PNGs are references; optional base-color, normal or metallic image maps are unnecessary for this version. This avoids missing textures and keeps setup small. Blender lights/cameras are excluded from exports so the app can own its projection and illumination.
+Workshop meshes use self-contained PBR constant colors, roughness, metalness and restrained emission; their palette PNGs are references. Kaprao v3 uses embedded 1024px PBR texture maps in each SCN, with original 2048px images packed into the editable Blender source. No runtime external texture lookup is required. Blender lights/cameras are excluded from exports so the app can own its projection and illumination.
 
 Starting native viewer setup: one warm directional key (650 intensity, RGB 1/.84/.65), cool ambient fill (130 intensity, RGB .69/.76/1), HDR camera with exposure offset -1.2, bloom and depth-of-field disabled. This is a visual starting point, not a measured performance budget. Shadow softness, exposure and material appearance differ between Blender and SceneKit. Limit real-time shadow lights; emission on a lamp is not an expensive point light.
 
-Full workshop is about 60k triangles, character about 20k. The workshop is 19 merged visual meshes with multiple material groups; material groups still imply rendering work. Optional skyline can be removed. Profile actual FPS/frame time and memory after the gameplay cameras and two-display rendering are implemented; simulator screenshots alone do not certify 60fps.
+Full workshop is about 60k triangles, Kaprao v3 is 46,156 triangles across three meshes and ten materials. The workshop is 19 merged visual meshes with multiple material groups; material groups still imply rendering work. Optional skyline can be removed. Profile actual FPS/frame time and memory after the gameplay cameras and two-display rendering are implemented; simulator screenshots alone do not certify 60fps.
 
 ## UI and sound
 
@@ -71,7 +71,7 @@ Use the scripts under `Tools/` with Blender 5.2.2 LTS for model regeneration. Ea
 ```sh
 xcrun swiftc Tools/convert_scenekit.swift -framework SceneKit -framework AppKit -o /tmp/foldfetch-convert
 /tmp/foldfetch-convert Exports/Workshop Runtime/Workshop
-/tmp/foldfetch-convert Exports/Kaprao Runtime/Kaprao
+/tmp/foldfetch-convert Revisions/Kaprao-v3/Exports/Kaprao Revisions/Kaprao-v3/Runtime/Kaprao
 ```
 
 Run from `DesignAssets` with the correct `DEVELOPER_DIR`. Inspect `scenekit-conversion.json` for every record's `roundtrip: pass`; the converter continues after per-file failures so the report, not only shell exit status, is authoritative. Reload in the target simulator after any export change.

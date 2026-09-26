@@ -11,3 +11,9 @@ xcuserdata/
 
 # Personal source references stay local; finished artwork is shared.
 /DesignAssets/References/
+
+# Rebuildable Kaprao v3 package and intermediate Blender output
+/outputs/FoldAndFetch-Kaprao-v3.zip
+/DesignAssets/Revisions/Kaprao-v3/**/*.blend1
+/DesignAssets/Revisions/Kaprao-v3/Previews/MotionFrames/
+/DesignAssets/Revisions/Kaprao-v3/Source/Incoming/kaprao-rodin-inspected.blend

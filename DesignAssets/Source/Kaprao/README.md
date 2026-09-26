@@ -1,5 +1,7 @@
 # Kaprao — editable character asset
 
+> **Historical rejected v1 character.** Use [Kaprao v3](../../Revisions/Kaprao-v3/README.md) and its source/runtime files. The measurements below describe v1 only.
+
 An original smooth, stylized corgi based on the user's orange/cream corgi photo and the approved character concept. The asset uses solid PBR materials and actual sculpted geometry. No downloaded meshes, texture packs, hair system, simulation, or Blender-only procedural shader is required.
 
 ## Files

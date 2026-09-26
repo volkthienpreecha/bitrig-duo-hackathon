@@ -16,7 +16,11 @@ for url in try FileManager.default.contentsOfDirectory(at:input,includingPropert
    for m in n.geometry?.materials ?? [] {
     materials.insert(m.name ?? "unnamed")
     for p in [m.diffuse,m.normal,m.metalness,m.roughness,m.emission,m.ambientOcclusion] {
-     if let u=p.contents as? URL, let image=NSImage(contentsOf:u){p.contents=image;textures+=1}
+     let imageURL: URL?
+     if let u=p.contents as? URL {imageURL=u}
+     else if let path=p.contents as? String {imageURL=path.hasPrefix("/") ? URL(fileURLWithPath:path) : url.deletingLastPathComponent().appendingPathComponent(path)}
+     else {imageURL=nil}
+     if let u=imageURL, let image=NSImage(contentsOf:u){p.contents=image;textures+=1}
     }
    }
   }

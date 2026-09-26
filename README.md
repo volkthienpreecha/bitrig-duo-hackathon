@@ -11,9 +11,11 @@ This private repository is the shared home for Fold & Fetch: the master build pr
 | Master execution prompt | [Master-Prompt.md](Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) |
 | Full product requirements | [PRD.md](Preparation/FoldAndFetch-Bitrig/PRD.md) |
 | Current art direction | [DesignAssets/ART-DIRECTION.md](DesignAssets/ART-DIRECTION.md) |
-| Editable character and workshop models | [DesignAssets/Source](DesignAssets/Source) |
-| Native SceneKit assets | [DesignAssets/Runtime](DesignAssets/Runtime) |
-| Exchange models and animation exports | [DesignAssets/Exports](DesignAssets/Exports) |
+| Current Kaprao v3: source, runtime, clips and previews | [Kaprao v3](DesignAssets/Revisions/Kaprao-v3/README.md) |
+| Remaining assets and proposed three-stage scope | [Demo asset checklist](DesignAssets/DEMO-ASSET-CHECKLIST.md) |
+| Editable workshop model | [DesignAssets/Source/Workshop](DesignAssets/Source/Workshop) |
+| Native SceneKit assets | [Current character](DesignAssets/Revisions/Kaprao-v3/Runtime/Kaprao), [workshop](DesignAssets/Runtime/Workshop), [audio](DesignAssets/Runtime/Audio) |
+| Exchange models and animation exports | [Current character](DesignAssets/Revisions/Kaprao-v3/Exports/Kaprao), [workshop](DesignAssets/Exports/Workshop) |
 | UI layouts, icons and Figma status | [DesignAssets/UI](DesignAssets/UI) |
 | Concepts and rendered previews | [DesignAssets/Concepts](DesignAssets/Concepts), [DesignAssets/Previews](DesignAssets/Previews) |
 | Eight sound effects and licenses | [Assets/Audio](Preparation/FoldAndFetch-Bitrig/Assets/Audio) |

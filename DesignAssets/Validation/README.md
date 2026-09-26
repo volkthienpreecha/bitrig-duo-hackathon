@@ -1,5 +1,7 @@
 # Asset validation — September 25, 2026
 
+> **Character version notice:** character results in this folder describe historical v1. Current character evidence is in [Kaprao v3 validation](../Revisions/Kaprao-v3/Validation/README.md). Workshop results below remain applicable.
+
 **Result:** editable art and runtime assets are supplied. Native SceneKit imports and bone motion pass; the workshop and Kaprao render on the iPhone Duo simulator with live hinge callbacks. This is asset compatibility evidence, not a completed puzzle/game certification.
 
 ## Recorded checks

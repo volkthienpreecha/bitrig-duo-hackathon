@@ -1,0 +1,7 @@
+# Reference image generation
+
+Generated with the built-in image generation tool. This PNG is an input/reference for reconstruction, not a rigged 3D model or evidence of a finished asset.
+
+## Prompt
+
+Use case: identity-preserve / stylized-concept. Input is the authoritative Kaprao character sheet. Create ONE clean image-to-3D reconstruction reference of EXACTLY this same fluffy corgi character, not a redesign. Isolate the full-body three-quarter character on a plain white background, with all four paws, ears and tail entirely inside frame and comfortable margins. Maintain the same chunky low long corgi body, natural joyful face, inset dark brown eyes, detailed soft orange fur, cream cheeks and fluffy cream chest, forehead blaze and short legs. Keep the textured teal neckerchief and embroidered small cream paw motif. REMOVE the sunglasses for this underlying base-character reconstruction view, revealing the same natural eyes as the sheet's unadorned face portrait; sunglasses will be modeled separately later. Straight relaxed standing pose with each leg discernible, no raised paw, camera at chest height, mild three-quarter angle. Neutral even studio lighting with minimal shadow, no directional warm color cast or baked dramatic lighting. Furry stylized realism, exactly the original reference's material and anatomy; not clay, plastic, smooth bald skin, bead eyes, anthropomorphic brows, geometric tufts, or faceted low poly. No text, labels, collage panels, extra dogs, floor props, screenshots or UI. Preserve fur detail and soft silhouette.

@@ -1,6 +1,6 @@
 # Fold & Fetch — the single execution prompt
 
-> **Asset update, September 25, 2026:** The locked style is a cozy cyberpunk rooftop 3D diorama with smooth rounded shapes, restrained warm lighting, and Kaprao wearing removable RGB sunglasses and a teal scarf. Read [the current asset pack](../../DesignAssets/README.md) and [art direction](../../DesignAssets/ART-DIRECTION.md) before older asset guidance below. The pack supplies editable models, native SceneKit assets, animations, UI, and measured validation; this does not certify the future game physics or connected Duo projection.
+> **Asset update, September 25, 2026:** The locked style is a cozy cyberpunk rooftop 3D diorama with smooth rounded shapes, restrained warm lighting, and Kaprao wearing removable RGB sunglasses and a teal scarf. The selected character is [fluffy Kaprao v3](../../DesignAssets/Revisions/Kaprao-v3/README.md); root-level Kaprao assets and the old full ZIP contain rejected v1. Read [the remaining-assets status](../../DesignAssets/DEMO-ASSET-CHECKLIST.md) and [the current asset pack](../../DesignAssets/README.md) and [art direction](../../DesignAssets/ART-DIRECTION.md) before older asset guidance below. The pack supplies editable models, native SceneKit assets, animations, UI, and measured validation; this does not certify the future game physics or connected Duo projection.
 
 Version 1.1 · prepared September 25, 2026 · paste this entire document once during the hackathon.
 

@@ -1,0 +1,302 @@
+[
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao-Celebrate.usdc",
+    "bytes": 2780559,
+    "sha256": "642817c198279bbb2baa1dfe6fbdc3bba5b9f60c703277dd6feecb3626c4dc48"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao-Idle_Look.usdc",
+    "bytes": 2792671,
+    "sha256": "15e8b92c6273b2f1b91abe99e0558521001a58675487413007f2fabdfc83ab14"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao-Jump_Fall.usdc",
+    "bytes": 2768008,
+    "sha256": "f3c1fbe0b26dbeb332b3ebd3f2f7ba2ad790353c7d05c4061b61cc75fe595070"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao-Walk_InPlace.usdc",
+    "bytes": 2769721,
+    "sha256": "a27911c60e513557834fc50bbe05a67369056d360dd005637f55a07ed40ac8c5"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao-static.usdc",
+    "bytes": 2761253,
+    "sha256": "2ed17b3a4a84a643c257369a7935cbf00627952879f12d3001c763a941b358bd"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/kaprao.glb",
+    "bytes": 5647316,
+    "sha256": "b30488de139f64a54f82cc9fa198225f7e4687465d4d131732750c450a678a8b"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/textures/texture_diffuse.png",
+    "bytes": 1251805,
+    "sha256": "7af49acc3a24de73a186d75157f0607d50d9ea749ffbe7ef1b6de1ce748363aa"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/textures/texture_metallic-texture_roughness.png",
+    "bytes": 999996,
+    "sha256": "6876e5108e58fa75a16cf17c0b327da5947234378cde2e6ead43c19d48e8876e"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Exports/Kaprao/textures/texture_normal.png",
+    "bytes": 1308990,
+    "sha256": "b15c368b8c1aa1071290df8eea9c84c4ca07f59c60339b2cd5636dbec8fb7544"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-celebrate.gif",
+    "bytes": 778556,
+    "sha256": "5ac72f5445261452f1aadbaa48c58196847c82b17a99d5618558d660a9200e75"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-front.png",
+    "bytes": 1021037,
+    "sha256": "dca8eca397af042cd0eca436f976d24dd0392811f50fe9b61b7aacd0b3637a6e"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-hero.png",
+    "bytes": 1098842,
+    "sha256": "d280371fdb013a045ab1b54ebbda9c10265578ec26f2455e3603092ec7a86e73"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-idle-look.gif",
+    "bytes": 445249,
+    "sha256": "0e2ce055545c27a1711c0f43d3649e5f6d86de4334af488fcc9aa08e4cc86e7e"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-jump-fall.gif",
+    "bytes": 780757,
+    "sha256": "d6d2ee33dd2c548bda55163c1ae67d4fe89316b9d1740e8658f2914eb68a87cb"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-no-glasses.png",
+    "bytes": 1093108,
+    "sha256": "b304a40e0cc1eefe568d22644c07a9fff62f89ded8eb7e2de8adb6164c66f758"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-rear.png",
+    "bytes": 986124,
+    "sha256": "686b734a66ab2607c683ba84a24c993c6dd58dfbc59ad2bfcf24c3270ecf0960"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-side.png",
+    "bytes": 1094821,
+    "sha256": "da9f3c662fba76d17aca2e1413bee61d24d461cdc4b9c6c31b877b32daf25e4c"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-turnaround.png",
+    "bytes": 669910,
+    "sha256": "7822e5d9a33f7b5d81b5b76ff8fb22f9288874c1e25bb093645c7cd4555a9890"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/kaprao-walk-in-place.gif",
+    "bytes": 1333395,
+    "sha256": "4e63f12d0e097f9cc9afd86a94386af1f2e0281828054586f53b136ee703c7dd"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/rodin-negative-x.png",
+    "bytes": 549702,
+    "sha256": "cc6b8331f617933819a4b9c5d32c056729f6c04df76e57a7e4559bc0b81386ad"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/rodin-negative-y.png",
+    "bytes": 528070,
+    "sha256": "9e22a6100f88684400ecf72d4cb9aed0235ba0236cab24fb1078fb3ff4c5e8dd"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/rodin-positive-y.png",
+    "bytes": 503129,
+    "sha256": "34459fe8f2fe93a6bfeace72ea0fefdcd706a1d9be18c5759d14f0187ff108f8"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Previews/rodin-three-quarter.png",
+    "bytes": 551180,
+    "sha256": "baac2724bb235c781fd488a0d34f8a1be261866906d578b49870716a1267447e"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/README.md",
+    "bytes": 6326,
+    "sha256": "d9ed2a60471596c5449c83574d0a6089436143e6b4c7fe29000dd37ff1eb020d"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Reference/GENERATION.md",
+    "bytes": 1560,
+    "sha256": "89d03c88a99650ed1a5dfb6e2272b003973e2a2f48834ec54883758232d4a0d8"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Reference/kaprao-base-three-quarter.png",
+    "bytes": 1708239,
+    "sha256": "ddbaab808f471f078a052a28d94e882c58991ac5669bf4690ad846574f79264d"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/kaprao-Celebrate.scn",
+    "bytes": 9543282,
+    "sha256": "f1f2743800909b2b8267fa379fc0ec0b1d032c6f434fb300d9f7124b5fe1fb9d"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/kaprao-Idle_Look.scn",
+    "bytes": 9572322,
+    "sha256": "8d95f8a7d903742948420124acfffa48b7e103790e43192943c4c846416fbe65"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/kaprao-Jump_Fall.scn",
+    "bytes": 9523856,
+    "sha256": "5bd468a13f42f1b26a5d0b745294d6c5ec3d20f92e19322e3320bfafdf09462f"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/kaprao-Walk_InPlace.scn",
+    "bytes": 9526194,
+    "sha256": "106940c51cc3f60da57aee9f3cce6145a625145401770b954af852708a0a4bdc"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/kaprao-static.scn",
+    "bytes": 9473988,
+    "sha256": "859775f151e4418aba6d24d319e812386bc0d3082944828991c66e82cc085cdc"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Runtime/Kaprao/scenekit-conversion.json",
+    "bytes": 3547,
+    "sha256": "d76ced0139d2af55aafd12afc2e6c2da54bc1744916f00e71726af6c5c65eea2"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/SOURCES.md",
+    "bytes": 1634,
+    "sha256": "b41b589b378af4c7e0d5085f5647fbfebb8b480a7c26422972ddc25eb1a36032"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Source/Incoming/kaprao-rodin-original.glb",
+    "bytes": 13994492,
+    "sha256": "9b643a3732ccc7f82b509f483a54b66c34c286ff6ec3ddb45d37f86900bf0bc8"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Source/Kaprao/kaprao.blend",
+    "bytes": 14355512,
+    "sha256": "1dbd21706a77c377a19769d140047d1f592ec5f94fcf21b97955844790015546"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Textures/Kaprao/texture_diffuse.png",
+    "bytes": 4245532,
+    "sha256": "a9480496e434dbe447aaee463c7f9f2dfe73b1a040aa886bf3187785e03cbb9d"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Textures/Kaprao/texture_metallic-texture_roughness.png",
+    "bytes": 3278934,
+    "sha256": "41152396fb7cdff707a30a7046fc71d235c39aaba606944e5b5a97208b98c3b3"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Textures/Kaprao/texture_normal.png",
+    "bytes": 4564700,
+    "sha256": "ddd39c357b8c162b97ef9c96351dc4172dac4e6c146cb4f067e3881d1b90bc19"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/README.md",
+    "bytes": 2787,
+    "sha256": "dc0af857f202c148159be093bc2a74e7d2fe6e65b375ead89d05fca4ae52acd1"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/asset-viewer-build.log",
+    "bytes": 4800,
+    "sha256": "4e6e2dcd22fccc3ed1e1d309b5a7c31d641997077e684adf2f62b61e11b53cf6"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/duo-asset-audit.txt",
+    "bytes": 796,
+    "sha256": "00478a2d151d77a9c982be5a62daa4974a221d3d11ff98f26baf1a11e691e393"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/duo-book-idle.png",
+    "bytes": 1339246,
+    "sha256": "c713ea572981a96b0dd6fb10d139c6a109c6eb331a6ebe48472b1c7f613df0ea"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/duo-book-walk.png",
+    "bytes": 1403062,
+    "sha256": "b757920cc96b8dab736f7b920b41aa7fcdd9809de4bf8cf6cfd8c73d76e82f91"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/duo-closed-idle.png",
+    "bytes": 349931,
+    "sha256": "40e858fb2534ba819038ae35c77118660301eef19584046f30bd2ebbbeac5b71"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/duo-open-idle.png",
+    "bytes": 1347220,
+    "sha256": "721691f60ce7ebf04392d4b591810559442baf152d1ced2a2945fc72d3af53aa"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/kaprao-validation.json",
+    "bytes": 8041,
+    "sha256": "0ead77aba276d0ff200dc30a32eadb6e0f17a79b19c4140f264ce39c03950a84"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/native-animation.txt",
+    "bytes": 397,
+    "sha256": "14cb17b9950840ec7f6f51d138246e47b77712ca9937fd64d724b91b857aebc5"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/refinement.json",
+    "bytes": 336,
+    "sha256": "99ea53ca8731f76bad3cd779810693fbb16da46e760569bbd098af02728050d7"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/rodin-original.json",
+    "bytes": 972,
+    "sha256": "d8a927cd6f692b784fc78176ad221a697262a86c2da070bead031acbf8884d46"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/source-deformation.json",
+    "bytes": 7719,
+    "sha256": "a06ecb177dcb2a3dd78f7d546b03fc20b19747f13bfb34b82331bbb621d8f203"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/source-manifest.json",
+    "bytes": 340,
+    "sha256": "5a5594042e84f55e9067a8761055a19a7f73fe422c6245d6fb3086e8c0c2064b"
+  },
+  {
+    "path": "Revisions/Kaprao-v3/Validation/visual-acceptance.md",
+    "bytes": 1269,
+    "sha256": "ce3da61a6ec7302325ef00cfefca89d5b2d8d8e9dff480339b530289381cfc51"
+  },
+  {
+    "path": "Tools/convert_scenekit.swift",
+    "bytes": 2787,
+    "sha256": "a8ad27a4d4276b8a28d72b21688383b47fe76d37c82c216d6d884243dbdda964"
+  },
+  {
+    "path": "Tools/kaprao_inspect_v3.py",
+    "bytes": 2347,
+    "sha256": "89ecb92cb240547becda5ad117e3f29df84afa5081a724a543cf47528f7466e2"
+  },
+  {
+    "path": "Tools/kaprao_preview_clips_v3.py",
+    "bytes": 1230,
+    "sha256": "e9fbf0cfa9cb375589f9a9bde11c7ab54cbafc0ef38f9ef5c61eefd79226dfe0"
+  },
+  {
+    "path": "Tools/kaprao_refine_v3.py",
+    "bytes": 14228,
+    "sha256": "c16c1869ad1446c6506e5e5b75efa839fe070c1855e800052f748238fed2a506"
+  },
+  {
+    "path": "Tools/kaprao_source_validate_v3.py",
+    "bytes": 1900,
+    "sha256": "afadce3706403105cf9b2f07efea9b14cf7a60ab17be3e06aa58b6945292af02"
+  },
+  {
+    "path": "Tools/kaprao_validate_v3.py",
+    "bytes": 5178,
+    "sha256": "4bfaf6a7e298837c0c94ea2bb928cd26b322663b562e0c6c730f8ea0de2993fd"
+  },
+  {
+    "path": "Tools/package_kaprao_v3.py",
+    "bytes": 2313,
+    "sha256": "dfb6bbc210bfb1dbb852805b591fd39b2a04b81bc682a7c0cea25ef14b71b45f"
+  },
+  {
+    "path": "Tools/probe_scenekit_animation.swift",
+    "bytes": 1277,
+    "sha256": "e0fae03afc674de6e8164f6416e4df05a3c728806eb36da9a02f74c3278ce8f5"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "Source/Incoming/kaprao-rodin-original.glb",
+    "sha256": "9b643a3732ccc7f82b509f483a54b66c34c286ff6ec3ddb45d37f86900bf0bc8",
+    "bytes": 13994492
+  },
+  {
+    "path": "Reference/kaprao-base-three-quarter.png",
+    "sha256": "ddbaab808f471f078a052a28d94e882c58991ac5669bf4690ad846574f79264d",
+    "bytes": 1708239
+  }
+]

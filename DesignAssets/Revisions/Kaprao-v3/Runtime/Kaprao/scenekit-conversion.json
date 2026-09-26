@@ -1,0 +1,172 @@
+[
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.72887885570526123,
+        -2.1040439605712891e-05,
+        -0.37650802731513977
+      ],
+      [
+        0.71953213214874268,
+        1.1730523109436035,
+        0.40403422713279724
+      ]
+    ],
+    "embeddedTextureConversions" : 4,
+    "materials" : [
+      "Frames_graphite",
+      "Fur_cream",
+      "Fur_gold",
+      "Fur_honey",
+      "Fur_ivory",
+      "Kaprao_Coat_Scarf_PBR",
+      "Lenses_smoked_teal",
+      "RGB_amber",
+      "RGB_cyan",
+      "RGB_magenta"
+    ],
+    "meshes" : 3,
+    "nodes" : 21,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Celebrate.scn",
+    "skins" : 3,
+    "source" : "kaprao-Celebrate.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.72887885570526123,
+        -2.1040439605712891e-05,
+        -0.37650802731513977
+      ],
+      [
+        0.71953213214874268,
+        1.1730523109436035,
+        0.40403422713279724
+      ]
+    ],
+    "embeddedTextureConversions" : 4,
+    "materials" : [
+      "Frames_graphite",
+      "Fur_cream",
+      "Fur_gold",
+      "Fur_honey",
+      "Fur_ivory",
+      "Kaprao_Coat_Scarf_PBR",
+      "Lenses_smoked_teal",
+      "RGB_amber",
+      "RGB_cyan",
+      "RGB_magenta"
+    ],
+    "meshes" : 3,
+    "nodes" : 21,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Idle_Look.scn",
+    "skins" : 3,
+    "source" : "kaprao-Idle_Look.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.72887885570526123,
+        -2.1040439605712891e-05,
+        -0.37650802731513977
+      ],
+      [
+        0.71953213214874268,
+        1.1730523109436035,
+        0.40403422713279724
+      ]
+    ],
+    "embeddedTextureConversions" : 4,
+    "materials" : [
+      "Frames_graphite",
+      "Fur_cream",
+      "Fur_gold",
+      "Fur_honey",
+      "Fur_ivory",
+      "Kaprao_Coat_Scarf_PBR",
+      "Lenses_smoked_teal",
+      "RGB_amber",
+      "RGB_cyan",
+      "RGB_magenta"
+    ],
+    "meshes" : 3,
+    "nodes" : 21,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Jump_Fall.scn",
+    "skins" : 3,
+    "source" : "kaprao-Jump_Fall.usdc"
+  },
+  {
+    "animationTracks" : 1,
+    "bounds" : [
+      [
+        -0.72887885570526123,
+        -2.1040439605712891e-05,
+        -0.37650802731513977
+      ],
+      [
+        0.71953213214874268,
+        1.1730523109436035,
+        0.40403422713279724
+      ]
+    ],
+    "embeddedTextureConversions" : 4,
+    "materials" : [
+      "Frames_graphite",
+      "Fur_cream",
+      "Fur_gold",
+      "Fur_honey",
+      "Fur_ivory",
+      "Kaprao_Coat_Scarf_PBR",
+      "Lenses_smoked_teal",
+      "RGB_amber",
+      "RGB_cyan",
+      "RGB_magenta"
+    ],
+    "meshes" : 3,
+    "nodes" : 21,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-Walk_InPlace.scn",
+    "skins" : 3,
+    "source" : "kaprao-Walk_InPlace.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -0.72887885570526123,
+        -2.1040439605712891e-05,
+        -0.37650802731513977
+      ],
+      [
+        0.71953213214874268,
+        1.1730523109436035,
+        0.40403422713279724
+      ]
+    ],
+    "embeddedTextureConversions" : 4,
+    "materials" : [
+      "Frames_graphite",
+      "Fur_cream",
+      "Fur_gold",
+      "Fur_honey",
+      "Fur_ivory",
+      "Kaprao_Coat_Scarf_PBR",
+      "Lenses_smoked_teal",
+      "RGB_amber",
+      "RGB_cyan",
+      "RGB_magenta"
+    ],
+    "meshes" : 3,
+    "nodes" : 21,
+    "roundtrip" : "pass",
+    "runtime" : "kaprao-static.scn",
+    "skins" : 3,
+    "source" : "kaprao-static.usdc"
+  }
+]

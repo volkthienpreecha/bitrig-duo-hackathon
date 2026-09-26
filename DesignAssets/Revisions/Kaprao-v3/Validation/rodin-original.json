@@ -1,0 +1,66 @@
+{
+  "bounds": [
+    [
+      -0.5049020051956177,
+      -0.8993009328842163,
+      -0.7333930730819702
+    ],
+    [
+      0.4678579866886139,
+      0.9023320078849792,
+      0.7331910729408264
+    ]
+  ],
+  "objects": [
+    {
+      "name": "model",
+      "vertices": 50122,
+      "polygons": 90850,
+      "materials": [
+        "model"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "size": [
+        0,
+        0
+      ],
+      "packed": false
+    },
+    {
+      "name": "texture_diffuse",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_metallic-texture_roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Viewer Node",
+      "size": [
+        256,
+        256
+      ],
+      "packed": false
+    }
+  ]
+}

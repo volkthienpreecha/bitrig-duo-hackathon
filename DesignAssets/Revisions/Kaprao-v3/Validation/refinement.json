@@ -1,0 +1,16 @@
+{
+  "meshes": {
+    "Kaprao_Body_Skinned": 38000,
+    "Kaprao_Fine_Fur_Skinned": 6900,
+    "Kaprao_RGB_Sunglasses_REMOVABLE": 1256
+  },
+  "fur_ribbons": 2300,
+  "bones": 11,
+  "clips": [
+    "Idle_Look",
+    "Walk_InPlace",
+    "Jump_Fall",
+    "Celebrate"
+  ],
+  "status": "first refinement; review actual previews before acceptance"
+}

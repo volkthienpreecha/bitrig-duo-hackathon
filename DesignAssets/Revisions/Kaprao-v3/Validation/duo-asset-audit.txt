@@ -1,0 +1,17 @@
+Asset audit on iOS simulator
+CLIP idle duration=4.0
+CLIP_LOAD_PASS idle skins=3 bones=33 tracks=1
+CLIP walk duration=0.800000011920929
+CLIP_LOAD_PASS walk skins=3 bones=33 tracks=1
+CLIP jump duration=1.2000000476837158
+CLIP_LOAD_PASS jump skins=3 bones=33 tracks=1
+CLIP celebrate duration=2.0
+CLIP_LOAD_PASS celebrate skins=3 bones=33 tracks=1
+AUDIO_DECODE_PASS step_soft duration=0.14478458049886622
+AUDIO_DECODE_PASS jump duration=0.18575963718820862
+AUDIO_DECODE_PASS land_soft duration=0.11800453514739229
+AUDIO_DECODE_PASS dash_down duration=0.18575963718820862
+AUDIO_DECODE_PASS mechanism_release duration=0.6176643990929706
+AUDIO_DECODE_PASS bridge_land duration=0.7790022675736962
+AUDIO_DECODE_PASS success duration=0.28984126984126984
+AUDIO_DECODE_PASS retry duration=0.06387755102040817

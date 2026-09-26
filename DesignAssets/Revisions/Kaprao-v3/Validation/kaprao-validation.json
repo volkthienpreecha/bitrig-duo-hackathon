@@ -1,0 +1,332 @@
+{
+  "file": "Exports/Kaprao/kaprao.glb",
+  "bytes": 5647316,
+  "result": "PASS",
+  "scope": "File-level GLB validation only. Native SceneKit/Duo testing is performed separately by the coordinator.",
+  "mesh_count": 3,
+  "skin_count": 1,
+  "joint_count": 11,
+  "material_count": 10,
+  "triangles": 46156,
+  "world_coordinate_contract": "Y-up; +X route/character forward; meters; origin on floor.",
+  "bounds_in_exported_geometry_m": [
+    [
+      -0.7288788557052612,
+      -2.0975523511879146e-05,
+      -0.37650805711746216
+    ],
+    [
+      0.7195321917533875,
+      1.173052430152893,
+      0.4040340483188629
+    ]
+  ],
+  "meshes": [
+    {
+      "name": "model",
+      "triangles": 38000,
+      "exported_vertices_including_material_splits": 23221,
+      "primitives": 1
+    },
+    {
+      "name": "Kaprao_Fine_Fur_Skinned",
+      "triangles": 6900,
+      "exported_vertices_including_material_splits": 11500,
+      "primitives": 4
+    },
+    {
+      "name": "Fitted graphite rim",
+      "triangles": 1256,
+      "exported_vertices_including_material_splits": 813,
+      "primitives": 5
+    }
+  ],
+  "clips": [
+    {
+      "name": "Idle_Look",
+      "duration_seconds": 4.0,
+      "loop": true,
+      "channel_count": 33,
+      "endpoint_max_error": 0,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Walk_InPlace",
+      "duration_seconds": 0.8,
+      "loop": true,
+      "channel_count": 33,
+      "endpoint_max_error": 0,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Jump_Fall",
+      "duration_seconds": 1.2,
+      "loop": false,
+      "channel_count": 33,
+      "endpoint_max_error": 0,
+      "root_translation_max_error": 0
+    },
+    {
+      "name": "Celebrate",
+      "duration_seconds": 2.0,
+      "loop": false,
+      "channel_count": 33,
+      "endpoint_max_error": 0,
+      "root_translation_max_error": 0
+    }
+  ],
+  "checks": [
+    {
+      "check": "model finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "model indices in range",
+      "passed": true,
+      "detail": 114000
+    },
+    {
+      "check": "model valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned indices in range",
+      "passed": true,
+      "detail": 3051
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned indices in range",
+      "passed": true,
+      "detail": 2826
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned indices in range",
+      "passed": true,
+      "detail": 7587
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned indices in range",
+      "passed": true,
+      "detail": 7236
+    },
+    {
+      "check": "Kaprao_Fine_Fur_Skinned valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Fitted graphite rim finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Fitted graphite rim indices in range",
+      "passed": true,
+      "detail": 2592
+    },
+    {
+      "check": "Fitted graphite rim valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Fitted graphite rim finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Fitted graphite rim indices in range",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "Fitted graphite rim valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Fitted graphite rim finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Fitted graphite rim indices in range",
+      "passed": true,
+      "detail": 576
+    },
+    {
+      "check": "Fitted graphite rim valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Fitted graphite rim finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Fitted graphite rim indices in range",
+      "passed": true,
+      "detail": 288
+    },
+    {
+      "check": "Fitted graphite rim valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "Fitted graphite rim finite attributes",
+      "passed": true,
+      "detail": "position, normal and skin-weight buffers"
+    },
+    {
+      "check": "Fitted graphite rim indices in range",
+      "passed": true,
+      "detail": 288
+    },
+    {
+      "check": "Fitted graphite rim valid skin joints",
+      "passed": true,
+      "detail": "shared quadruped skin"
+    },
+    {
+      "check": "all normals approximately unit length",
+      "passed": true,
+      "detail": 1.1740067717980196e-07
+    },
+    {
+      "check": "all skin weights normalized",
+      "passed": true,
+      "detail": 1.043081283569336e-07
+    },
+    {
+      "check": "no zero-area rendered triangles",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "revision geometry ceiling (not a device benchmark)",
+      "passed": true,
+      "detail": 46156
+    },
+    {
+      "check": "no exported collision or studio geometry",
+      "passed": true,
+      "detail": [
+        "head",
+        "paw_back_1",
+        "leg_back_1",
+        "paw_back_-1",
+        "leg_back_-1",
+        "paw_front_1",
+        "leg_front_1",
+        "paw_front_-1",
+        "leg_front_-1",
+        "body",
+        "root",
+        "Kaprao_Body_Skinned",
+        "Kaprao_Fine_Fur_Skinned",
+        "Kaprao_RGB_Sunglasses_REMOVABLE",
+        "Kaprao_Rig"
+      ]
+    },
+    {
+      "check": "removable sunglasses node exists",
+      "passed": true,
+      "detail": "hide that one skinned node"
+    },
+    {
+      "check": "Idle_Look no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Idle_Look seamless endpoint values",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Walk_InPlace seamless endpoint values",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Jump_Fall no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Celebrate no root translation",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "all required clips exported",
+      "passed": true,
+      "detail": [
+        "Idle_Look",
+        "Walk_InPlace",
+        "Jump_Fall",
+        "Celebrate"
+      ]
+    },
+    {
+      "check": "floor at Y zero",
+      "passed": true,
+      "detail": [
+        [
+          -0.7288788557052612,
+          -2.0975523511879146e-05,
+          -0.37650805711746216
+        ],
+        [
+          0.7195321917533875,
+          1.173052430152893,
+          0.4040340483188629
+        ]
+      ]
+    }
+  ]
+}
