@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "file": "kaprao-idle.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "fullyTransparentPixels": 762049,
+      "opaqueOrNearOpaquePixels": 786841,
+      "passed": true
+    },
+    {
+      "file": "kaprao-poses.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "fullyTransparentPixels": 731869,
+      "opaqueOrNearOpaquePixels": 774521,
+      "passed": true
+    }
+  ],
+  "sixAtlasRectsInBounds": true,
+  "nativeUVRowsVisuallyVerified": true
+}

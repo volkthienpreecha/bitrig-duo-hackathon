@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "status": "usable illustrated assets; host integration and Duo fold validation required",
+  "technique": "image-based visual inside a 3D world",
+  "defaultAsset": "kaprao-sprite.scn",
+  "highResolutionIdle": "kaprao-idle.png",
+  "poseAtlas": "kaprao-poses.png",
+  "atlasSizePixels": [
+    1536,
+    1024
+  ],
+  "grid": [
+    3,
+    2
+  ],
+  "frames": [
+    {
+      "name": "idle",
+      "rectTopLeftPixels": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        40,
+        33,
+        483,
+        509
+      ],
+      "sceneKitUVRect": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "name": "walk-a",
+      "rectTopLeftPixels": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        35,
+        27,
+        475,
+        509
+      ],
+      "sceneKitUVRect": [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "name": "walk-b",
+      "rectTopLeftPixels": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        27,
+        34,
+        481,
+        509
+      ],
+      "sceneKitUVRect": [
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "name": "jump",
+      "rectTopLeftPixels": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        53,
+        14,
+        489,
+        438
+      ],
+      "sceneKitUVRect": [
+        0.0,
+        0.5,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "name": "fall",
+      "rectTopLeftPixels": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        56,
+        13,
+        476,
+        466
+      ],
+      "sceneKitUVRect": [
+        0.3333333333333333,
+        0.5,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "name": "celebrate",
+      "rectTopLeftPixels": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "visibleBoundsWithinCellPixels": [
+        29,
+        2,
+        477,
+        479
+      ],
+      "sceneKitUVRect": [
+        0.6666666666666666,
+        0.5,
+        0.3333333333333333,
+        0.5
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": [
+      "idle"
+    ],
+    "walk": [
+      "walk-a",
+      "walk-b"
+    ],
+    "jump": [
+      "jump"
+    ],
+    "fall": [
+      "fall"
+    ],
+    "celebrate": [
+      "celebrate"
+    ]
+  },
+  "suggestedWalkFramesPerSecond": 6,
+  "walkQuality": "two stylized pose cards; not a smooth anatomically verified walk cycle",
+  "atlasPivotTopLeftPixels": [
+    256.0,
+    509
+  ],
+  "atlasMetersPerPixel": 0.001764705882352941,
+  "sharedFrameScale": true,
+  "defaultVisibleHeightMeters": 0.84,
+  "physics": "retain host controller body; no collision in sprite asset",
+  "facing": "art faces screen right; optional horizontal visual-only mirroring",
+  "camera": "one shared virtual-eye orientation for both Duo panels; no per-panel billboard constraints",
+  "credits": "user-provided reference; derived with built-in imagegen; no Weave dependency",
+  "uvConvention": "SceneKit NSImage material contentsTransform: m11=1/3, m22=1/2, m41=column/3, m42=row/2. Verified by native pose render. Other texture APIs may flip V."
+}

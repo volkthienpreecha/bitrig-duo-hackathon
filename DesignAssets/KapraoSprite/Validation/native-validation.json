@@ -1,0 +1,30 @@
+{
+  "alphaBoundsThreshold" : 0.5,
+  "billboardConstraints" : 0,
+  "embeddedTexture" : true,
+  "geometryCount" : 1,
+  "materialCount" : 1,
+  "nativeImport" : "PASS",
+  "physicsBodies" : 0,
+  "pixelSize" : [
+    1254,
+    1254
+  ],
+  "planeSizeMeters" : [
+    0.9057265692175408,
+    0.9057265692175408
+  ],
+  "scope" : "macOS SceneKit asset reload and render only; no Duo hinge, gameplay or physical-device performance certification",
+  "visibleBoundsTopLeftPixels" : [
+    83,
+    62,
+    1132,
+    1225
+  ],
+  "visibleHeightMeters" : 0.83999999999999997,
+  "visualOffsetMeters" : [
+    0.014084264636039734,
+    0.4319174587726593,
+    0
+  ]
+}

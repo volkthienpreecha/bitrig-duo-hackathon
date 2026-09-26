@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Runtime/kaprao-idle.png",
+    "bytes": 1246829,
+    "sha256": "2d122c0ba9ee1bfb4260b84f2984095f82f38a5b3b940e62e0ca2ea06b858582"
+  },
+  {
+    "file": "Runtime/kaprao-poses.png",
+    "bytes": 2057039,
+    "sha256": "7c564e11667227fb31288d015debb76ce6d9b5fb8df048281745403fceb91074"
+  },
+  {
+    "file": "Runtime/kaprao-sprite.json",
+    "bytes": 3423,
+    "sha256": "e8583f61b6314bd1df3424fafe283263995ee980f3ca264928911a5e92a4c02c"
+  },
+  {
+    "file": "Runtime/kaprao-sprite.scn",
+    "bytes": 1455985,
+    "sha256": "ec8d6d1ea5f02f10f852ab2a16cdf9d685b0ca164efb37deb9fb5d2ae1b3fa07"
+  }
+]
