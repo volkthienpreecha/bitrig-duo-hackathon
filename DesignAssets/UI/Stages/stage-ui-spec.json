@@ -1,0 +1,1012 @@
+{
+  "referenceOnly": true,
+  "canvas": [
+    1080,
+    720
+  ],
+  "stages": [
+    {
+      "id": 1,
+      "slug": "01-workshop",
+      "name": "Rooftop Repair Club"
+    },
+    {
+      "id": 2,
+      "slug": "02-garden",
+      "name": "Moonleaf Garden"
+    },
+    {
+      "id": 3,
+      "slug": "03-terrace",
+      "name": "Starlight Terrace"
+    }
+  ],
+  "states": {
+    "01-workshop-gameplay": {
+      "stage": "01-workshop",
+      "overlay": [
+        {
+          "type": "group",
+          "name": "Level header",
+          "x": 36,
+          "y": 32,
+          "w": 300,
+          "h": 98,
+          "children": [
+            {
+              "type": "text",
+              "name": "Game name",
+              "x": 16,
+              "y": 16,
+              "text": "FOLD & FETCH",
+              "size": 12,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Level name",
+              "x": 16,
+              "y": 35.0,
+              "text": "Rooftop Repair Club",
+              "size": 18,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Stage progress",
+              "x": 16,
+              "y": 61.5,
+              "text": "ROOFTOP 1 OF 3",
+              "size": 12,
+              "color": "cyan",
+              "weight": 600
+            }
+          ],
+          "fill": "night",
+          "radius": 16,
+          "gap": 4,
+          "axis": "VERTICAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "audio-on control",
+          "x": 948,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "audio-on",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>audio on</title><path d=\"M4 9H8L13 5V19L8 15H4Z M17 8C20 10 20 14 17 16\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "pause control",
+          "x": 1000,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "pause",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>pause</title><path d=\"M8 5V19 M16 5V19\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "Context hint",
+          "x": 36,
+          "y": 612,
+          "w": 446,
+          "h": 60,
+          "children": [
+            {
+              "type": "icon",
+              "name": "fold",
+              "x": 16,
+              "y": 18.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>fold</title><path d=\"M3 6L10 3L14 7L21 4V18L14 21L10 17L3 20Z M10 3V17 M14 7V21\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "group",
+              "name": "Hint copy",
+              "x": 52,
+              "y": 10.0,
+              "w": 368,
+              "h": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "name": "Hint title",
+                  "x": 0,
+                  "y": 0,
+                  "text": "Fold to aim the chute.",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                },
+                {
+                  "type": "text",
+                  "name": "Hint detail",
+                  "x": 0,
+                  "y": 22.0,
+                  "text": "Tap Release when the beam lines up.",
+                  "size": 14,
+                  "color": "muted",
+                  "weight": 400
+                }
+              ],
+              "fill": null,
+              "radius": 0,
+              "gap": 2,
+              "axis": "VERTICAL",
+              "padding": 0
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 12,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "Release action",
+          "x": 900,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "release",
+              "x": 26.879999999999995,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "cream",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>release</title><path d=\"M12 3V13 M8 9L12 13L16 9 M4 17H20V21H4Z\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 58.879999999999995,
+              "y": 16.0,
+              "text": "Release",
+              "size": 16,
+              "color": "cream",
+              "weight": 600
+            }
+          ],
+          "fill": "deepTeal",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        }
+      ]
+    },
+    "01-workshop-complete": {
+      "stage": "01-workshop",
+      "overlay": [
+        {
+          "type": "rect",
+          "name": "Completion scrim",
+          "x": 0,
+          "y": 0,
+          "w": 1080,
+          "h": 720,
+          "color": "night",
+          "radius": 0,
+          "opacity": 0.46
+        },
+        {
+          "type": "group",
+          "name": "Stage completion panel",
+          "x": 342,
+          "y": 184,
+          "w": 396,
+          "h": 352,
+          "children": [
+            {
+              "type": "icon",
+              "name": "check",
+              "x": 32,
+              "y": 32,
+              "w": 36,
+              "h": 36,
+              "color": "deepTeal",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" viewBox=\"0 0 24 24\" fill=\"none\"><title>check</title><path d=\"M5 12L10 17L19 7\" stroke=\"#245E5A\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Completion title",
+              "x": 32,
+              "y": 86,
+              "text": "Route repaired!",
+              "size": 28,
+              "color": "ink",
+              "weight": 700
+            },
+            {
+              "type": "text",
+              "name": "Completion detail",
+              "x": 32,
+              "y": 139.0,
+              "text": "Rooftop Repair Club complete.",
+              "size": 14,
+              "color": "muted",
+              "weight": 400
+            },
+            {
+              "type": "group",
+              "name": "Next rooftop action",
+              "x": 32,
+              "y": 174.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "swipe-right",
+                  "x": 100.08,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "cream",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>swipe right</title><path d=\"M5 12H19 M14 7L19 12L14 17\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 132.07999999999998,
+                  "y": 16.0,
+                  "text": "Next rooftop",
+                  "size": 16,
+                  "color": "cream",
+                  "weight": 600
+                }
+              ],
+              "fill": "deepTeal",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            },
+            {
+              "type": "group",
+              "name": "Replay rooftop action",
+              "x": 32,
+              "y": 244.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "replay",
+                  "x": 91.75999999999999,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "ink",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>replay</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 123.75999999999999,
+                  "y": 16.0,
+                  "text": "Replay rooftop",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                }
+              ],
+              "fill": "cream",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            }
+          ],
+          "fill": "cream",
+          "radius": 28,
+          "gap": 18,
+          "axis": "VERTICAL",
+          "padding": 32
+        }
+      ]
+    },
+    "02-garden-gameplay": {
+      "stage": "02-garden",
+      "overlay": [
+        {
+          "type": "group",
+          "name": "Level header",
+          "x": 36,
+          "y": 32,
+          "w": 300,
+          "h": 98,
+          "children": [
+            {
+              "type": "text",
+              "name": "Game name",
+              "x": 16,
+              "y": 16,
+              "text": "FOLD & FETCH",
+              "size": 12,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Level name",
+              "x": 16,
+              "y": 35.0,
+              "text": "Moonleaf Garden",
+              "size": 18,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Stage progress",
+              "x": 16,
+              "y": 61.5,
+              "text": "ROOFTOP 2 OF 3",
+              "size": 12,
+              "color": "cyan",
+              "weight": 600
+            }
+          ],
+          "fill": "night",
+          "radius": 16,
+          "gap": 4,
+          "axis": "VERTICAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "audio-on control",
+          "x": 948,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "audio-on",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>audio on</title><path d=\"M4 9H8L13 5V19L8 15H4Z M17 8C20 10 20 14 17 16\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "pause control",
+          "x": 1000,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "pause",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>pause</title><path d=\"M8 5V19 M16 5V19\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "Context hint",
+          "x": 36,
+          "y": 612,
+          "w": 446,
+          "h": 60,
+          "children": [
+            {
+              "type": "icon",
+              "name": "fold",
+              "x": 16,
+              "y": 18.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>fold</title><path d=\"M3 6L10 3L14 7L21 4V18L14 21L10 17L3 20Z M10 3V17 M14 7V21\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "group",
+              "name": "Hint copy",
+              "x": 52,
+              "y": 10.0,
+              "w": 368,
+              "h": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "name": "Hint title",
+                  "x": 0,
+                  "y": 0,
+                  "text": "Fold to aim the chute.",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                },
+                {
+                  "type": "text",
+                  "name": "Hint detail",
+                  "x": 0,
+                  "y": 22.0,
+                  "text": "Tap Release when the beam lines up.",
+                  "size": 14,
+                  "color": "muted",
+                  "weight": 400
+                }
+              ],
+              "fill": null,
+              "radius": 0,
+              "gap": 2,
+              "axis": "VERTICAL",
+              "padding": 0
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 12,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "Release action",
+          "x": 900,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "release",
+              "x": 26.879999999999995,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "cream",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>release</title><path d=\"M12 3V13 M8 9L12 13L16 9 M4 17H20V21H4Z\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 58.879999999999995,
+              "y": 16.0,
+              "text": "Release",
+              "size": 16,
+              "color": "cream",
+              "weight": 600
+            }
+          ],
+          "fill": "deepTeal",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        }
+      ]
+    },
+    "02-garden-complete": {
+      "stage": "02-garden",
+      "overlay": [
+        {
+          "type": "rect",
+          "name": "Completion scrim",
+          "x": 0,
+          "y": 0,
+          "w": 1080,
+          "h": 720,
+          "color": "night",
+          "radius": 0,
+          "opacity": 0.46
+        },
+        {
+          "type": "group",
+          "name": "Stage completion panel",
+          "x": 342,
+          "y": 184,
+          "w": 396,
+          "h": 352,
+          "children": [
+            {
+              "type": "icon",
+              "name": "check",
+              "x": 32,
+              "y": 32,
+              "w": 36,
+              "h": 36,
+              "color": "deepTeal",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" viewBox=\"0 0 24 24\" fill=\"none\"><title>check</title><path d=\"M5 12L10 17L19 7\" stroke=\"#245E5A\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Completion title",
+              "x": 32,
+              "y": 86,
+              "text": "Route repaired!",
+              "size": 28,
+              "color": "ink",
+              "weight": 700
+            },
+            {
+              "type": "text",
+              "name": "Completion detail",
+              "x": 32,
+              "y": 139.0,
+              "text": "Moonleaf Garden complete.",
+              "size": 14,
+              "color": "muted",
+              "weight": 400
+            },
+            {
+              "type": "group",
+              "name": "Next rooftop action",
+              "x": 32,
+              "y": 174.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "swipe-right",
+                  "x": 100.08,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "cream",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>swipe right</title><path d=\"M5 12H19 M14 7L19 12L14 17\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 132.07999999999998,
+                  "y": 16.0,
+                  "text": "Next rooftop",
+                  "size": 16,
+                  "color": "cream",
+                  "weight": 600
+                }
+              ],
+              "fill": "deepTeal",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            },
+            {
+              "type": "group",
+              "name": "Replay rooftop action",
+              "x": 32,
+              "y": 244.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "replay",
+                  "x": 91.75999999999999,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "ink",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>replay</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 123.75999999999999,
+                  "y": 16.0,
+                  "text": "Replay rooftop",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                }
+              ],
+              "fill": "cream",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            }
+          ],
+          "fill": "cream",
+          "radius": 28,
+          "gap": 18,
+          "axis": "VERTICAL",
+          "padding": 32
+        }
+      ]
+    },
+    "03-terrace-gameplay": {
+      "stage": "03-terrace",
+      "overlay": [
+        {
+          "type": "group",
+          "name": "Level header",
+          "x": 36,
+          "y": 32,
+          "w": 300,
+          "h": 98,
+          "children": [
+            {
+              "type": "text",
+              "name": "Game name",
+              "x": 16,
+              "y": 16,
+              "text": "FOLD & FETCH",
+              "size": 12,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Level name",
+              "x": 16,
+              "y": 35.0,
+              "text": "Starlight Terrace",
+              "size": 18,
+              "color": "cream",
+              "weight": 600
+            },
+            {
+              "type": "text",
+              "name": "Stage progress",
+              "x": 16,
+              "y": 61.5,
+              "text": "ROOFTOP 3 OF 3",
+              "size": 12,
+              "color": "cyan",
+              "weight": 600
+            }
+          ],
+          "fill": "night",
+          "radius": 16,
+          "gap": 4,
+          "axis": "VERTICAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "audio-on control",
+          "x": 948,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "audio-on",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>audio on</title><path d=\"M4 9H8L13 5V19L8 15H4Z M17 8C20 10 20 14 17 16\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "pause control",
+          "x": 1000,
+          "y": 32,
+          "w": 44,
+          "h": 44,
+          "children": [
+            {
+              "type": "icon",
+              "name": "pause",
+              "x": 10.0,
+              "y": 10.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>pause</title><path d=\"M8 5V19 M16 5V19\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 0,
+          "axis": "HORIZONTAL",
+          "padding": 10
+        },
+        {
+          "type": "group",
+          "name": "Context hint",
+          "x": 36,
+          "y": 612,
+          "w": 446,
+          "h": 60,
+          "children": [
+            {
+              "type": "icon",
+              "name": "fold",
+              "x": 16,
+              "y": 18.0,
+              "w": 24,
+              "h": 24,
+              "color": "ink",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><title>fold</title><path d=\"M3 6L10 3L14 7L21 4V18L14 21L10 17L3 20Z M10 3V17 M14 7V21\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "group",
+              "name": "Hint copy",
+              "x": 52,
+              "y": 10.0,
+              "w": 368,
+              "h": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "name": "Hint title",
+                  "x": 0,
+                  "y": 0,
+                  "text": "Fold to aim the chute.",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                },
+                {
+                  "type": "text",
+                  "name": "Hint detail",
+                  "x": 0,
+                  "y": 22.0,
+                  "text": "Tap Release when the beam lines up.",
+                  "size": 14,
+                  "color": "muted",
+                  "weight": 400
+                }
+              ],
+              "fill": null,
+              "radius": 0,
+              "gap": 2,
+              "axis": "VERTICAL",
+              "padding": 0
+            }
+          ],
+          "fill": "cream",
+          "radius": 16,
+          "gap": 12,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        },
+        {
+          "type": "group",
+          "name": "Release action",
+          "x": 900,
+          "y": 620,
+          "w": 144,
+          "h": 52,
+          "children": [
+            {
+              "type": "icon",
+              "name": "release",
+              "x": 26.879999999999995,
+              "y": 15.0,
+              "w": 22,
+              "h": 22,
+              "color": "cream",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>release</title><path d=\"M12 3V13 M8 9L12 13L16 9 M4 17H20V21H4Z\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Label",
+              "x": 58.879999999999995,
+              "y": 16.0,
+              "text": "Release",
+              "size": 16,
+              "color": "cream",
+              "weight": 600
+            }
+          ],
+          "fill": "deepTeal",
+          "radius": 16,
+          "gap": 10,
+          "axis": "HORIZONTAL",
+          "padding": 16
+        }
+      ]
+    },
+    "03-terrace-complete": {
+      "stage": "03-terrace",
+      "overlay": [
+        {
+          "type": "rect",
+          "name": "Completion scrim",
+          "x": 0,
+          "y": 0,
+          "w": 1080,
+          "h": 720,
+          "color": "night",
+          "radius": 0,
+          "opacity": 0.46
+        },
+        {
+          "type": "group",
+          "name": "Stage completion panel",
+          "x": 342,
+          "y": 184,
+          "w": 396,
+          "h": 352,
+          "children": [
+            {
+              "type": "icon",
+              "name": "check",
+              "x": 32,
+              "y": 32,
+              "w": 36,
+              "h": 36,
+              "color": "deepTeal",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" viewBox=\"0 0 24 24\" fill=\"none\"><title>check</title><path d=\"M5 12L10 17L19 7\" stroke=\"#245E5A\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+            },
+            {
+              "type": "text",
+              "name": "Completion title",
+              "x": 32,
+              "y": 86,
+              "text": "Home at last!",
+              "size": 28,
+              "color": "ink",
+              "weight": 700
+            },
+            {
+              "type": "text",
+              "name": "Completion detail",
+              "x": 32,
+              "y": 139.0,
+              "text": "Three rooftops. One happy corgi.",
+              "size": 14,
+              "color": "muted",
+              "weight": 400
+            },
+            {
+              "type": "group",
+              "name": "Replay demo action",
+              "x": 32,
+              "y": 174.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "replay",
+                  "x": 104.24,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "cream",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>replay</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#F3E7CF\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 136.24,
+                  "y": 16.0,
+                  "text": "Replay demo",
+                  "size": 16,
+                  "color": "cream",
+                  "weight": 600
+                }
+              ],
+              "fill": "deepTeal",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            },
+            {
+              "type": "group",
+              "name": "Replay rooftop action",
+              "x": 32,
+              "y": 244.5,
+              "w": 332,
+              "h": 52,
+              "children": [
+                {
+                  "type": "icon",
+                  "name": "replay",
+                  "x": 91.75999999999999,
+                  "y": 15.0,
+                  "w": 22,
+                  "h": 22,
+                  "color": "ink",
+                  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><title>replay</title><path d=\"M5 8A8 8 0 1 1 4 15 M5 3V8H10\" stroke=\"#243A40\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+                },
+                {
+                  "type": "text",
+                  "name": "Label",
+                  "x": 123.75999999999999,
+                  "y": 16.0,
+                  "text": "Replay rooftop",
+                  "size": 16,
+                  "color": "ink",
+                  "weight": 600
+                }
+              ],
+              "fill": "cream",
+              "radius": 16,
+              "gap": 10,
+              "axis": "HORIZONTAL",
+              "padding": 16
+            }
+          ],
+          "fill": "cream",
+          "radius": 28,
+          "gap": 18,
+          "axis": "VERTICAL",
+          "padding": 32
+        }
+      ]
+    }
+  },
+  "minimumTouchTargetPt": 44,
+  "behavior": {
+    "next": "Available after the player reaches the goal on a genuinely seated beam; reset all stage state before entry.",
+    "replayRooftop": "Replay current stage from start.",
+    "replayDemo": "After stage 3, restart stage 1.",
+    "progress": "Read-only identity, not a level-selection control.",
+    "safeRegions": "Reposition within actual uninterrupted usable regions; never center a modal across the physical hinge."
+  }
+}

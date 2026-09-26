@@ -1,5 +1,7 @@
 # Fold & Fetch — rooftop workshop
 
+> **Original reusable kit.** For the approved three-stage handoff use [Stages](../../Stages/README.md), whose beam and matching collider are wider for Kaprao v3. The original 0.35 m beam dimensions below do not describe the current stage exports.
+
 Original modular 3D workshop art, authored for this project with reproducible Blender geometry. The warm enamel, sea glass machinery, copper bridge, little plants, lamps, and distant skyline are actual meshes. The rendered PNGs are **design previews, not simulator captures or evidence of working physics**.
 
 Open `fold-and-fetch-workshop.blend` in Blender 5.2 or later. Rebuild from `../../Tools/workshop_build.py` with Blender's background Python runner; add `-- --all-renders` to generate all views, or `-- --no-render` for exports only. `../../Tools/workshop_render.py -- --all-renders` renders the existing source without changing exchange files. Metal rendering is used when available. That path is relative to this folder only as a reading aid; the tool script itself resolves the DesignAssets root automatically.

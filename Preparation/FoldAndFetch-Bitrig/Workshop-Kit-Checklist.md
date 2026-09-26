@@ -2,6 +2,8 @@
 
 > **Asset update, September 25, 2026:** The locked style is a cozy cyberpunk rooftop 3D diorama with smooth rounded shapes, restrained warm lighting, and Kaprao wearing removable RGB sunglasses and a teal scarf. The selected character is [fluffy Kaprao v3](../../DesignAssets/Revisions/Kaprao-v3/README.md); root-level Kaprao assets and the old full ZIP contain rejected v1. Read [the remaining-assets status](../../DesignAssets/DEMO-ASSET-CHECKLIST.md) and [the current asset pack](../../DesignAssets/README.md) and [art direction](../../DesignAssets/ART-DIRECTION.md) before older asset guidance below. The pack supplies editable models, native SceneKit assets, animations, UI, and measured validation; this does not certify the future game physics or connected Duo projection.
 
+> **Three-stage assets approved and prepared:** [Rooftop Repair Club, Moonleaf Garden and Starlight Terrace](../../DesignAssets/Stages/README.md) now have source files, matched visual/collider SCN pairs, layouts and storyboards. Use these assemblies with Kaprao v3 at visual scale 0.72; their bridge depth is 0.54 m. One working level remains the minimum event build; add the two prepared variations only after the core acceptance gates pass. Asset completion does not establish gameplay completion.
+
 The immediate target is one workshop level. Please send one ZIP containing references, original editable models, textures, animations, and license/source information. Use the folders below as a guide; incomplete items can be identified explicitly rather than disguised as finished.
 
 ## Minimum useful handoff

@@ -1,0 +1,7 @@
+Isolated asset viewer: /private/tmp/FoldFetchAssetCheck
+SDK: iOS Simulator 27.1
+Destination: iPhone Duo
+Build: BUILD SUCCEEDED
+Submission app code included: no
+
+Full temporary build log remains /tmp/foldfetch-stage-viewer-build.log.

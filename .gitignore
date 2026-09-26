@@ -17,3 +17,8 @@ xcuserdata/
 /DesignAssets/Revisions/Kaprao-v3/**/*.blend1
 /DesignAssets/Revisions/Kaprao-v3/Previews/MotionFrames/
 /DesignAssets/Revisions/Kaprao-v3/Source/Incoming/kaprao-rodin-inspected.blend
+
+# Rebuildable three-stage handoff packages and Python caches
+/outputs/FoldAndFetch-ThreeStages*.zip
+/DesignAssets/Tools/__pycache__/
+/DesignAssets/Stages/**/*.blend1

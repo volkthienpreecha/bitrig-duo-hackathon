@@ -1,6 +1,6 @@
 # Fold & Fetch UI assets
 
-The package contains three editable UI concepts for the approved rooftop art, transparent overlays, fourteen original rounded vector icons, and contextual hint copy. These are design assets, not a running game or a device-size guarantee.
+The package contains three shared editable UI concepts refreshed over the actual workshop/Kaprao v3 render, transparent overlays, fourteen original rounded vector icons, and contextual hint copy. These are design assets, not a running game or a device-size guarantee.
 
 - `States/gameplay-concept.svg` and `.png`: active play, contextual fold hint, Release, pause, and sound.
 - `States/pause-concept.svg` and `.png`: Resume, Restart, and sound.
@@ -11,6 +11,10 @@ The package contains three editable UI concepts for the approved rooftop art, tr
 - `ui-contact-sheet.png`: all three states at a glance.
 - `ui-spec.json`: element hierarchy, editable text, coordinates, palette, and icon paths.
 - `safe-regions.json`: semantic placement rules and reference-image exclusion bounds.
+
+## Three-stage extension
+
+[UI/Stages](Stages/README.md) adds progress identity for all three rooftops, Next-rooftop completion for stages 1–2 and Replay-demo completion for stage 3. Local editable files are complete. The connected Figma Starter quota still blocks live composition.
 
 ## Native integration
 

@@ -1,0 +1,202 @@
+{
+  "stage": {
+    "id": 2,
+    "slug": "02-garden",
+    "title": "Moonleaf Garden",
+    "depth": 0.32,
+    "accent": "#6F9D83"
+  },
+  "axis": "meters; runtime Y up, +X forward; Blender (X,Y,Z) maps to (X,Z,-Y)",
+  "character": {
+    "source": "../../Revisions/Kaprao-v3",
+    "scale": 0.72,
+    "visual_lift_m": 0.007,
+    "runtime_separate": true
+  },
+  "anchors_game": {
+    "ANCHOR_left_beam_contact": [
+      -1.1799999475479126,
+      -0.2199999988079071,
+      0.3199999928474426
+    ],
+    "ANCHOR_right_beam_contact": [
+      1.1799999475479126,
+      -0.2199999988079071,
+      0.3199999928474426
+    ],
+    "ANCHOR_beam_center": [
+      0.0,
+      -0.10999999940395355,
+      0.3199999928474426
+    ],
+    "ANCHOR_beam_left_endpoint": [
+      -1.2999999523162842,
+      -0.10999999940395355,
+      0.3199999928474426
+    ],
+    "ANCHOR_beam_right_endpoint": [
+      1.2999999523162842,
+      -0.10999999940395355,
+      0.3199999928474426
+    ],
+    "ANCHOR_recovery_center": [
+      0.0,
+      -0.8500000238418579,
+      0.3199999928474426
+    ],
+    "ANCHOR_hinge_axis": [
+      0.0,
+      3.0,
+      -1.2000000476837158
+    ],
+    "ANCHOR_held_beam_center": [
+      0.0,
+      1.75,
+      -0.0
+    ],
+    "ANCHOR_release_point": [
+      0.0,
+      1.6399999856948853,
+      -0.0
+    ],
+    "ANCHOR_release_gate_pivot": [
+      0.0,
+      1.600000023841858,
+      -0.27000001072883606
+    ],
+    "ANCHOR_exit_goal": [
+      3.299999952316284,
+      0.15000000596046448,
+      0.320000022649765
+    ],
+    "ANCHOR_corgi_start": [
+      -3.3499999046325684,
+      0.0,
+      0.3199999928474426
+    ],
+    "ANCHOR_route_forward": [
+      4.0,
+      0.0,
+      0.3199999928474426
+    ],
+    "ANCHOR_gap_center": [
+      0.0,
+      0.0,
+      0.3199999928474426
+    ],
+    "ANCHOR_world_origin": [
+      0.0,
+      0.0,
+      -0.0
+    ]
+  },
+  "beam_core_game_dimensions_m": [
+    2.9,
+    0.22,
+    0.54
+  ],
+  "collider_boxes": 23,
+  "floor_clearance": [
+    {
+      "name": "COL_floor_left_main",
+      "signed_overlap_source_xyz": [
+        -0.029999971389770508,
+        0.5400000512599945,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_left_shoulder_-0.635",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        -0.04999995231628418,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_left_shoulder_0.635",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        -0.04999998211860657,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_left_pocket_bottom",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        0.5400000512599945,
+        -0.030000001192092896
+      ]
+    },
+    {
+      "name": "COL_floor_right_main",
+      "signed_overlap_source_xyz": [
+        -0.029999971389770508,
+        0.5400000512599945,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_right_shoulder_-0.635",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        -0.04999995231628418,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_right_shoulder_0.635",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        -0.04999998211860657,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "COL_floor_right_pocket_bottom",
+      "signed_overlap_source_xyz": [
+        0.35000014305114746,
+        0.5400000512599945,
+        -0.030000001192092896
+      ]
+    }
+  ],
+  "play_reference_offset_degrees": -17.476396482459656,
+  "fold_reference_only": true,
+  "physics_tested": false,
+  "visual_triangles": 71052,
+  "module_count": 19,
+  "fold_poses": [
+    {
+      "view": 1,
+      "offset_degrees": -37.476396482459656,
+      "held_center_game": [
+        0,
+        2.738116385668633,
+        0.5128680546220541
+      ],
+      "depth_error_m": 0.19286805462205409
+    },
+    {
+      "view": 2,
+      "offset_degrees": -17.476396482459656,
+      "held_center_game": [
+        0,
+        2.1680745225682774,
+        0.32
+      ],
+      "depth_error_m": 0.0
+    },
+    {
+      "view": 3,
+      "offset_degrees": 2.523603517540344,
+      "held_center_game": [
+        0,
+        1.6983751499586,
+        -0.05620248743289239
+      ],
+      "depth_error_m": -0.3762024874328924
+    }
+  ]
+}

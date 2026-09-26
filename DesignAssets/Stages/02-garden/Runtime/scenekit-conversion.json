@@ -1,0 +1,69 @@
+[
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -5.5399999618530273,
+        -1.8299999237060547,
+        -6.899998664855957
+      ],
+      [
+        5.7699995040893555,
+        3.7700004577636719,
+        2.0075004100799561
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "Brass",
+      "Copper_Edge",
+      "Copper_Orange",
+      "Deep_Teal",
+      "Dusk_Lavender",
+      "Enamel_Ivory",
+      "Enamel_Pale",
+      "Ink",
+      "Lamp_Peach",
+      "Paper",
+      "Plant_Jade",
+      "Plant_Mint",
+      "Rubber",
+      "Sea_Glass",
+      "Signal_Cyan",
+      "Sky_Ink",
+      "Teal_Shadow",
+      "Window_Dark"
+    ],
+    "meshes" : 19,
+    "nodes" : 74,
+    "roundtrip" : "pass",
+    "runtime" : "02-garden-assembled.scn",
+    "skins" : 0,
+    "source" : "02-garden-assembled.usdc"
+  },
+  {
+    "animationTracks" : 0,
+    "bounds" : [
+      [
+        -4,
+        -1.1200001239776611,
+        -0.80500000715255737
+      ],
+      [
+        4,
+        2.1499998569488525,
+        1.4449999332427979
+      ]
+    ],
+    "embeddedTextureConversions" : 0,
+    "materials" : [
+      "material"
+    ],
+    "meshes" : 23,
+    "nodes" : 66,
+    "roundtrip" : "pass",
+    "runtime" : "02-garden-colliders.scn",
+    "skins" : 0,
+    "source" : "02-garden-colliders.usdc"
+  }
+]

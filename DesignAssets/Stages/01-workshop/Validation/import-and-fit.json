@@ -1,0 +1,47 @@
+{
+  "result": "pass",
+  "exchange": [
+    {
+      "file": "01-workshop-assembled.glb",
+      "result": "pass",
+      "meshes": 19,
+      "triangles": 59956,
+      "beam_center_game": [
+        0,
+        -0.10999999940395355,
+        0
+      ],
+      "no_external_resources": true,
+      "gate_follows_chute": true,
+      "beam_independent_root": true
+    },
+    {
+      "file": "01-workshop-colliders.glb",
+      "result": "pass",
+      "meshes": 23,
+      "triangles": 276,
+      "beam_center_game": [
+        0,
+        -0.10999999940395355,
+        0
+      ],
+      "no_external_resources": true,
+      "gate_follows_chute": true,
+      "beam_independent_root": true
+    }
+  ],
+  "source_reopen": "pass",
+  "packed_character_maps": "pass",
+  "nominal_paw_fit": {
+    "sample": "base-mesh vertices below world Z 0.055m at rest",
+    "min_floor_m": 0.006984897889196873,
+    "paw_depth_envelope_m": 0.4281546175479889,
+    "beam_depth_m": 0.54,
+    "within_beam_depth": true,
+    "character_scale": 0.72,
+    "note": "Nominal visual rest-pose fit only. Animated footing and controller contacts require runtime validation."
+  },
+  "play_pose_depth_error_m": 6.352747104407253e-22,
+  "fold_miss_references_straddle_route": true,
+  "physics_tested": false
+}

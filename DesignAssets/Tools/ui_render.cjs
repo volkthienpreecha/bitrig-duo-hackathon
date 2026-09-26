@@ -5,7 +5,7 @@ const path = require('path');
 const sharp = require('/Users/volkthienpreecha/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
 const root = path.resolve(__dirname, '..');
 async function main() {
-  const world = fs.readFileSync(path.join(root, 'Concepts/workshop-world-concept.png'));
+  const world = fs.readFileSync(path.join(root, 'Stages/01-workshop/Previews/hero.png'));
   const background = await sharp(world).resize(1080,720,{fit:'cover'}).png().toBuffer();
   for (const state of ['gameplay','pause','completion']) {
     const p = path.join(root,'UI/States',state+'-overlay.svg');

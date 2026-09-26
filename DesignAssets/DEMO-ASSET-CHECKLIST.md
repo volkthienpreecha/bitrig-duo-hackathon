@@ -1,56 +1,29 @@
-# Demo asset status and optional three-stage plan
+# Demo asset checklist — three rooftops delivered
 
-September 25, 2026. Asset inventory and scope advice, not another execution prompt. [Master-Prompt.md](../Preparation/FoldAndFetch-Bitrig/Master-Prompt.md) remains the only build entry point.
+The user approved all three stage asset sets on September 25, 2026. Locked style: cozy cyberpunk night city, smooth rounded diorama scenery, restrained warm lighting and fluffy Kaprao v3 with RGB glasses. [Open the complete stage handoff](Stages/README.md) and [three-scene preview](Stages/three-stages.png).
 
-## What the repository actually requires
+## Generated and checked
 
-[PRD §3](../Preparation/FoldAndFetch-Bitrig/PRD.md#3-scope-and-level-count) and Master §2 require **one polished, replayable bridge level** with three beats: meet Kaprao, fold/aim/release, cross/finish. These are three beats in one level, not three levels. The target is a convincing demo, not a full commercial app. The default four-hour build explicitly excludes a second level or puzzle. Three stages were suggested by the user for consideration; they are not yet the locked execution scope.
+- [x] Accepted Kaprao v3 editable model, packed textures, rig, RGB glasses, four clips and native SCN exports.
+- [x] Three editable scenes: Rooftop Repair Club, Moonleaf Garden and Starlight Terrace.
+- [x] Combined Kaprao/world hero and close-up render for every stage.
+- [x] Three annotated top plans and three side plans, each editable SVG plus PNG; additional orthographic world renders.
+- [x] Nine fold-reference frames and three assembled storyboards with angle offsets and depth-error labels.
+- [x] Three dressing/color variations using the existing kit, including added garden planting/trellis and an open terrace.
+- [x] Separate GLB, USD and native SCN visual/collider exports for every stage. 19 visual modules and 23 collider boxes per stage.
+- [x] 15 named anchors per native visual scene, including spawn, hinge, held beam, release, support contacts and goal.
+- [x] Beam and collider widened together to 0.54 m for Kaprao's measured 0.43 m paw envelope; deck pocket and channel clearance checked.
+- [x] Three stage-progress gameplay designs, two Next-rooftop states and a final Replay-demo state. Editable SVG/spec, transparent overlays, PNG previews and contact sheet.
+- [x] Existing pause/gameplay/completion presentation images refreshed with actual Kaprao v3/world art.
+- [x] Existing palette, icons, hints and eight licensed effects retained.
+- [x] Source reopening, packed resources, GLB reimport, finite coordinates, hierarchy, nominal footprint and native anchor validation.
 
-Keep the cozy cyberpunk rooftop setting: a warm miniature workshop against a night-city backdrop. Kaprao is fluffy and textured with RGB sunglasses; the world stays smooth and rounded. No new medieval environment is needed.
+## Figma account limitation
 
-## Already generated
+- [ ] Live native Controls/Screens composition remains blocked by the connected Starter plan's MCP quota; even read-only inspection was rejected. No new login, credit purchase or subscription was requested. Complete editable local UI files and an import manifest are provided in `UI/Stages`; the live Figma file is not claimed updated.
 
-| Asset | Status / canonical location |
-| --- | --- |
-| Fluffy Kaprao + RGB glasses and scarf | Selected v3; [editable source, native runtime, GLB, textures, renders and evidence](Revisions/Kaprao-v3/README.md). Do not use the rejected root-level character or original full ZIP. |
-| Character turnaround and four clips | Actual-model front/side/three-quarter renders; idle/look, walk in place, jump/fall and celebration. 11-joint smooth skin; root travel belongs to the controller. |
-| Workshop world kit | [19 independent modules](Source/Workshop/README.md): two floors, two supports, chute, gate, beam, tray, optional practice curb, exit bell, goal toy, base, frame, rails, bench, planters, lamps, cables and skyline. Editable Blender, GLB/USD and native SCN are present, plus separate collision proxies. |
-| World visuals | [Wide workshop view](Previews/Workshop/workshop-main.png), two close-ups, top/side/front layouts and three fold poses. These are design renders, not proof of a working fold puzzle. |
-| Palette and materials | Named palette and material sheet; workshop constant PBR materials. Character source maps are 2048px; runtime maps are embedded at 1024px. No mandatory additional texture pack. |
-| UI | [Gameplay, pause and completion](UI/README.md), transparent overlays, 14 icons, swipe hints, Release, Restart/Replay and sound controls. Editable local SVG/PNG designs are complete. |
-| Audio | Eight supplied WAV effects and source/license records. Music is not required. |
-| Handoff | Native import reports, character animation probes, Duo asset-viewer screenshots, scale/pivot notes, source and conversion tools. These prove asset compatibility, not complete gameplay. |
+## Still game implementation, not missing design assets
 
-## Remaining for a polished one-level demo
+During the event coding window: connected Duo projection; actual hinge-angle calibration; held-to-dynamic release and gate motion; real two-support contact/stability; miss/retry and reset; collision-constrained movement and crossing; animation transitions; native adaptive HUD/progression; audio mix and sustained frame-time measurement. The static paw envelope and a small visual lift do not establish dynamic foot locking. A successful viewer is asset compatibility evidence, not a working game.
 
-- [ ] **Combined visual pass:** put current Kaprao v3 into the existing workshop for a hero composition and gameplay-distance review. Tune scale, warm lighting, glasses readability, fur visibility and the route's contrast together. Existing character and workshop renders were reviewed separately.
-- [ ] **Refresh final presentation images that show the old character:** update any chosen HUD mockup, Figma concept or pitch image with v3. No new mandatory screen designs are needed.
-- [ ] **Integration-driven asset fixes, only if exposed:** check paws on decks/beam, character collider versus the narrow bridge, camera framing, material cost and animation transitions. The first-pass rig has sampled foot penetration up to 8.4mm; close-up foot locking is not final. Do not change bridge or route dimensions without updating colliders and physical puzzle checks together.
-- [ ] **Optional Figma completion:** compose native Controls/Screens pages. Foundations exist, but the earlier account quota stopped composition. Local SVG/PNG designs already supply the demo UI, so this is not a demo blocker.
-
-**No required base world model remains ungenerated.** Most remaining work is assembly, visual polish and game implementation. Additional plants, signs or background clutter are optional, and should not obscure the fold mechanic.
-
-## If we choose three short stages
-
-Recommendation: retain one guaranteed complete level; make two variations stretch content. Reuse the same mechanics, character, animations, sounds and workshop kit. Avoid three separate environments or a new puzzle system.
-
-| Proposed stage | Visual treatment | Puzzle variation |
-| --- | --- | --- |
-| 1 — Workshop | Existing warm repair rooftop | Broad visible catch channel; establish fold, release, miss/retry and manual crossing. |
-| 2 — Rooftop garden | Rearrange existing planters, lamps, rails and bench | Shift the route/catch assembly in depth to change the useful fold angle. Move decks, supports, goal and character lane together; keep a continuous walkable lane. |
-| 3 — Skyline terrace | More open skyline composition; restrained cyan accents and warm lamps | A modestly narrower catch channel or another calibrated depth offset. Keep generous feasible geometry and the same settle-then-release interaction; no timed folding while moving. |
-
-Extra asset checklist for those two variations, **not generated yet**:
-
-- [ ] Two assembled level scenes using existing modules, with separate editable sources and tested native exports.
-- [ ] Two annotated top/side layout sets: start, route, gap, supports, chute/release, tray, hinge, goal and collider/anchor locations.
-- [ ] Two three-pose fold storyboard sets showing intended hits and misses; authored angles must be calibrated against the real Duo input during implementation.
-- [ ] Two simple dressing/lighting variants and a review render of each. New bespoke meshes are optional.
-- [ ] Compact stage progress and a Next/Continue completion variant using the existing UI style. A full level-selection screen is unnecessary.
-- [ ] Per-stage geometry and native resource checks; then real physics, crossing, miss/retry, reset and progression checks in the event app.
-
-Do not commit to all three until stage 1 reliably demonstrates the real physical transfer and fold-connected presentation. Respect the master's 14:15 feature/art freeze. To adopt three required stages, update the existing Master, PRD and workshop checklist together rather than creating a competing prompt.
-
-## Demo implementation still required
-
-During the permitted event coding window: implement connected Duo projections and hinge calibration; real held-to-dynamic release, named-support contact and stability; a genuine miss/retry; manual Kaprao movement and physical crossing; native controls, reset/replay and audio; performance and posture tests. Bitrig's embedded preview previously failed installation; Xcode/Device Hub is the verified asset-viewing path. A working viewer or attractive screenshot alone is not the playable demo.
+The event master remains one guaranteed polished playable level with stages 2–3 available as prepared variations. Asset preparation for all three is approved; do not sacrifice the fold-dependent demonstration or the 14:15 feature/art freeze to implement all three before core behavior works. The single `Master-Prompt.md` remains the execution entry point.

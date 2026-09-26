@@ -2,11 +2,15 @@
 
 The easiest tested path is **SwiftUI + SceneKit using the supplied `.scn` files**. No Blender, GLB loader, texture downloader, paid service or backend is needed at app runtime. Blender is only needed to edit/rebuild source assets.
 
+## Current stage selection
+
+Use [the three-stage handoff](Stages/README.md). Select `Stages/01-workshop/Runtime/01-workshop-assembled.scn`, `02-garden`, or `03-terrace` and its matching collider scene. Each visual scene supplies all 19 modules and 15 named anchors. Place shared Kaprao v3 at `ANCHOR_corgi_start`, under a gameplay parent with visual scale 0.72 and 0.007 m lift. The new stage beam/collider is 0.54 m deep; do not mix it with the older 0.35 m beam below. All lower route objects shift together in stages 2–3. The original workshop dimensions below are historical kit details except where explicitly updated.
+
 ## Add the resources
 
 1. Read the existing event `Master-Prompt.md`; create the submission app during the permitted coding window. The asset-only validation app was isolated under `/private/tmp/FoldFetchAssetCheck` and is not included here as submission code.
-2. Add selected files from `Runtime/Workshop`, `Revisions/Kaprao-v3/Runtime/Kaprao`, and the eight WAVs from `Runtime/Audio` to the app target's Copy Bundle Resources. Use an `AssetContent` folder if preserving subfolders. Avoid a top-level folder literally named `Resources` inside the iOS app bundle: that caused bundle recognition/install failure in the isolated test project.
-3. For a quick visual check, load `workshop-assembled.scn` and one `kaprao-Idle_Look.scn`. The workshop scene already has placements; do not add standalone copies of the same objects on top of it. For modular assembly instead, use individual pieces and their recorded origins.
+2. Add the selected visual/collider SCN pair from `Stages/<stage>/Runtime`, `Revisions/Kaprao-v3/Runtime/Kaprao`, and the eight WAVs from `Runtime/Audio` to the app target's Copy Bundle Resources. Use an `AssetContent` folder if preserving subfolders. Avoid a top-level folder literally named `Resources` inside the iOS app bundle: that caused bundle recognition/install failure in the isolated test project.
+3. For a quick visual check, load `01-workshop-assembled.scn` and one `kaprao-Idle_Look.scn`. The workshop scene already has placements; do not add standalone copies of the same objects on top of it. For modular assembly instead, use individual pieces and their recorded origins.
 4. Keep `.blend`, `.glb`, `.usdc`, source photos, concepts, SVG screen mockups, validation logs and modeling tools outside bundled resources. Ship only the runtime assets actually used. Reference screenshots are not a functioning HUD.
 5. Preview through Xcode/Device Hub first. The tested environment is Xcode 27.1 build 27A9269, iOS 27.1 Duo simulator. Set `DEVELOPER_DIR` to the actual Xcode `Contents/Developer` when command-line tools point elsewhere. Bitrig's embedded preview install remained unsuccessful in this session.
 
@@ -15,14 +19,14 @@ The easiest tested path is **SwiftUI + SceneKit using the supplied `.scn` files*
 Meters, Y up, +X route/character forward, +Z toward the front. Source Blender Z-up maps to game `(X,Z,-Y)`; exchange files already apply that conversion. Do not rotate them a second time. See [Workshop README](Source/Workshop/README.md) and [geometry manifest](Validation/workshop-geometry.json) for precise root pivots/anchors.
 
 - Deck tops Y=0. Outer platform gap is 2.20m. The centerline landing pockets make a 2.96m opening for the 2.90m beam, with approximately 30mm end clearance per side.
-- Beam core is 2.90×0.22×0.35m in X/Y/Z; landed center `(0,-0.11,0)`. Use the core collider, not all raised decorative geometry. Contact shelves top out at Y=-0.22.
+- Current stage beam core is 2.90×0.22×0.54m in X/Y/Z; landed center `(0,-0.11,0)`. Use the core collider, not all raised decorative geometry. Contact shelves top out at Y=-0.22.
 - Chute hinge pivot is `(0,3.00,-1.20)` and rotates about X. Folding changes release depth/elevation, not left-right aim.
 - Neutral held-beam center is `(0,1.75,0)`. `ANCHOR_held_beam_center` and the release/gate anchors are supplied.
 - Gate is already parented under the chute in the assembled scene. Its local pivot `(0,-1.40,+0.93)` must not be interpreted as another world-space offset.
 - The bridge is a separate root. When released, preserve its world transform under the authoritative physics world. One physics owner controls the falling body.
 - Rear service deck/backdrop are scenery, not an alternate path around the puzzle. Enforce the intended character lane in runtime collision/movement.
 
-The three storyboard poses are authored hinge offsets (-28°, 0°, +28°) around a design reference. They are **not calibrated absolute Duo angles**. Determine reference angle, sign, clamping and release depth in the real app. The viewer proves live hinge readings, not the final mapping.
+The original kit used authored offsets (-28°, 0°, +28°). Current stage storyboards use the solved design reference in each `Stages/<stage>/Validation/geometry.json`, with before/after offsets of 20 degrees. They are **not calibrated absolute Duo angles**. Determine reference angle, sign, clamping and release depth in the real app. The viewer proves live hinge readings, not the final mapping.
 
 ## Kaprao and animation
 
@@ -44,9 +48,9 @@ The v3 rig has 11 joints with normalized smooth skin weights. Fine silhouette fu
 
 Workshop meshes use self-contained PBR constant colors, roughness, metalness and restrained emission; their palette PNGs are references. Kaprao v3 uses embedded 1024px PBR texture maps in each SCN, with original 2048px images packed into the editable Blender source. No runtime external texture lookup is required. Blender lights/cameras are excluded from exports so the app can own its projection and illumination.
 
-Starting native viewer setup: one warm directional key (650 intensity, RGB 1/.84/.65), cool ambient fill (130 intensity, RGB .69/.76/1), HDR camera with exposure offset -1.2, bloom and depth-of-field disabled. This is a visual starting point, not a measured performance budget. Shadow softness, exposure and material appearance differ between Blender and SceneKit. Limit real-time shadow lights; emission on a lamp is not an expensive point light.
+Starting native viewer setup: one warm directional key (450 intensity, RGB 1/.84/.65), cool ambient fill (180 intensity, RGB .69/.76/1), HDR camera with exposure offset -1.2, bloom and depth-of-field disabled. This is a visual starting point, not a measured performance budget. Shadow softness, exposure and material appearance differ between Blender and SceneKit. Limit real-time shadow lights; emission on a lamp is not an expensive point light.
 
-Full workshop is about 60k triangles, Kaprao v3 is 46,156 triangles across three meshes and ten materials. The workshop is 19 merged visual meshes with multiple material groups; material groups still imply rendering work. Optional skyline can be removed. Profile actual FPS/frame time and memory after the gameplay cameras and two-display rendering are implemented; simulator screenshots alone do not certify 60fps.
+Stage worlds range from 57,968 to 71,052 triangles; Kaprao v3 is 46,156 triangles across three meshes and ten materials. The workshop is 19 merged visual meshes with multiple material groups; material groups still imply rendering work. Optional skyline can be removed. Profile actual FPS/frame time and memory after the gameplay cameras and two-display rendering are implemented; simulator screenshots alone do not certify 60fps.
 
 ## UI and sound
 

@@ -1,10 +1,14 @@
 # Fold & Fetch — design asset pack
 
-> **Current character: [Kaprao v3](Revisions/Kaprao-v3/README.md)** — a fluffy reconstructed model with fitted RGB glasses, rig, four clips, embedded-texture native SCN exports and Duo simulator evidence. Selected by the user for the repository. v1 and v2 remain rejected. The original ZIP and root-level Kaprao folders are historical v1 assets; use the v3 paths below for every character resource. The workshop and UI are unchanged. [Exact character target](Concepts/kaprao-authoritative-furred-reference.png).
+> **Current character: [Kaprao v3](Revisions/Kaprao-v3/README.md)** — a fluffy reconstructed model with fitted RGB glasses, rig, four clips, embedded-texture native SCN exports and Duo simulator evidence. Selected by the user for the repository. v1 and v2 remain rejected. The original ZIP and root-level Kaprao folders are historical v1 assets; use the v3 paths below for every character resource. The character is shared across the new three-stage world/UI handoff. [Exact character target](Concepts/kaprao-authoritative-furred-reference.png).
 
-**Locked direction:** cozy cyberpunk rooftop workshop, smooth rounded 3D diorama, restrained warm lighting, and Kaprao with a teal scarf and removable RGB sunglasses. This is an asset handoff for one spatial bridge puzzle. It is not a completed game.
+**Locked direction:** cozy cyberpunk rooftop workshop, smooth rounded 3D diorama, restrained warm lighting, and Kaprao with a teal scarf and removable RGB sunglasses. This is an asset handoff for three rooftop arrangements of the same spatial bridge puzzle. It is not a completed game.
 
 Start with [INTEGRATION.md](INTEGRATION.md), then [the remaining-assets checklist](DEMO-ASSET-CHECKLIST.md). Character files live under `Revisions/Kaprao-v3/`; workshop and audio remain under the root asset folders. Read the [v3 character tests](Revisions/Kaprao-v3/Validation/README.md) and [workshop test record](Validation/README.md). Use native SCN for the tested Apple SceneKit path, Blender for editing, and GLB/USD for exchange. Do not bundle this entire design folder into the app.
+
+## Current three-stage handoff
+
+Use [Stages/README.md](Stages/README.md) for the workshop, garden and terrace source/runtime files, layouts, fold storyboards and combined Kaprao renders. These stage assemblies supersede the original workshop assembly for the new demo handoff: their beam and matching collider are 0.54 m deep to fit Kaprao. Shared v3 character clips and audio remain separate. [Current UI variants](UI/Stages/README.md).
 
 ## Delivered checklist
 

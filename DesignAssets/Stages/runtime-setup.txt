@@ -1,0 +1,13 @@
+FOLD & FETCH / RUNTIME-ONLY SETUP
+
+1. Choose one stage: 01-workshop, 02-garden or 03-terrace.
+2. Copy its Runtime/<stage>-assembled.scn and matching <stage>-colliders.scn into the app target's bundle resources.
+3. Copy selected shared Kaprao v3 SCN clips from Revisions/Kaprao-v3/Runtime/Kaprao and the WAVs from Runtime/Audio.
+4. Keep matching stage files together. Do not add the original workshop assembly or old 0.35m beam collider. The current beam is 2.90 x 0.22 x 0.54m (native X/Y/Z).
+5. Load the visible stage once. Collider geometry is separate and should not be rendered; configure collision bodies/masks during game implementation.
+6. Find ANCHOR_corgi_start recursively. Place the gameplay parent there and its Kaprao visual at scale 0.72 with a 0.007m upward offset. Native Y up, +X forward; no extra axis rotation.
+7. upper_chute is the X-axis hinge root. release_gate and ANCHOR_held_beam_center follow it. bridge_beam is independent. On real release preserve world pose and give physics sole ownership.
+8. Each stage's Validation/geometry.json records anchor positions and design angle references. Calibrate actual device angles in the app; the design reference is not a success predicate.
+9. Native scene resources have embedded colors/textures, require no network connection, and were loaded in the Duo simulator. Runtime gameplay, folded projection, HUD, reset and performance remain event implementation work.
+
+Avoid naming a top-level app bundle folder Resources; use AssetContent or selected bundle files. Do not bundle source models/previews/ZIPs. Original source, plans, UI and detailed evidence are in the Full archive and repository.

@@ -34,3 +34,7 @@ The original preparation mockup is historical and does not override this directi
 Both v1 and v2 Blender models are visually rejected. Their file-format and animation tests remain valid technical observations, not character-design acceptance. Kaprao should have appealing stylized realism with soft visible fur and convincing dog anatomy. Do not use smooth plastic skin, button eyes, plate-like eyebrows, detached geometric fur pieces, or a flat triangular scarf to stand in for the reference.
 
 A new character must first match the authoritative reference in an actual neutral-lit model render. A generated beauty image does not establish that a rigged 3D asset matches it. Choose the modeling/texture workflow on visual fidelity, then optimize and retest native exports. The workshop direction is unchanged.
+
+## Three rooftop variations
+
+Rooftop Repair Club uses the original warm cream/teal workshop. Moonleaf Garden adds sage enamel, denser planting and a copper trellis. Starlight Terrace opens the rear wall toward the skyline with muted blue enamel and a tea detail. All retain the same cozy cyberpunk miniature setting, Kaprao v3, restrained lighting and bridge mechanic. These are actual 3D asset arrangements, not generated background images.

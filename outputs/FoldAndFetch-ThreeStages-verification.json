@@ -1,0 +1,18 @@
+[
+  {
+    "archive": "FoldAndFetch-ThreeStages-Full.zip",
+    "bytes": 262192657,
+    "files": 236,
+    "sha256": "d20dca6d9488f4bf8e4af7248424b7760d5408eae205de06e0ccebdd48225e65",
+    "crc": "pass",
+    "native_scenes": 11
+  },
+  {
+    "archive": "FoldAndFetch-ThreeStages-Runtime.zip",
+    "bytes": 41443533,
+    "files": 32,
+    "sha256": "3738bd2b6b8cbd8e08a671860b6196f7d1c3c8cc1a31c61838d23936badd6091",
+    "crc": "pass",
+    "native_scenes": 11
+  }
+]

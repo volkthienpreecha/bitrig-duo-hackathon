@@ -1,0 +1,39 @@
+{
+  "fileKey": "5RQpJ3a4FGxOEzKya5mAeI",
+  "targetPageId": "3:5",
+  "liveSync": "blocked_by_connected_Starter_MCP_quota",
+  "localDesignsComplete": true,
+  "files": [
+    {
+      "file": "01-workshop-complete-overlay.svg",
+      "sha256": "71f064fe0c78b6c3e6a62c4b6a59ab0f026d3d2ddb66734b50b175b0b0389d43",
+      "editable_text": true
+    },
+    {
+      "file": "01-workshop-gameplay-overlay.svg",
+      "sha256": "49999ae7191a8b94dc3c775aef13c57087c603e89b4495b483a9e33114c86ab7",
+      "editable_text": true
+    },
+    {
+      "file": "02-garden-complete-overlay.svg",
+      "sha256": "ec0bc1d5c0388dfc4272a4c72a5fa7e831a8983111ecd4d27a10a02c721a44af",
+      "editable_text": true
+    },
+    {
+      "file": "02-garden-gameplay-overlay.svg",
+      "sha256": "b046147e531d761345b7b164aa74106ef4c4b8d25263e917f2a72b102ecc34b1",
+      "editable_text": true
+    },
+    {
+      "file": "03-terrace-complete-overlay.svg",
+      "sha256": "1e9cf16920c24055acc3facbdedc0daeb9594b9dd47847232aeee0fc2746f38e",
+      "editable_text": true
+    },
+    {
+      "file": "03-terrace-gameplay-overlay.svg",
+      "sha256": "b5c2a477d8e34c94069a7b83158eb4d4318b4cae27d2c8d000c8ca4bfc94e3f8",
+      "editable_text": true
+    }
+  ],
+  "instructions": "Import selected SVG overlays and matching actual-model concept backgrounds into Screens. Local SVG text stays editable in source; Figma import can outline text. For native editable TEXT nodes use stage-ui-spec.json through use_figma when quota is available. No live sync has executed."
+}
