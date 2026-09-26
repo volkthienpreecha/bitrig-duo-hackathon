@@ -72,10 +72,24 @@ private typealias StreetScalar = CGFloat
         #endif
         m.transparencyMode = .aOne; sprite.materials = [m]
         let spriteNode = SCNNode(geometry: sprite); spriteNode.position.y = 0.38
-        let billboard = SCNBillboardConstraint(); billboard.freeAxes = [.Y]; spriteNode.constraints = [billboard]
         if let url = Bundle.main.url(forResource: "kaprao-sprite",withExtension: "scn"),let model = try? SCNScene(url: url),let root = model.rootNode.childNode(withName: "KapraoSpriteRoot",recursively: true) { root.removeFromParentNode(); playerVisualRoot.addChildNode(root) }
         else { playerVisualRoot.addChildNode(spriteNode) }
+        // One explicit camera-facing visual pivot keeps the selected model at scale 1.
+        playerVisualRoot.enumerateChildNodes { node,_ in
+            node.constraints = node.constraints?.filter { !($0 is SCNBillboardConstraint) }
+        }
         reset()
+        setOutsidePresentation(false)
+    }
+    /// Presentation only: the outside cover uses an overhead view of the same physical scene.
+    func setOutsidePresentation(_ outside: Bool) {
+        SCNTransaction.begin(); SCNTransaction.disableActions = true
+        camera.position = outside ? SCNVector3(0,10,4) : SCNVector3(0,6.8,10.5)
+        camera.look(at: SCNVector3(0,0.7,0))
+        // Rotate around the feet, keeping their position and the existing horizontal mirror.
+        // Orthographic projection means this orientation faces the camera everywhere on the lane.
+        playerVisualRoot.simdOrientation = camera.simdOrientation
+        SCNTransaction.commit()
     }
     private func material(_ color: StreetColor,metal: Double = 0) -> SCNMaterial {
         let m = SCNMaterial(); m.diffuse.contents = color; m.metalness.contents = metal; m.roughness.contents = 0.72; return m
